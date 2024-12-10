@@ -19,22 +19,20 @@ const sidebars: SidebarsConfig = {
       label: "Guides",
       collapsed: false,
       items: [
-        'guides/start-icon',
-        'guides/basic-usage',
-        'guides/software',
-        'guides/layerapp',
-        'guides/developer',
-        'guides/devcontainers',
-        'guides/rescue-mode',
+        "guides/start-icon",
+        "guides/basic-usage",
+        "guides/software",
+        "guides/layerapp",
+        "guides/developer",
+        "guides/devcontainers",
+        "guides/rescue-mode",
       ],
     },
     {
       type: "category",
       label: "Reference",
       collapsed: false,
-      items: [
-        'reference/example'
-      ],
+      items: ["reference/example"],
     },
   ],
 };

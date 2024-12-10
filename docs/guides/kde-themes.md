@@ -3,7 +3,7 @@ title: KDE Plasma Themes and Customization
 description: A guide to customizing KDE Plasma
 ---
 
->**Note**: Do not use install themes through the system settings since they may require access to read-only root files!
+> **Note**: Do not use install themes through the system settings since they may require access to read-only root files!
 
 ## Universal Instructions
 
@@ -39,7 +39,7 @@ SDDM themes can also be layered at your own risk if they are available as RPM pa
 
 Some Flatpaks need filesystem permissions for applications that have issues with cursor themes.
 
->**Example**: (`~/.icons/:ro` in "Filesystem" in each problematic application or globally in Flatseal).
+> **Example**: (`~/.icons/:ro` in "Filesystem" in each problematic application or globally in Flatseal).
 
 #### Themes that require `kvantum`
 
