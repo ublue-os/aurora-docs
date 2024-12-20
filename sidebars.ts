@@ -24,7 +24,6 @@ const sidebars: SidebarsConfig = {
         "guides/software",
         "guides/layerapp",
         "guides/developer",
-        "guides/devcontainers",
         "guides/rescue-mode",
       ],
     },
