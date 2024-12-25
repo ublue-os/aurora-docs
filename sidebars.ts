@@ -31,7 +31,7 @@ const sidebars: SidebarsConfig = {
       type: "category",
       label: "Reference",
       collapsed: false,
-      items: ["reference/example"],
+      items: ["reference/example", "reference/system-requirements"],
     },
   ],
 };
