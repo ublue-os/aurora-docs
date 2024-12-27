@@ -19,9 +19,9 @@ const sidebars: SidebarsConfig = {
       label: "Guides",
       collapsed: false,
       items: [
-        "guides/start-icon",
         "guides/system-requirements",
         "guides/basic-usage",
+        "guides/start-icon",       
         "guides/software",
         "guides/layerapp",
         "guides/developer",
