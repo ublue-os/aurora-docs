@@ -21,7 +21,7 @@ const sidebars: SidebarsConfig = {
       items: [
         "guides/system-requirements",
         "guides/basic-usage",
-        "guides/start-icon",       
+        "guides/start-icon",
         "guides/software",
         "guides/layerapp",
         "guides/developer",
@@ -32,7 +32,7 @@ const sidebars: SidebarsConfig = {
       type: "category",
       label: "Reference",
       collapsed: false,
-      items: ["reference/example"]
+      items: ["reference/example"],
     },
   ],
 };
