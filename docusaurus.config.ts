@@ -46,16 +46,17 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // algolia: {
+    algolia: {
     //   // FIXME: put valid stuff here
     //   // The application ID provided by Algolia
-    //   appId: "H1LI1VATRI",
+    appId: "C96XU8V092",
     //   Public API key: it is safe to commit it
-    //   apiKey: "201fbeeb537ae90f533bedcb5a73230b",
-    //   indexName: "projectbluefin",
-    //   contextualSearch: true,
-    //   searchPagePath: "search",
-    // },
+    apiKey: "031cf6f8268fe4c35d5b2adda34c79d2",
+    indexName: "getaurora",
+     contextualSearch: true,
+     searchPagePath: "search",
+    },
+  
 
     metadata: [
       {
