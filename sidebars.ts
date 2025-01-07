@@ -24,6 +24,7 @@ const sidebars: SidebarsConfig = {
         "guides/start-icon",
         "guides/software",
         "guides/layerapp",
+        "guides/secondary-drives",
         "guides/developer",
         "guides/rescue-mode",
       ],
