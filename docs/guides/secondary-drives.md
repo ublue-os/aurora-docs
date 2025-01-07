@@ -10,8 +10,6 @@ description: Make your secondary drives connected to your device automatically m
 
 Follow this guide **at your own discretion** and make sure to read the entire document relevant to your method, so you do not miss anything!
 
-<hr>
-
 ## Formatting a disk
 
 !!! warning 
