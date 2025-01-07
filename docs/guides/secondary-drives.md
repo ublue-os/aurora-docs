@@ -36,7 +36,7 @@ You can make a directory in `/var/mnt/` by opening a host terminal and **enterin
 sudo mkdir /var/mnt/data
 ```
 
-The drive will now be mounted in a directory known as `games`.
+The drive will now be mounted in a directory known as `data`.
 
 
 #### Permissions for the drive
@@ -57,7 +57,7 @@ Do not set up auto-mount, unmount then format a drive! It can confuse the softwa
 2.  Locate the disk and partition you want to mount
 3.  Right click on the partition and click "Edit Mount Point"
 4.  Select "Identify by: UUID" (This will guarantee you mount THIS partition instead of a different one if the device nodes change for some reason)
-5.  Select a mounting path (You would want to use `/var/mnt/games` or something similar for permanent mounts)
+5.  Select a mounting path (You would want to use `/var/mnt/data` or something similar for permanent mounts)
 6.  **Untick all the boxes in the graphical application if they are checked**
 7.  Click "More..." and add extra options depending on what filesystem is on the partition (read the "Filesystem Arguments" section)
 8.  Click OK on both windows to save the mount points.
