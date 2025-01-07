@@ -2,19 +2,17 @@
 title: Auto-Mounting Secondary Drives
 description: Make your secondary drives connected to your device automatically mount on startup!
 ---
+## Preliminary Warnings
+
 **This is an edited version of the [Bazzite documentation](https://docs.bazzite.gg/Advanced/Auto-Mounting_Secondary_Drives/).**
 
-!!! warning
-
-    You may lose data on the drive(s) or result in an unbootable system if configured improperly.
+**You may lose data on the drive(s) or result in an unbootable system if configured improperly.**
 
 Follow this guide **at your own discretion** and make sure to read the entire document relevant to your method, so you do not miss anything!
 
 ## Formatting a disk
 
-!!! warning 
-
-    This will wipe all existing data on it
+This will wipe all existing data on it
 
 ### Note when formatting in **KDE Partition Manager**
 
@@ -24,44 +22,34 @@ Use a disk graphical user interface like KDE Plasma or GNOME Disks to format you
 
 ### Creating a secondary drive directory and where to mount drives?
 
-!!! note
-    
-    Drive directories should be **lowercase** with **no spaces** for best practice.
-
-!!! attention 
-    
-    `/var/mnt` should NOT be the path, but create a new **directory** in either `/var/mnt` or `/var/run/media/`.
+`/var/mnt` should NOT be the path, but create a new **directory** in either `/var/mnt` or `/var/run/media/`.
 
 - `/var/mnt/...` for **permanent** drives
 - `/var/run/media/...` for **removable** drives
 
+Drive directories should be **lowercase** with **no spaces** for best practice.
+
+
 You can make a directory in `/var/mnt/` by opening a host terminal and **entering this command in a host terminal**:
 
 ```command
-sudo mkdir /var/mnt/games
+sudo mkdir /var/mnt/data
 ```
 
 The drive will now be mounted in a directory known as `games`.
 
-!!! note
-     
-     The `games` directory can be named anything you desire that fits best practices.
 
 #### Permissions for the drive
 
 ```command
-sudo chown $USER:$USER /var/mnt/games
+sudo chown $USER:$USER /var/mnt/data
 ```
 
-!!! note
-    
-    If you plan to reformat the partition, remember to edit the mount point and "Remove" the mount path before you reformat! If not you will have to manually edit `/etc/fstab`.
+If you plan to reformat the partition, remember to edit the mount point and "Remove" the mount path before you reformat! If not you will have to manually edit `/etc/fstab`.
 
 ## Graphical User Interface (GUI) Methods for Auto-Mounting
 
-!!! warning 
-
-    Do not set up auto-mount, unmount then format a drive! It can confuse the software you are configuring drives with. Instead, **remove the auto-mount first before formatting the drive**.
+Do not set up auto-mount, unmount then format a drive! It can confuse the software you are configuring drives with. Instead, **remove the auto-mount first before formatting the drive**.
     
 ## Instructions
 
@@ -89,16 +77,11 @@ Also a Display Name should be added to the drive too. Name it whatever you want 
 
 Use the below generic options depending on your filesystem (these are just good defaults)
 You can copy+paste these into the "More.." dialog and they will be valid
-
-!!! note
-    
-    "Users can mount and unmount" is an **optional** setting.
+"Users can mount and unmount" is an **optional** setting.
 
 ### Filesystem arguments
 
-!!! warning 
-
-    If a drive is formatted, then do not remove it from `/etc/fstab`, so the "nofail" option is a must to avoid issues with booting.
+If a drive is formatted, then do not remove it from `/etc/fstab`, so the "nofail" option is a must to avoid issues with booting.
 
 #### **BTRFS**:
 
@@ -120,9 +103,7 @@ defaults,noatime,nofail,rw,users,exec
 
 ### Advanced Options (Not required for most setups)
 
-!!! warning
-    
-    Change at your own risk!
+Change at your own risk!
 
 #### Information about compression:
 
@@ -132,7 +113,7 @@ defaults,noatime,nofail,rw,users,exec
 
 use `subvol=name` as an option, KDE and GNOME Disks let you only mount 1 subvolume through the GUI, you can mount the root with `subvol=/` if a default subvolume is configured in the filesystem.
 
-## Alternative Methods (CLI)
+## Alternative Methods to Auto-Mount Secondary Drives
 
 There are also two command-line interface (CLI) methods.
 
