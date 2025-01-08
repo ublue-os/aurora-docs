@@ -2,6 +2,7 @@
 title: Auto-Mounting Secondary Drives
 description: Make your secondary drives connected to your device automatically mount on startup!
 ---
+
 ## Preliminary Warnings
 
 **This is an edited version of the [Bazzite documentation](https://docs.bazzite.gg/Advanced/Auto-Mounting_Secondary_Drives/).**
@@ -29,7 +30,6 @@ Use a disk graphical user interface like KDE Plasma or GNOME Disks to format you
 
 Drive directories should be **lowercase** with **no spaces** for best practice.
 
-
 You can make a directory in `/var/mnt/` by opening a host terminal and **entering this command in a host terminal**:
 
 ```command
@@ -37,7 +37,6 @@ sudo mkdir /var/mnt/data
 ```
 
 The drive will now be mounted in a directory known as `data`.
-
 
 #### Permissions for the drive
 
@@ -50,7 +49,7 @@ If you plan to reformat the partition, remember to edit the mount point and "Rem
 ## Graphical User Interface (GUI) Methods for Auto-Mounting
 
 Do not set up auto-mount, unmount then format a drive! It can confuse the software you are configuring drives with. Instead, **remove the auto-mount first before formatting the drive**.
-    
+
 ## Instructions
 
 1.  Open KDE Partition Manager
