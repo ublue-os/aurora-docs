@@ -6,7 +6,10 @@ description: Guide for installing Aurora Linux on Microsoft Surface laptops usin
 ## Prerequisites
 
 - Download the **Surface version** of Aurora Linux from the official website
-- A USB drive with Ventoy installed
+- USB drive with Ventoy installed:
+  - When installing Ventoy, choose MBR as partition style
+  - Disable Secure Boot support in Ventoy installer
+  - Use default settings for other options
 
 ## Important Note
 
