@@ -47,6 +47,7 @@ After installation, during the first boot:
 ### 5. Final Step
 
 After successful boot:
+
 1. Enter UEFI/BIOS settings again
 2. Re-enable Secure Boot
 3. Save and exit
@@ -54,6 +55,7 @@ After successful boot:
 ## Troubleshooting
 
 If the system won't boot:
+
 - Make sure you used GRUB2 mode (Ctrl + R)
 - Verify you're using the Surface version of Aurora
 - Verify Secure Boot is disabled during installation
