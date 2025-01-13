@@ -19,7 +19,7 @@ Before starting with gaming on Aurora, ensure you have:
 
 ## Overview
 
-Despite not being primarily a gaming-focused image, you can still run video games at *nearly* the same performance as nearly any other Linux operating system out there.  Aurora supports gaming through various methods including Flatpak Steam, Lutris, and containerized gaming environments. This guide will help you set up and choose the best gaming solution for your needs.  However, [Bazzite](https://bazzite.gg) is the better choice if your gaming needs rank higher over productivity, development, or general computing usage.
+Despite not being primarily a gaming-focused image, you can still run video games at _nearly_ the same performance as nearly any other Linux operating system out there. Aurora supports gaming through various methods including Flatpak Steam, Lutris, and containerized gaming environments. This guide will help you set up and choose the best gaming solution for your needs. However, [Bazzite](https://bazzite.gg) is the better choice if your gaming needs rank higher over productivity, development, or general computing usage.
 
 ## Quick Install Gaming Tools
 
@@ -117,7 +117,6 @@ When using both Steam and Lutris:
    - GOG games
    - Epic Games Store titles
    - Amazon Games
-
 
 ## Troubleshooting Common Issues
 
