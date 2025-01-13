@@ -1,16 +1,16 @@
 ---
-title: Gaming on Aurora Linux
-description: A comprehensive guide to gaming options and configurations on Aurora Linux
+title: Gaming on Aurora
+description: A comprehensive guide to gaming options and configurations on Aurora
 ---
 
 ## Prerequisites
 
-Before starting with gaming on Aurora Linux, ensure you have:
+Before starting with gaming on Aurora, ensure you have:
 
-1. The correct Aurora Linux image for your system:
+1. The correct Aurora image for your system:
 
-   - `aurora-stable` for Intel/AMD systems
-   - `aurora-nvidia-stable` for NVIDIA systems
+   - `aurora-stable` for Intel/AMD GPU systems
+   - `aurora-nvidia-stable` for NVIDIA GPU systems
 
    All available builds, including specialized images for Surface devices, Framework laptops, and ASUS hardware, can be found at [https://getaurora.dev](https://getaurora.dev).
 
@@ -19,7 +19,7 @@ Before starting with gaming on Aurora Linux, ensure you have:
 
 ## Overview
 
-Aurora Linux supports gaming through various methods including Flatpak Steam, Lutris, and containerized gaming environments. This guide will help you set up and choose the best gaming solution for your needs.
+Despite not being primarily a gaming-focused image, you can still run video games at *nearly* the same performance as nearly any other Linux operating system out there.  Aurora supports gaming through various methods including Flatpak Steam, Lutris, and containerized gaming environments. This guide will help you set up and choose the best gaming solution for your needs.  However, [Bazzite](https://bazzite.gg) is the better choice if your gaming needs rank higher over productivity, development, or general computing usage.
 
 ## Quick Install Gaming Tools
 
@@ -31,11 +31,11 @@ ujust install-gaming-flatpaks
 
 This command will install:
 
-- Steam
-- Heroic Games Launcher
-- Lutris
-- ProtonUp-Qt
-- Essential Vulkan runtimes and tools (gamescope, MangoHud, OBS VKCapture)
+- [Steam](https://store.steampowered.com/about/)
+- [Lutris](https://lutris.net/)
+- [Heroic Games Launcher](https://heroicgameslauncher.com/)
+- [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/)
+- Essential Vulkan runtimes and tools ([Gamescope](https://github.com/ValveSoftware/gamescope), [MangoHud](https://github.com/flightlessmango/MangoHud), [OBS VKCapture](https://github.com/nowrep/obs-vkcapture))
 
 ## Gaming Options
 
@@ -43,10 +43,12 @@ This command will install:
 
 Steam through Flatpak provides several advantages:
 
-1. Sandboxed environment for improved security
+1. Sandboxed environment for improved security with granular and adjustable permissions
 2. Automatic updates
 3. Consistent runtime environment
 4. Cross-distribution compatibility
+
+View the [Steam Flatpak Github Wiki](https://github.com/flathub/com.valvesoftware.Steam/wiki) for a short list of workarounds that may need to be done in comparison to other package formats.
 
 ### Bazzite-Arch Container
 
@@ -75,7 +77,7 @@ If gaming is your primary focus, consider switching to Bazzite as your main oper
 4. Regular updates focused on gaming performance
 5. Active gaming-focused community
 
-To switch to Bazzite from Aurora Linux, use:
+To switch to Bazzite from Aurora , use:
 
 ```command
 rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/bazzite:stable
@@ -84,7 +86,7 @@ rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/bazzite:stable
 ## Recommendations
 
 1. **Casual Gaming**: Use Flatpak Steam and gaming tools installed through `ujust install-gaming-flatpaks`
-2. **Mixed Usage**: Consider the Bazzite-Arch container for a dedicated gaming environment while keeping Aurora Linux as your daily driver
+2. **Mixed Usage**: Consider the Bazzite-Arch container for a dedicated gaming environment while keeping Aurora as your daily driver
 3. **Gaming Focus**: Switch to full Bazzite installation for the best gaming experience
 
 ## Tools and Performance Monitoring
@@ -108,10 +110,14 @@ When using both Steam and Lutris:
 
 1. Steam is best for games in your Steam library
 2. Lutris can manage:
+   - Traditional Windows games
+   - Native Linux games
+   - Emulators
+3. Heroic Games Launcher can manage:
    - GOG games
    - Epic Games Store titles
-   - Traditional Windows games
-   - Emulators
+   - Amazon Games
+
 
 ## Troubleshooting Common Issues
 
@@ -135,12 +141,12 @@ When using both Steam and Lutris:
 
 ## Community Support
 
-This guide is regularly updated as Aurora Linux evolves. For the most recent information, troubleshooting help, or if you have any questions:
+This guide is regularly updated as Aurora evolves. For the most recent information, troubleshooting help, or if you have any questions:
 
-- Join the Aurora Linux [Discord community](https://discord.gg/WEu6BdFEtp)
+- Join the [Aurora Discord community](https://discord.gg/WEu6BdFEtp)
 
 ## Additional Notes
 
-- The Bazzite-Arch container comes with paru pre-installed and modified xdg-utils for seamless integration with your host system
+- The [bazzite-arch container](https://github.com/ublue-os/bazzite-arch) comes with `paru` pre-installed and modified `xdg-utils` for seamless integration with your host system
 - Flatpak Steam may have slight performance overhead due to sandboxing, but this is usually negligible
 - When using Flatpak Steam, be aware that games are run in a sandboxed environment for improved security
