@@ -11,6 +11,8 @@ description: Guide for installing Aurora Linux on Microsoft Surface laptops usin
   - Disable Secure Boot support in Ventoy installer
   - Use default settings for other options
 
+![First step](/img/ventoy/ventoy.png)
+
 ## Important Note
 
 Due to firmware specifics in Surface laptops, you must use Ventoy's GRUB2 mode to boot the Aurora installation media.
