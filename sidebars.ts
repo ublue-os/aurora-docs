@@ -29,6 +29,7 @@ const sidebars: SidebarsConfig = {
         "guides/gaming",
         "guides/developer",
         "guides/rescue-mode",
+        "guides/credits",
       ],
     },
     {
