@@ -20,12 +20,12 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
       items: [
         "guides/system-requirements",
+        "guides/surface-install-guide",
         "guides/basic-usage",
         "guides/start-icon",
         "guides/software",
         "guides/layerapp",
         "guides/secondary-drives",
-        "guides/surface-install-guide",
         "guides/gaming",
         "guides/quadlet",
         "guides/developer",
