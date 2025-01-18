@@ -167,6 +167,6 @@ https://podman.io/
 - https://docs.podman.io/en/stable/markdown/podman-systemd.unit.5.html
 - https://www.redhat.com/en/blog/quadlet-podman
 
-<hr>
+---
 
 Original documentation borrowed from [Bazzite documentation](https://docs.bazzite.gg/Installing_and_Managing_Software/Quadlet/) by [@asen23](https://github.com/asen23)
