@@ -27,6 +27,6 @@ description: The people behind Aurora.
 - [Gareth Widlansky](https://github.com/gerblesh)
 - [Ryan Brue](https://github.com/ryanabx)
 
-<hr>
+---
 
 View the full list of [Aurora contributors](https://github.com/ublue-os/aurora/graphs/contributors).
