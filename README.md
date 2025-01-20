@@ -1,6 +1,6 @@
 # Aurora Docs
 
-These docs are pretty sparse on purpose as Aurora's intended to be invisible. Ideally the docs should be able to be consumed in one sitting.
+These docs are pretty sparse on purpose as Aurora is intended to be invisible. Ideally, the docs should be able to be consumed in one sitting.
 
 ## Guidelines
 

@@ -23,7 +23,7 @@ Manage installed Flatpaks by downgrading, backing up user data, and adding addit
 
 ### Pre-Installed Aurora Packages
 
-Unfortunately, due to a limitation with OCI images, there are too many downsides to recommend uninstalling the pre-installed packages that ship with Aurora without [forking the project](https://github.com/ublue-os/bluefin/fork), building your own based on our [template](https://github.com/ublue-os/image-template), or using the unaffiliated [Blue-Build](https://blue-build.org/learn/universal-blue/) project.
+Unfortunately, due to a limitation with OCI images, there are too many downsides to recommend uninstalling the pre-installed packages that ship with Aurora without [forking the project](https://github.com/ublue-os/aurora/fork), building your own based on our [template](https://github.com/ublue-os/image-template), or using the unaffiliated [Blue-Build](https://blue-build.org/learn/universal-blue/) project.
 
 These downsides include:
 

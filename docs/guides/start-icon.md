@@ -3,7 +3,7 @@ title: How to change your start icon
 description: How to change your start icon
 ---
 
-Updating your start icon in Aurora is a straight-forward process. You'll have access to both a sleek white version and a vibrant, colorful option to customize your experience. By default, the colorful version is selected.
+Updating your start icon in Aurora is a straight-forward process. You'll have access to both a sleek white version and a vibrant, colorful option to customize your experience. By default, the white version is selected.
 
 1. Firstly, open the settings for the application launcher. This can be done by right clicking the application launcher icon on your taskbar. It will show a menu, select "Configure Application Launcher".
 
