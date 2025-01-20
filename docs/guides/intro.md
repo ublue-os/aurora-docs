@@ -22,7 +22,7 @@ System updates are image-based and automatic. Applications are logically separat
 
 ## For Users
 
-- [Ptyxis terminal](https://universal-blue.discourse.group/docs?topic=300) for container-focused workflows
+- [Ptyxis terminal](https://devsuite.app/ptyxis/) for container-focused workflows
   - [Boxbuddy](https://flathub.org/apps/io.github.dvlv.boxbuddyrs) for container management
 - [Tailscale](https://tailscale.com) - included for VPN along with `wireguard-tools`
 - KDE Discover with [Flathub](https://flathub.org):
