@@ -5,15 +5,16 @@ description: When you have problems installing from the ISO, you can try rebasin
 
 # Rebasing from a Fedora Kinoite installation
 
-If you have issues installing with the Aurora ISO and want to try rebasing from a Fedora Kinoite installation (**rebasing from Silverblue is NOT supported!**), this guide is for you. Rebasing will give you almost the same great experience as a fresh installation from our ISO, but there are some steps you need to follow. 
+If you have issues installing with the Aurora ISO and want to try rebasing from a Fedora Kinoite installation (**rebasing from Silverblue is NOT supported!**), this guide is for you. Rebasing will give you almost the same great experience as a fresh installation from our ISO, but there are some steps you need to follow.
 
-Here's what you need to do: 
+Here's what you need to do:
 
-1. Determine your image name. Select your desired Aurora Version in the ISO download screen on <a target="_blank" href="https://getaurora.dev">getaurora.dev</a> and note it down. You're gonna need it in the next steps. 
+1. Determine your image name. Select your desired Aurora Version in the ISO download screen on <a target="_blank" href="https://getaurora.dev">getaurora.dev</a> and note it down. You're gonna need it in the next steps.
 
 2. Download Fedora Kinoite (**<a target="_blank" href="https://fedoraproject.org/atomic-desktops/kinoite/">from here</a>**) and install it when you don't have an existing installation. The process is very similar to the Aurora installation process. **_Do not create a root user._**
 
-3. Once you are booted into your new or existing Kinoite installation, run the following command (substituting the placeholder with the image name you noted down earlier): 
+3. Once you are booted into your new or existing Kinoite installation, run the following command (substituting the placeholder with the image name you noted down earlier):
 
 ```
 rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/<imagename>
+```
