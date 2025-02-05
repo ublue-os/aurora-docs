@@ -21,7 +21,6 @@ rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/<imagename>
 
 _For example: `rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/aurora-dx:stable`_
 
-
 4. After you have rebased to Aurora, you need to rebase a second time. This time, to a signed version of the image so you have a verified and secure copy of the OS.
 
 ```
