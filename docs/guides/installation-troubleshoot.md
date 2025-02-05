@@ -5,6 +5,8 @@ description: Some pointers to resolve installation issues and hiccups.
 
 These docs are borrowed from our sister project Bazzite but apply just as well to Aurora.
 
+Videos are made by @wolfyreload (Discord).
+
 ## Error Code 1
 
 A generic error may appear during installation.
@@ -39,6 +41,6 @@ A generic error may appear during installation.
 
 **The alternative installation method is useful for downloading a smaller ISO and may resolve issues with downloading Aurora's ISO.**
 
-If none of the above errors are relevant to your issue, or you still have problems installing Bazzite, then try following our alternative installation method:
+If none of the above errors are relevant to your issue, or you still have problems installing Aurora, then try following our alternative installation method:
 
-**Try installing Aurora by rebasing from Fedora Kinoite (KDE Plasma) or Fedora Silverblue (GNOME)**
+[Alternate Install Guide](/guides/alternate-install-guide)

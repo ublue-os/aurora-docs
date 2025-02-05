@@ -28,7 +28,7 @@ _For example: `rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/aur
 rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/<imagename>
 ```
 
-_For example: `rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/aurora-dx:stable`
+_For example: `rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/aurora-dx:stable`_
 
 5. After all of that is done, you can relax a bit. Now it's time for the last step, you will want to install our curated flatpaks to get the best out of your experience. Run the following command in you terminal:
 
