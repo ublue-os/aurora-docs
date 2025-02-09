@@ -31,9 +31,10 @@ System updates are image-based and automatic. Applications are logically separat
 - Quality of Life Features
   - [Starship](https://starship.rs) terminal prompt enabled by default
   - Docker & Podman Developer Edition Images contain both Docker and Podman runtimes to support your containerized needs.
-  - [Input Leap](https://github.com/input-leap/input-leap) built in
+  - [Input Leap](https://github.com/input-leap/input-leap) built in.
   - [Solaar](https://github.com/pwr-Solaar/Solaar) - included for Logitech mouse
-    management along with `libratbagd`
+    management along with `libratbagd`.
+  - [OpenRazer](https://openrazer.github.io/) for managing your Razer devices.
   - [rclone](https://rclone.org/) and [restic](https://restic.net/) included
   - `zsh` and `fish` included (optional)
 - Built on top of the the [Universal Blue main image](https://github.com/ublue-os/main)
