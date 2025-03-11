@@ -48,7 +48,7 @@ System updates are image-based and automatic. Applications are logically separat
 
 - Mozilla Firefox, Mozilla Thunderbird, DejaDup, FontDownloader, Flatseal, and the Haruna Media Player.
 - Core KDE Applications installed:
-  - Kcalc, Konsole, Okular, Dolphin File Manazger, Kate, kWeather, Filelight, and KDE Partition Manager.
+  - Kcalc, Konsole, Okular, Dolphin File Manager, Kate, KWeather, Filelight, and KDE Partition Manager.
 
 ## How is this different from Fedora Kinoite?
 
