@@ -9,6 +9,7 @@ description: The people behind Aurora.
 - [Adam Fidel](https://github.com/ledif)
 - [Vishwas P](https://github.com/RealVishy)
 - [Juha Uotila](https://github.com/inffy)
+- [Isaac Beverly](https://github.com/imbev)
 
 ## Universal Blue Core Contributors
 
