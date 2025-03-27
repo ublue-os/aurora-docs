@@ -37,7 +37,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
-      label: "Reference",
+      label: "References",
       collapsed: false,
       items: ["reference/example"],
     },
