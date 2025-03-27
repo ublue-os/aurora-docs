@@ -3,9 +3,9 @@ title: Installation Troubleshooting
 description: Some pointers to resolve installation issues and hiccups.
 ---
 
-These docs are borrowed from our sister project Bazzite but apply just as well to Aurora.
+These docs are borrowed from our sister project [Bazzite](https://www.bazzite.gg), but apply just as well to Aurora.
 
-Videos are made by @wolfyreload (Discord).
+Video guides were created by [wolfyreload](https://github.com/wolfyreload).
 
 ## Error Code 1
 
