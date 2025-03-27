@@ -76,13 +76,13 @@ It provides almost same benefit with Bazzite-Arch container but without need to 
 How to install Steam Appimage:
 
 1.  First you need to download Steam Appimage from [here](https://github.com/ivan-hc/Steam-appimage/releases).
-2.  Then install (GearLever)[https://flathub.org/apps/it.mijorus.gearlever] from Flathub.
+2.  Then install [GearLever](https://flathub.org/apps/it.mijorus.gearlever) from Flathub.
 3.  After that right click AppImage file and select open with GearLever, if you seen this menu select Unlock then select Move to The App menu.
     ![GearLever](/img/steam/gearlever1.png)
     ![GearLever](/img/steam/gearlever2.png)
-4.  Now Steam Appimage is ready to game!.
+4.  Now Steam Appimage is ready to game!
 
-If gaming is your primary focus, consider switching to Bazzite as your main operating system. It offers:
+If gaming is your primary focus, consider switching to Bazzite as your main operating system since it offers:
 
 1. Pre-configured gaming optimizations
 2. Latest gaming-related drivers and tools
