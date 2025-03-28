@@ -5,7 +5,7 @@ description: Day-to-day usage guide for Aurora.
 
 ## Installing Software
 
-| Graphical Applications | Command-Line / Terminal | Legacy Applications |
+| Graphical Applications | Command-Line / Terminal | Other Linux Package Formats |
 | ---------------------- | ----------------------- | ------------------- |
 | Flatpak                | Homebrew                | Distrobox           |
 
