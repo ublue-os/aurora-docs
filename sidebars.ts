@@ -32,7 +32,7 @@ const sidebars: SidebarsConfig = {
         "guides/quadlet",
         "guides/developer",
         "guides/rescue-mode",
-        "guides/report-issues",       
+        "guides/report-issues",
         "guides/credits",
       ],
     },
