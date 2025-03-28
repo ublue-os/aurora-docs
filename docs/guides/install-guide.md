@@ -13,7 +13,7 @@ Flash the ISO with [Fedora Media Writer](https://fedoraproject.org/workstation/d
 
 **Note**: The current installer may be [changing](https://github.com/ublue-os/titanoboa) in the near future and this documentation may become outdated.
 
-Boot the ISO when starting up your device. Follow the instructions in the installer.  Please note: "Root Account" should stay **disabled**.
+Boot the ISO when starting up your device. Follow the instructions in the installer. Please note: "Root Account" should stay **disabled**.
 
 ### Secure Boot Information
 
@@ -25,6 +25,6 @@ Otherwise click "Continue Boot" if your hardware does not support secure boot or
 
 ## Note About Dual-Booting Windows
 
-Dual-booting is generally unsupported feature for Fedora Atomic Desktop in general, however it can be done.  The recommended method is to have Windows on its own drive or using Windows-to-Go created with Rufus on an external drive for Windows.
+Dual-booting is generally unsupported feature for Fedora Atomic Desktop in general, however it can be done. The recommended method is to have Windows on its own drive or using Windows-to-Go created with Rufus on an external drive for Windows.
 
 Read [Bazzite's guide](https://docs.bazzite.gg/General/Installation_Guide/dual_boot_setup_guide/) for dual-booting on the same drive.

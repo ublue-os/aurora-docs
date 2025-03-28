@@ -20,7 +20,7 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
       items: [
         "guides/system-requirements",
-        "guides/install-guide",       
+        "guides/install-guide",
         "guides/surface-install-guide",
         "guides/installation-troubleshoot",
         "guides/alternate-install-guide",
