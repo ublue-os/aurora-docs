@@ -8,7 +8,7 @@ We want to explain how to use the brand and terminology we use in this project.
 
 ## Terminology
 
-We call our project `Aurora`, there is no long or short-hand version of that name. :D 
+We call our project `Aurora`, there is no long or short-hand version of that name. :D
 
 Aurora is built with and on [Universal Blue](https://universal-blue.org), which publishes base images that Aurora uses. These in turn are derived from Fedora's Kinoite images. Universal Blue is the parent organization of [Bluefin](https://projectbluefin.io), [Bazzite](https://bazzite.gg), [Aurora](https://getaurora.dev), and [uCore](https://github.com/ublue-os/ucore). It also acts as the GitHub organization.
 
@@ -17,7 +17,6 @@ Aurora is built with and on [Universal Blue](https://universal-blue.org), which 
 - Aurora: used to refer to this project and the operating system
 - Aurora DX: used to refer to the developer experience edition of Aurora
 - Aurora Helium LTS: this is used to refer to the Long Term Support Release of Aurora.
-
 
 ## Improper usage of name
 
@@ -37,4 +36,3 @@ The white version of the logo is available here: [White Aurora Logo](/img/aurora
 The main wallpaper used in all Aurora variants is this one, created by [Riveting Renders](https://www.etsy.com/shop/RivetingRenders).
 
 ![Aurora Wallpaper](/img/aurora_wallpaper.jpg)
-
