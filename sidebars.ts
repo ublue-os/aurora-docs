@@ -41,6 +41,24 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
       items: ["reference/example"],
     },
+    {
+      type: "category",
+      label: "Aurora LTS",
+      collapsed: false,
+      items: [
+        "lts/introduction",
+      ],
+    },
+    {
+      type: "category",
+      label: "Developer Experience",
+      collapsed: false,
+      items: [
+        "dx/aurora-dx-intro",
+        "dx/local-kubernetes",
+        "dx/different-workflows"
+      ]
+    }
   ],
 };
 
