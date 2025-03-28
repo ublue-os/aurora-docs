@@ -7,7 +7,7 @@ description: The people behind Aurora.
 
 - [Niklas Haiden](https://github.com/NiHaiden)
 - [Adam Fidel](https://github.com/ledif)
-- [Vishwas P](https://github.com/RealVishy)
+- [Vishwas Parpattegar](https://github.com/RealVishy)
 - [Juha Uotila](https://github.com/inffy)
 - [Isaac Beverly](https://github.com/imbev)
 
