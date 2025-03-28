@@ -6,8 +6,8 @@ description: Day-to-day usage guide for Aurora.
 ## Installing Software
 
 | Graphical Applications | Command-Line / Terminal | Other Linux Package Formats |
-| ---------------------- | ----------------------- | ------------------- |
-| Flatpak                | Homebrew                | Distrobox           |
+| ---------------------- | ----------------------- | --------------------------- |
+| Flatpak                | Homebrew                | Distrobox                   |
 
 Read the [Software Guide](https://docs.getaurora.dev/guides/software/) for more information.
 
