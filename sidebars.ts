@@ -45,9 +45,7 @@ const sidebars: SidebarsConfig = {
       type: "category",
       label: "Aurora LTS",
       collapsed: false,
-      items: [
-        "lts/introduction",
-      ],
+      items: ["lts/introduction"],
     },
     {
       type: "category",
@@ -56,9 +54,9 @@ const sidebars: SidebarsConfig = {
       items: [
         "dx/aurora-dx-intro",
         "dx/local-kubernetes",
-        "dx/different-workflows"
-      ]
-    }
+        "dx/different-workflows",
+      ],
+    },
   ],
 };
 
