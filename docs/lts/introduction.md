@@ -11,22 +11,17 @@ Aurora Helium is a version of the ultimate productivity workstation designed for
 
 Aurora Helium LTS is built on top of CentOS Stream 10 offering a 3-5 year lifespan for the operating system base. Applications are installed via Flathub or CLI tools via Homebrew, like on normal Aurora.
 
-
 ## Contribute
 
 If you want to contribute, checkout the code repository here: [Aurora-LTS](https://github.com/ublue-os/aurora-lts)
 
-
-
 # ARM Support
 
-Aurora LTS is the first edition Aurora to officially support Arm64 Processors. The arm64 editions feature a couple of small, but noteworthy differences: 
-
+Aurora LTS is the first edition Aurora to officially support Arm64 Processors. The arm64 editions feature a couple of small, but noteworthy differences:
 
 - We are using [Pixi](https://github.com/prefix-dev/pixi) package manager instead of Homebrew since there is no official arm build (yet).
 
 - Firefox does not provide arm64 builds on Flathub at this time.
-
 
 ## Virtualize on your Apple Silicon Mac
 
@@ -40,9 +35,7 @@ UTM can boot these images if suitably configured:
 - It should default to 4GB of RAM; this is a good minimum value. Select 2 or more cores for the CPU configuration to have a optimal experience.
 - On the Summary screen, it is not necessary to check the "Open VM Settings" box; while you may wish to adjust the configuration of the VM before first boot, the defaults are sensible.
 
-
 ## Build locally
-
 
 ```bash
 git clone https://github.com/ublue-os/aurora-lts
