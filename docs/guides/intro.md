@@ -6,10 +6,9 @@ slug: /
 
 ## Aurora
 
+Aurora combines the familiar windows-like KDE Desktop Interface with robustness and unparalleled ease of use. It is maintenance-free, reliable and fast.
 
-Aurora combines the familiar windows-like KDE Desktop Interface with robustness and unparalleled ease of use. It is maintenance-free, reliable and fast. 
-
-It is the **ultimate productivity workstation** for everyone. 
+It is the **ultimate productivity workstation** for everyone.
 
 Sleek, reliable and easy to use. The age of the Linux Desktop is here.
 
