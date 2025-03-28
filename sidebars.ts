@@ -33,6 +33,7 @@ const sidebars: SidebarsConfig = {
         "guides/developer",
         "guides/rescue-mode",
         "guides/credits",
+        "guides/press-kit"
       ],
     },
     {
