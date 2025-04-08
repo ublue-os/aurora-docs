@@ -4,21 +4,21 @@ title: Aurora Press Kit
 
 Thank you for engaging and generating content about Aurora and Universal-Blue, it means a lot!
 
-We want to explain how to use the brand and terminology we use in this project.
+Explanation of how to use the branding and terminology for the Aurora project is detailed down below.
 
 ## Terminology
 
-We call our project `Aurora`, there is no long or short-hand version of that name. :D
+The project is known as `Aurora` and there are no abbreviations of it.
 
-Aurora is built with and on [Universal Blue](https://universal-blue.org), which publishes base images that Aurora uses. These in turn are derived from Fedora's Kinoite images. Universal Blue is the parent organization of [Bluefin](https://projectbluefin.io), [Bazzite](https://bazzite.gg), [Aurora](https://getaurora.dev), and [uCore](https://github.com/ublue-os/ucore). It also acts as the GitHub organization.
+Aurora is built with and on [Universal Blue](https://universal-blue.org), which publishes the base images that it uses. These in turn are derived from [Fedora's Kinoite](https://fedoraproject.org/atomic-desktops/kinoite/) images. Universal Blue also builds other similar images including [Bluefin](https://projectbluefin.io), [Bazzite](https://bazzite.gg), and [uCore](https://projectucore.io). It also acts as the GitHub organization for all of these projects including Aurora.
 
-## Proper Usage of name
+### Proper Usage
 
-- Aurora: used to refer to this project and the operating system
-- Aurora DX: used to refer to the developer experience edition of Aurora
+- Aurora: Used to refer to this project and the operating system.
+- Aurora DX: Used to refer to the "Developer Experience (-DX)" edition of Aurora.
 - Aurora Helium LTS: this is used to refer to the Long Term Support Release of Aurora.
 
-## Improper usage of name
+### Improper Usage
 
 - AuroraOS - or any addition of "OS" to the name
 - Fedora Aurora - we are not directly related to Fedora and this name implies that. Checkout the [Mission Document](https://universal-blue.org/mission.html) from Universal Blue.
@@ -27,11 +27,12 @@ Aurora is built with and on [Universal Blue](https://universal-blue.org), which 
 
 ## Artwork
 
-This is the main logo of the project, there is also a white version available, as well as a text version of the main logo.
 ![Main Aurora Logo](/img/favicon.svg)
 ![Aurora Text Logo](/img/aurora-v3-text-logo.svg)
 
-The white version of the logo is available here: [White Aurora Logo](/img/aurora-v3-white.svg)
+This is the main logo of the project, there is also a white variant available and a version with text near the main logo.
+
+The white variant of the logo is available here: [White Aurora Logo](/img/aurora-v3-white.svg).
 
 The main wallpaper used in all Aurora variants is this one, created by [Riveting Renders](https://www.etsy.com/shop/RivetingRenders).
 
