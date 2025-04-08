@@ -3,7 +3,7 @@ title: Aurora DX Introduction
 description: About the Aurora Developer Experience
 ---
 
-Aurora Developer Experience `(aurora-dx)` is a dedicated experience on top of Aurora that features development tools and integrations for developers. Unlike traditional Linux distributions, Aurora heavily embraces containerization and does not install your development tools directly on the host.
+Aurora Developer Experience `(aurora-dx)` is a dedicated experience on top of Aurora that features development tools and integrations for developers. Unlike traditional Linux distributions, Aurora heavily embraces containerization and requests that you do not install your development tools directly on the host.
 
 ## Scope of Development Tools
 
