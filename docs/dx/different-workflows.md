@@ -9,7 +9,7 @@ We don't restrict which path you want to choose to develop your apps. There are 
 
 ### Local Only
 
-You can install developer tools via Homebrew or other means directly into your home-folder and link them up in your own `$PATH` variable. 
+You can install developer tools via Homebrew or other means directly into your home-folder and link them up in your own `$PATH` variable.
 
 You install tools or other programming languages toolchains with Homebrew like so:
 
