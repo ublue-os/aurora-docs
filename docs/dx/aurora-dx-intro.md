@@ -15,3 +15,14 @@ This approach makes managing dependencies safer by posing less risk by breaking 
 - Integration of QEMU and KVM for an easy virtualization experience
 - Preinstalled tools and configurations so you can get started quickly, like Visual Studio Code and Devcontainer Integration
 - Convenient ways to install your favorite tools like Jetbrains Toolbox using `ujust` commands
+
+## Enable Developer Mode
+
+To enable Developer Mode from a Vanilla Aurora Installation, type in `ujust devmode` and follow the prompts in your terminal. The assistant will look something like this: 
+
+![enabling-aurora-dx](/img/dx/enable-dx.png)
+
+After enabling Developer Mode, you need to add yourself to the right groups. 
+
+This can be done with `ujust dx-groups` and requires a logout and a login after that. And you're done, you now have docker and other awesome tools at your disposal, ready to be used!
+
