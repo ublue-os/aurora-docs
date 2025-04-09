@@ -16,10 +16,11 @@ const sidebars: SidebarsConfig = {
   baseSidebar: [
     {
       type: "category",
-      label: "Guides",
+      label: "User Guides",
       collapsed: false,
       items: [
         "guides/system-requirements",
+        "guides/install-guide",
         "guides/surface-install-guide",
         "guides/installation-troubleshoot",
         "guides/alternate-install-guide",
@@ -34,6 +35,7 @@ const sidebars: SidebarsConfig = {
         "guides/quadlet",
         "guides/developer",
         "guides/rescue-mode",
+        "guides/report-issues",
         "guides/credits",
         "guides/press-kit",
       ],
