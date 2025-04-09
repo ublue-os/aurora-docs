@@ -54,12 +54,10 @@ System updates are image-based and automatic. Applications are logically separat
 - Core KDE Applications installed:
   - Kcalc, Konsole, Okular, Dolphin File Manager, Kate, KWeather, Filelight, and KDE Partition Manager.
 
-## How is this different from Fedora Kinoite?
-
-Other than the visual differences, and codecs, there are some other key differences between Bluefin and Fedora Kinoite from a usage perspective:
+## How is this different from a traditional Linux Desktop?
 
 - Aurora takes a [greenfield approach](https://en.wikipedia.org/wiki/Greenfield_project) to Linux applications by defaulting to Flathub and `brew` by default
-- Aurora doesn't recommend using Toolbx - it instead focuses on [devcontainers](https://docs.getaurora.dev/guides/devcontainers/) for declarative containerized development. You can use Podman or Docker to run and bootstrap your containers.
+- Aurora recommends using containerized tools - it focuses on [devcontainers](https://docs.getaurora.dev/guides/devcontainers/) for declarative containerized development. You can use Podman or Docker to run and bootstrap your containers.
 - Aurora _tries_ to remove the need for the user to use `rpm-ostree` or `bootc` directly
 - Aurora focuses on automation of OS services and upgrades instead of user interaction. Upgrades are automatic and silent, so you never have to think about it again.
 
