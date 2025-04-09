@@ -1,6 +1,6 @@
 ---
 title: Aurora CLI
-description: Aurora CLI Tutorial and Description
+description: A quick Aurora CLI Tutorial
 ---
 
 Aurora CLI is a opt-in containerized command line experience with many modern terminal tools included. It can be turned on and off, depending on your usecase and preferred command line experience.
@@ -23,4 +23,4 @@ It comes with these fantastic command line tools:
 
 To enable this command line experience, run `ujust aurora-cli`. We will add more utilities and tweak this experience over time.
 
-To get all of the newest stuff, rerun the ujust from above and you're good to go!
+Rerun the `ujust` from above to obtain the newest tools added to in an update.
