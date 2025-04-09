@@ -18,11 +18,10 @@ This approach makes managing dependencies safer by posing less risk by breaking 
 
 ## Enable Developer Mode
 
-To enable Developer Mode from a Vanilla Aurora Installation, type in `ujust devmode` and follow the prompts in your terminal. The assistant will look something like this: 
+To enable Developer Mode from a Vanilla Aurora Installation, type in `ujust devmode` and follow the prompts in your terminal. The assistant will look something like this:
 
 ![enabling-aurora-dx](/img/dx/enable-dx.png)
 
-After enabling Developer Mode, you need to add yourself to the right groups. 
+After enabling Developer Mode, you need to add yourself to the right groups.
 
 This can be done with `ujust dx-groups` and requires a logout and a login after that. And you're done, you now have docker and other awesome tools at your disposal, ready to be used!
-
