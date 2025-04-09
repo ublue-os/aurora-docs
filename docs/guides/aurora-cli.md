@@ -2,9 +2,10 @@
 title: Aurora CLI
 description: Aurora CLI Tutorial and Description
 ---
-Aurora CLI is a opt-in containerized command line experience with many modern terminal tools included. It can be turned on and off, depending on your usecase and preferred command line experience. 
 
-It comes with these fantastic command line tools: 
+Aurora CLI is a opt-in containerized command line experience with many modern terminal tools included. It can be turned on and off, depending on your usecase and preferred command line experience.
+
+It comes with these fantastic command line tools:
 
 - [atuin](https://github.com/atuinsh/atuin) for shell history
 - [direnv](https://direnv.net/) to load and unload environment variables depending on the current directory.
@@ -20,7 +21,6 @@ It comes with these fantastic command line tools:
 - [yq](https://github.com/mikefarah/yq) for yaml, json, and xml processing
 - [zoxide](https://github.com/ajeetdsouza/zoxide) as `cd`
 
-
-To enable this command line experience, run `ujust aurora-cli`. We will add more utilities and tweak this experience over time. 
+To enable this command line experience, run `ujust aurora-cli`. We will add more utilities and tweak this experience over time.
 
 To get all of the newest stuff, rerun the ujust from above and you're good to go!
