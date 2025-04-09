@@ -9,7 +9,7 @@ _Use the robots to your advantage!_
 
 ## Ramalama
 
-[Ramalama](https://github.com/containers/ramalama) is a tool which is included that makes managing and working with AI models on your local machine super easy and smoooth.
+[Ramalama](https://github.com/containers/ramalama) is a tool which is included on the developer experience images that makes managing and working with AI models on your local machine super easy and smoooth.
 
 It can pull models from Huggingface, Ollama and other providers without extra configuration or hassle. By default it is pulling its models from the Ollama Model Registry, which you can find here: [Ollama Model Registry](https://ollama.com/search).
 
@@ -50,7 +50,8 @@ quay.io/ramalama/vulkan            latest      db288c77cab0  5 weeks ago   1.07 
 
 To get a more graphical experience managing and interacting with your models, you can use the graphical client [Alpaca](https://flathub.org/apps/com.jeffser.Alpaca) It is running an embedded Ollama engine and features a beautiful graphical interface to answer your most burning questions.
 
-To have proper AMD GPU Acceleration support, install the `com.jeffser.Alpaca.Plugins.AMD` plugin via the CLI or from Discover by searching for it.
+To have proper AMD GPU Acceleration support, install the `com.jeffser.Alpaca.Plugins.AMD` plugin via the CLI <br/>
+(`flatpak install com.jeffser.Alpaca.Plugins.AMD`) or from Discover by searching for it. This addon requires a compatible ROCM AMD GPU, like a 7900 XTX or Radeon 6900 XT.
 
 ![Alpaca Client](/img/local-ai/alpaca.png)
 
