@@ -7,13 +7,13 @@ description: About Aurora Helium LTS Edition
 
 **Please note: This project is currently in its alpha phase.**
 
-Aurora Helium LTS is a version of the ultimate productivity workstation designed for people who want a long-term-support version of Aurora. This OS is especially useful for deployments that require the newest system-level packages including the Linux kernel and desktop environment, and should be stable for several years to come for an enterprise-ready system. Aurora Helium LTS is built on top of [CentOS Stream 10](https://www.centos.org/centos-stream/) offering a 3-5 year lifespan for the operating system base. Graphical applications are installed via [Flatpak](https://flatpak.org/) using [Flathub](https://flathub.org/) as the default remote and CLI tools via [Pixi](https://github.com/prefix-dev/pixi), so applications are never outdated while your system remains rock solid.
+Aurora Helium LTS is a version of the ultimate productivity workstation designed for people who want a long-term-support version of Aurora. This OS is especially useful for deployments that require the newest system-level packages including the Linux kernel and desktop environment, and should be stable for several years to come for an enterprise-ready system. Aurora Helium LTS is built on top of [CentOS Stream 10](https://www.centos.org/centos-stream/) offering a 3-5 year lifespan for the operating system base. Graphical applications are installed via [Flatpak](https://flatpak.org/) using [Flathub](https://flathub.org/) as the default remote and CLI tools via [Homebrew](https://brew.sh), so applications are never outdated while your system remains rock solid.
 
 ## ARM Support
 
 Aurora LTS is the first edition Aurora to officially support ARM64 Processors. The ARM64 editions feature a couple of small, but noteworthy **differences**:
 
-- Unlike the non-LTS version of Aurora, it is utilizing the [Pixi package manager](https://github.com/prefix-dev/pixi) as opposed to Homebrew since there is no official ARM build at this time for Linux.
+- There is currently no support for Homebrew on Aurora LTS in the arm64 build.
 
 - Firefox does not provide ARM64 builds on Flathub at this time.
 
