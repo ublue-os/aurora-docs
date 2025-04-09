@@ -6,7 +6,7 @@ slug: /
 
 ## Aurora
 
-**The ultimate productivity workstation for everyone is here**. 
+**The ultimate productivity workstation for everyone is here**.
 
 Aurora combines the familiar windows-like KDE Desktop Interface with robustness and unparalleled ease of use. It is intended to be maintenance-free, reliable, fast, and easy to use. The golden age of the Linux Desktop is here.
 
