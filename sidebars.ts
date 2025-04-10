@@ -14,7 +14,7 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
  */
 const sidebars: SidebarsConfig = {
   baseSidebar: [
-   {
+    {
       type: "category",
       label: "Installation",
       collapsed: false,
@@ -24,8 +24,8 @@ const sidebars: SidebarsConfig = {
         "guides/surface-install-guide",
         "guides/installation-troubleshoot",
         "guides/alternate-install-guide",
-       ],
-   },
+      ],
+    },
     {
       type: "category",
       label: "User Guides",
@@ -60,14 +60,11 @@ const sidebars: SidebarsConfig = {
         "dx/different-workflows",
       ],
     },
-   {
+    {
       type: "category",
       label: "Miscellaneous",
       collapsed: false,
-      items: [
-        "guides/credits",
-        "guides/press-kit",
-       ],
+      items: ["guides/credits", "guides/press-kit"],
     },
     {
       type: "category",
