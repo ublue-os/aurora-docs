@@ -55,7 +55,7 @@ System updates are image-based and automatic. Applications are logically separat
 ## How is this different from a traditional Linux Desktop?
 
 - Aurora takes a [greenfield approach](https://en.wikipedia.org/wiki/Greenfield_project) to Linux applications by defaulting to Flathub and `brew` by default
-- Aurora recommends using containerized tools - it focuses on [devcontainers](https://docs.getaurora.dev/guides/devcontainers/) for declarative containerized development. You can use Podman or Docker to run and bootstrap your containers.
+- Aurora recommends using containerized tools - it focuses on [Devcontainers](https://containers.dev) for declarative containerized development. You can use Podman or Docker to run and bootstrap your containers.
 - Aurora _tries_ to remove the need for the user to use `rpm-ostree` or `bootc` directly
 - Aurora focuses on automation of OS services and upgrades instead of user interaction. Upgrades are automatic and silent, so you never have to think about it again.
 
