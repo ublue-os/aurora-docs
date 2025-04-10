@@ -14,9 +14,9 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
  */
 const sidebars: SidebarsConfig = {
   baseSidebar: [
-    {
+   {
       type: "category",
-      label: "User Guides",
+      label: "Installation",
       collapsed: false,
       items: [
         "guides/system-requirements",
@@ -24,20 +24,22 @@ const sidebars: SidebarsConfig = {
         "guides/surface-install-guide",
         "guides/installation-troubleshoot",
         "guides/alternate-install-guide",
+       ],
+   },
+    {
+      type: "category",
+      label: "User Guides",
+      collapsed: false,
+      items: [
         "guides/basic-usage",
         "guides/start-icon",
         "guides/software",
-        "guides/aurora-cli",
         "guides/layerapp",
         "guides/secondary-drives",
-        "guides/local-ai",
         "guides/gaming",
         "guides/quadlet",
-        "guides/developer",
         "guides/rescue-mode",
         "guides/report-issues",
-        "guides/credits",
-        "guides/press-kit",
       ],
     },
     {
@@ -52,9 +54,20 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
       items: [
         "dx/aurora-dx-intro",
+        "guides/aurora-cli",
+        "guides/local-ai",
         "dx/local-kubernetes",
         "dx/different-workflows",
       ],
+    },
+   {
+      type: "category",
+      label: "Miscellaneous",
+      collapsed: false,
+      items: [
+        "guides/credits",
+        "guides/press-kit",
+       ],
     },
     {
       type: "category",
