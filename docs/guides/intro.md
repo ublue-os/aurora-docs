@@ -6,11 +6,13 @@ slug: /
 
 ## Aurora
 
-A familiar KDE desktop for people who love Fedora Kinoite. Aurora is a maintenance-free, reliable and fast operating system for everyone, stable like a Chromebook. It combines the power of Fedora and the beauty of a KDE desktop in a single, reliable and sleek package.
+**The ultimate productivity workstation for everyone is here**.
+
+Aurora combines the familiar windows-like KDE Desktop Interface with robustness and unparalleled ease of use. It is intended to be maintenance-free, reliable, fast, and easy to use. The golden age of the Linux Desktop is here.
 
 ![Aurora](/img/aurora.png)
 
-- Developers, check out [Aurora-DX](https://docs.projectbluefin.io/bluefin-dx) for developer focused images!
+- Developers, check out [Aurora-DX](/dx/aurora-dx-intro) for developer focused images!
 
 > "The desire to reach for the stars is ambitious. The desire to reach hearts is wise." - Maya Angelou
 
@@ -50,12 +52,10 @@ System updates are image-based and automatic. Applications are logically separat
 - Core KDE Applications installed:
   - Kcalc, Konsole, Okular, Dolphin File Manager, Kate, KWeather, Filelight, and KDE Partition Manager.
 
-## How is this different from Fedora Kinoite?
-
-Other than the visual differences, and codecs, there are some other key differences between Bluefin and Fedora Kinoite from a usage perspective:
+## How is this different from a traditional Linux Desktop?
 
 - Aurora takes a [greenfield approach](https://en.wikipedia.org/wiki/Greenfield_project) to Linux applications by defaulting to Flathub and `brew` by default
-- Aurora doesn't recommend using Toolbx - it instead focuses on [devcontainers](https://docs.getaurora.dev/guides/devcontainers/) for declarative containerized development. You can use Podman or Docker to run and bootstrap your containers.
+- Aurora recommends using containerized tools - it focuses on [devcontainers](https://docs.getaurora.dev/guides/devcontainers/) for declarative containerized development. You can use Podman or Docker to run and bootstrap your containers.
 - Aurora _tries_ to remove the need for the user to use `rpm-ostree` or `bootc` directly
 - Aurora focuses on automation of OS services and upgrades instead of user interaction. Upgrades are automatic and silent, so you never have to think about it again.
 

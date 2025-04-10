@@ -17,7 +17,7 @@ The [Homebrew](https://brew.sh/) package manager is specifically for installing 
 
 They are commonly used for two different scenarios:
 
-- Used as a fallback for "legacy Linux software" that does not have a Flatpak available
+- Used as a fallback for Linux software that do not have a Flatpak available
 - Development boxes
 
 ## `rpm-ostree`
