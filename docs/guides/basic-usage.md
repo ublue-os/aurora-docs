@@ -57,12 +57,12 @@ rpm-ostree rollback
 
 #### Rebasing to specific Aurora images
 
-> **Note**: System updates are paused when you rebase to an older image until you rebase back to `:stable`!
+> **Note**: System updates are paused when you rebase to an older image until you rebase back to `:stable` update channel.
 
 Use the `rebase-helper` tool to rebase for the following reasons:
 
 - Switching to an older Aurora build temporarily
-- Swapping to a different update cadence
+- Swapping to a different update channel
 - Hardware changes that require switching to or moving away from a hardware specific image (like an image preinstalled with Nvidia drivers)
 
 ```
