@@ -3,7 +3,7 @@ title: Basic Usage
 description: Day-to-day usage guide for Aurora.
 ---
 
-## Installing Software Chart
+## Installing Software
 
 | Graphical Applications | Command-Line / Terminal | Other Linux Package Formats |
 | ---------------------- | ----------------------- | --------------------------- |
@@ -32,7 +32,7 @@ These downsides include:
 
 ## Using `ujust` in Aurora
 
-`ujust` is a set of scripts by Universal Blue maintainers and contributors that can do the following actions:
+`ujust` is a set of scripts by Universal Blue maintainers and contributors that can perform the following actions:
 
 - Installing specific software
 - Managing the system and maintenance
@@ -57,7 +57,7 @@ rpm-ostree rollback
 
 #### Rebasing to specific Aurora images
 
-> **Note**: System updates are paused when you rebase to an older image until you rebase back to `:stable`
+> **Note**: System updates are paused when you rebase to an older image until you rebase back to `:stable`!
 
 Use the `rebase-helper` tool to rebase for the following reasons:
 
