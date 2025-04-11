@@ -3,7 +3,7 @@ title: Basic Usage
 description: Day-to-day usage guide for Aurora.
 ---
 
-## Installing Software
+## Installing Software Chart
 
 | Graphical Applications | Command-Line / Terminal | Other Linux Package Formats |
 | ---------------------- | ----------------------- | --------------------------- |
@@ -45,11 +45,11 @@ ujust
 
 ## Updates
 
-System updates and applications are automatically updated on a daily schedule.
+System updates and applications are automatically updated on a daily schedule.  You can change the update channel in the system settings.
 
 ### Rolling back bad system upgrades
 
-If a bad regression occurs during a system update, then you can rollback to the last deployment...
+If a regression occurs during a system update, then you can rollback to the last deployment.
 
 ```
 rpm-ostree rollback
@@ -59,7 +59,10 @@ rpm-ostree rollback
 
 > **Note**: System updates are paused when you rebase to an older image until you rebase back to `:stable`
 
-Use the `rebase-helper` tool for a specific image.
+Use the `rebase-helper` tool to rebase for the following reasons:
+- Switching to an older Aurora build temporarily
+- Swapping to a different update cadence
+- Hardware changes that require switching to or moving away from a hardware specific image (like an image preinstalled with Nvidia drivers)
 
 ```
 ujust rebase-helper
