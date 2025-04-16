@@ -45,7 +45,7 @@ ujust
 
 ## Updates
 
-System updates and applications are automatically updated on a daily schedule. You can change the update channel in the system settings.
+System updates and applications are automatically updated on a daily schedule. You can change the update channel in the system settings under the "Aurora Preferences" category.
 
 ### Rolling back bad system upgrades
 
