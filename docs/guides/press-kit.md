@@ -28,11 +28,13 @@ Aurora is built with and on [Universal Blue](https://universal-blue.org), which 
 ## Artwork
 
 ![Main Aurora Logo](/img/favicon.svg)
-![Aurora Text Logo](/img/aurora-v3-text-logo.svg)
+![Aurora Text Logo](/img/aurora-text-logo-v4.svg)
 
 This is the main logo of the project, there is also a white variant available and a version with text near the main logo.
 
 The white variant of the logo is available here: [White Aurora Logo](/img/aurora-v3-white.svg).
+
+And the white variant of the text logo is available here: [White Text Logo](/img/aurora-text-logo-v4-white.svg)
 
 The main wallpaper used in all Aurora variants is this one, created by [Riveting Renders](https://www.etsy.com/shop/RivetingRenders).
 
