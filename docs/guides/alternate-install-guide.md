@@ -3,7 +3,7 @@ title: Alternate Installation
 description: When you have problems installing from the ISO, you can try rebasing.
 ---
 
-# Rebasing from a Fedora Kinoite installation
+# Rebasing from a Fedora Kinoite
 
 If you have issues installing with the Aurora ISO and want to try rebasing from a Fedora Kinoite installation (**rebasing from Silverblue is NOT supported!**), this guide is for you. Rebasing will give you almost the same great experience as a fresh installation from our ISO, but there are some steps you need to follow.
 

@@ -32,7 +32,7 @@ These downsides include:
 
 ## Using `ujust` in Aurora
 
-`ujust` is a set of scripts by Universal Blue maintainers and contributors that can do the following actions:
+`ujust` is a set of scripts by Universal Blue maintainers and contributors that can perform the following actions:
 
 - Installing specific software
 - Managing the system and maintenance
@@ -45,11 +45,11 @@ ujust
 
 ## Updates
 
-System updates and applications are automatically updated on a daily schedule.
+System updates and applications are automatically updated on a daily schedule. You can change the update channel in the system settings under the "Aurora Preferences" category.
 
 ### Rolling back bad system upgrades
 
-If a bad regression occurs during a system update, then you can rollback to the last deployment...
+If a regression occurs during a system update, then you can rollback to the last deployment.
 
 ```
 rpm-ostree rollback
@@ -57,9 +57,13 @@ rpm-ostree rollback
 
 #### Rebasing to specific Aurora images
 
-> **Note**: System updates are paused when you rebase to an older image until you rebase back to `:stable`
+> **Note**: System updates are paused when you rebase to an older image until you rebase back to `:stable` update channel.
 
-Use the `rebase-helper` tool for a specific image.
+Use the `rebase-helper` tool to rebase for the following reasons:
+
+- Switching to an older Aurora build temporarily
+- Swapping to a different update channel
+- Hardware changes that require switching to or moving away from a hardware specific image (like an image preinstalled with Nvidia drivers)
 
 ```
 ujust rebase-helper

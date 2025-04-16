@@ -1,7 +1,9 @@
 ---
-title: Relevant External Documentation Sources
+title: Reference Documentation
 description: Useful references for Aurora outside of the official documentation.
 ---
+
+# Relevant External Documentation Sources
 
 If you can't find something that you're looking for, maybe our sister project docs or the official Fedora Kinoite documentation covers your point of interest. You can find them here:
 
