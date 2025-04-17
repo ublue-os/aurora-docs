@@ -29,6 +29,10 @@ UTM can boot these images if suitably configured:
 - It should default to 4GB of RAM; this is a good minimum value. Select 2 or more cores for the CPU configuration to have a optimal experience.
 - On the Summary screen, it is not necessary to check the "Open VM Settings" box; while you may wish to adjust the configuration of the VM before first boot, the defaults are sensible.
 
+## Download ISO
+
+You can grab the latest ISO at **https://dl.getaurora.dev/aurora-live-lts.iso**.
+
 ## Build locally
 
 ```bash
