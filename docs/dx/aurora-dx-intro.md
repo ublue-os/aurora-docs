@@ -24,4 +24,4 @@ To enable Developer Mode from a Vanilla Aurora Installation, type in `ujust devm
 
 After enabling Developer Mode, you need to add yourself to the right groups.
 
-This can be done with `ujust dx-groups` and requires a logout and a login after that. And you're done, you now have docker and other awesome tools at your disposal, ready to be used!
+This can be done with `ujust dx-group` and requires a logout and a login after that. And you're done, you now have docker and other awesome tools at your disposal, ready to be used!
