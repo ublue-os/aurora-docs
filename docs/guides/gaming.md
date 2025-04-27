@@ -50,23 +50,6 @@ Steam through Flatpak provides several advantages:
 
 View the [Steam Flatpak Github Wiki](https://github.com/flathub/com.valvesoftware.Steam/wiki) for a short list of workarounds that may need to be done in comparison to other package formats.
 
-### Bazzite-Arch Container
-
-For those wanting a dedicated gaming environment without switching distributions, Bazzite-Arch provides a containerized solution:
-
-```command
-distrobox-create --unshare-netns --nvidia --image ghcr.io/ublue-os/bazzite-arch --name bazzite-arch -Y
-```
-
-After creation, export the gaming applications to your host system:
-
-```command
-distrobox-enter -n bazzite-arch -- 'distrobox-export --app steam'
-distrobox-enter -n bazzite-arch -- 'distrobox-export --app lutris'
-distrobox-enter -n bazzite-arch -- 'distrobox-export --app protontricks'
-distrobox-enter -n bazzite-arch -- 'mkdir -p ~/.steam && distrobox-export --bin /usr/bin/steamcmd --export-path ~/.steam && mv ~/.steam/steamcmd ~/.steam/steamcmd.sh'
-```
-
 ### Steam Appimage
 
 For those wanting a dedicated gaming environment without switching distributions but also didn't want to use distrobox Steam Appimage can be a solution.
