@@ -61,8 +61,8 @@ How to install Steam Appimage:
 
 1.  First you need to download Steam Appimage from [here](https://github.com/ivan-hc/Steam-appimage/releases).
 2.  Then install [GearLever](https://flathub.org/apps/it.mijorus.gearlever) from Flathub.
-3.  After that right click AppImage file and select open with GearLever, if you seen this menu select Unlock then select 
-Move to The App Menu.
+3.  After that right click AppImage file and select open with GearLever, if you seen this menu select Unlock then select
+    Move to The App Menu.
     ![GearLever](/img/steam/gearlever1.png)
     ![GearLever](/img/steam/gearlever2.png)
 4.  Now Steam Appimage is ready to game!
