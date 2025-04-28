@@ -1,7 +1,7 @@
 ---
-title: Introductory Guide
-description: Aurora at a glance.
+title: Introduction to Aurora
 slug: /
+pagination_next: guides/system-requirements
 ---
 
 ## Aurora
