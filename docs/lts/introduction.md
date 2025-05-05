@@ -7,7 +7,7 @@ description: About Aurora Helium LTS Edition
 
 **Please note: This project is currently in its alpha phase.**
 
-Aurora Helium LTS is a version of the ultimate productivity workstation designed for people who want a long-term-support version of Aurora. This OS is especially useful for deployments that require the newest system-level packages including the Linux kernel and desktop environment, and should be stable for several years to come for an enterprise-ready system. Aurora Helium LTS is built on top of [CentOS Stream 10](https://www.centos.org/centos-stream/) offering a 3-5 year lifespan for the operating system base. Graphical applications are installed via [Flatpak](https://flatpak.org/) using [Flathub](https://flathub.org/) as the default remote and CLI tools via [Homebrew](https://brew.sh), so applications are never outdated while your system remains rock solid.
+Aurora Helium LTS is a version of the ultimate productivity workstation designed for people who want a long-term-support version of Aurora. This OS is especially useful for deployments that don't require the newest system-level packages including the Linux kernel and desktop environment, and should be stable for several years to come for an enterprise-ready system. Aurora Helium LTS is built on top of [CentOS Stream 10](https://www.centos.org/centos-stream/) offering a 3-5 year lifespan for the operating system base. Graphical applications are installed via [Flatpak](https://flatpak.org/) using [Flathub](https://flathub.org/) as the default remote and CLI tools via [Homebrew](https://brew.sh), so applications are never outdated while your system remains rock solid.
 
 ## ARM Support
 
