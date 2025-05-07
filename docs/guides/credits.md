@@ -3,30 +3,18 @@ title: Credits
 description: The people behind Aurora.
 ---
 
-## Aurora Core Maintainers
+## Aurora Maintainers & Contributors
 
 - [Niklas Haiden](https://github.com/NiHaiden)
 - [Adam Fidel](https://github.com/ledif)
 - [Vishwas Parpattegar](https://github.com/RealVishy)
 - [Juha Uotila](https://github.com/inffy)
 - [Isaac Beverly](https://github.com/imbev)
+- [renner](https://github.com/renner0e)
+- [dreamyukii](https://github.com/dreamyukii)
 
-## Universal Blue Core Contributors
-
-- [Jorge Castro](https://github.com/castrojo)
-- [Kyle Gospodnetich](https://github.com/KyleGospo)
-- [m2](https://github.com/m2Giles)
-- [Robert Sturla](https://github.com/p5)
-- [Tulip Blossom](https://github.com/tulilirockz)
-- [Noel Miller](https://github.com/noelmiller)
-- [RJ Trujillo](https://github.com/EyeCantCU)
-- [Hikari Knight](https://github.com/HikariKnight)
-- [Benjamin Sherman](https://github.com/bsherman)
-- [Brian Ketelsen](https://github.com/bketelsen)
-- [xyny](https://github.com/xynydev)
-- [Gareth Widlansky](https://github.com/gerblesh)
-- [Ryan Brue](https://github.com/ryanabx)
+View the full list of [Aurora contributors](https://github.com/ublue-os/aurora/graphs/contributors).
 
 ---
 
-View the full list of [Aurora contributors](https://github.com/ublue-os/aurora/graphs/contributors).
+Special thanks to the [Universal Blue](https://ublue.it) core contributors, [Fedora Project](https://fedoraproject.org/), [Flathub](https://flathub.org/) [KDE](https://kde.org/), and all of the other upstream components that are used in Aurora.
