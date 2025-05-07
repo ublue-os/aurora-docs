@@ -17,4 +17,4 @@ View the full list of [Aurora contributors](https://github.com/ublue-os/aurora/g
 
 ---
 
-Special thanks to the [Universal Blue](https://ublue.it) core contributors, [Fedora Project](https://fedoraproject.org/), [Flathub](https://flathub.org/) [KDE](https://kde.org/), and all of the other upstream components that are used in Aurora.
+Special thanks to the [Universal Blue](https://ublue.it) core contributors, [Fedora Project](https://fedoraproject.org/), [Flathub](https://flathub.org/), [KDE](https://kde.org/), and all of the other upstream components that are used in Aurora.
