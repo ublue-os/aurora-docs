@@ -10,7 +10,7 @@ Before starting with gaming on Aurora, ensure you have:
 1. The correct Aurora image for your system:
 
    - `aurora:stable` for Intel/AMD GPU systems
-   - `aurora-nvidia:stable` for NVIDIA GPU systems (older propietary Nvidia driver)
+   - `aurora-nvidia:stable` for NVIDIA GPU systems (older proprietary Nvidia driver)
    - `aurora-nvidia-open:stable` for newer (Turing+ / 16XX+) Nvidia cards supported by the new open driver
 
    All available builds, including specialized images for Surface devices, Framework laptops, and ASUS hardware, can be found at [https://getaurora.dev](https://getaurora.dev).
