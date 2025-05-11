@@ -30,7 +30,7 @@ ramalama serve deepseek-r1
 If you are on a laptop or other computer with an unsupported CPU but have Vulkan acceleration available (e.g. an iGPU from a Ryzen APU) then you can use the Vulkan-accelerated image to serve models, like so:
 
 ```
-ramalama --image=quay.io/ramalama/vulkan:latest --ngl 999 run llama3.2:3b
+ramalama --image=quay.io/ramalama/ramalama:latest --ngl 999 run llama3.2:3b
 ```
 
 It will automatically pull down the needed image and all model files that are needed.
