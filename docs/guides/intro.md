@@ -66,3 +66,7 @@ You can remove or comment the line below in `/etc/bashrc` to restore the default
 ```bash
 eval "$(starship init bash)"
 ```
+
+## News & Updates
+
+Updates on the project can be found on the [**forums**](https://universal-blue.discourse.group/tags/c/aurora/11/aurora-news/l/latest) and you can also subscribe to the [**RSS feed**](https://universal-blue.discourse.group/tag/aurora-news.rss).
