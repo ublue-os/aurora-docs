@@ -13,7 +13,7 @@ description: The people behind Aurora.
 - [renner](https://github.com/renner0e)
 - [dreamyukii](https://github.com/dreamyukii)
 
-I want to give a special shoutout to [Chandeleer](https://ko-fi.com/chandeleer) who makes our incredible wallpapers and other artwork. Please support him on Ko-fi by making a donation. 
+I want to give a special shoutout to [Chandeleer](https://ko-fi.com/chandeleer) who makes our incredible wallpapers and other artwork. Please support him on Ko-fi by making a donation.
 
 View the full list of [Aurora contributors](https://github.com/ublue-os/aurora/graphs/contributors).
 
