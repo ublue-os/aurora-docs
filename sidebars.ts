@@ -44,12 +44,6 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
-      label: "Aurora LTS",
-      collapsed: false,
-      items: ["lts/introduction"],
-    },
-    {
-      type: "category",
       label: "Developer Experience",
       collapsed: false,
       items: [
