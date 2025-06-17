@@ -38,6 +38,6 @@ And the white variant of the text logo is available here: [White Text Logo](/img
 
 These logos were made by the fantastic @adelia.svg (on Discord) and I can't thank her enough for them, they are amazing!
 
-The main wallpaper used in all Aurora variants is this one, created by [Riveting Renders](https://www.etsy.com/shop/RivetingRenders).
+The main wallpaper used in all Aurora variants is this one, created by [Chandeleer](https://ko-fi.com/chandeleer).
 
-![Aurora Wallpaper](/img/aurora_wallpaper.jpg)
+![Aurora Wallpaper](/img/aurora_wallpaper.png)

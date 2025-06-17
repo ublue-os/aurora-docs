@@ -10,7 +10,7 @@ pagination_next: guides/system-requirements
 
 Aurora combines the familiar windows-like KDE Desktop Interface with robustness and unparalleled ease of use. It is intended to be maintenance-free, reliable, fast, and easy to use. The golden age of the Linux Desktop is here.
 
-![Aurora](/img/aurora.png)
+![Aurora](/img/aurora-desktop.png)
 
 - Developers, check out [Aurora-DX](/dx/aurora-dx-intro) for developer focused images!
 
