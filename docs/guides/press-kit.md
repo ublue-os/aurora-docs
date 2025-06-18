@@ -22,7 +22,7 @@ Aurora is built with and on [Universal Blue](https://universal-blue.org), which 
 
 - AuroraOS - or any addition of "OS" to the name
 - Fedora Aurora - we are not directly related to Fedora and this name implies that. Checkout the [Mission Document](https://universal-blue.org/mission.html) from Universal Blue.
-- Universal Blue Aurora or uBlue Aurora - "Bluefin is built with Universal Blue" or "Bluefin is a Universal Blue image" is recommended instead.
+- Universal Blue Aurora or uBlue Aurora - "Aurora is built with Universal Blue" or "Aurora is a Universal Blue image" is recommended instead.
 - "Immutable Distribution" - Aurora is an operating system, it is neither immutable nor a distribution, it is a custom image based on Fedora or CentOS, depending on the edition.
 
 ## Artwork
@@ -38,6 +38,6 @@ And the white variant of the text logo is available here: [White Text Logo](/img
 
 These logos were made by the fantastic @adelia.svg (on Discord) and I can't thank her enough for them, they are amazing!
 
-The main wallpaper used in all Aurora variants is this one, created by [Riveting Renders](https://www.etsy.com/shop/RivetingRenders).
+The main wallpaper used in all Aurora variants is this one, created by [Chandeleer](https://ko-fi.com/chandeleer).
 
-![Aurora Wallpaper](/img/aurora_wallpaper.jpg)
+![Aurora Wallpaper](/img/aurora_wallpaper.png)
