@@ -38,6 +38,10 @@ And the white variant of the text logo is available here: [White Text Logo](/img
 
 These logos were made by the fantastic @adelia.svg (on Discord) and I can't thank her enough for them, they are amazing!
 
+The official Aurora mascot used in marketing and branding is the character Scope, created by [Chandeleer](https://ko-fi.com/chandeleer).
+
+![Aurora Mascot](/img/aurora_mascot.png)
+
 The main wallpaper used in all Aurora variants is this one, created by [Chandeleer](https://ko-fi.com/chandeleer).
 
 ![Aurora Wallpaper](/img/aurora_wallpaper.png)
