@@ -8,7 +8,6 @@ description: A comprehensive guide to gaming options and configurations on Auror
 Before starting with gaming on Aurora, ensure you have:
 
 1. The correct Aurora image for your system:
-
    - `aurora:stable` for Intel/AMD GPU systems
    - `aurora-nvidia:stable` for NVIDIA GPU systems (older proprietary Nvidia driver)
    - `aurora-nvidia-open:stable` for newer (Turing+ / 16XX+) Nvidia cards supported by the new open driver
@@ -92,7 +91,6 @@ rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/bazzite:stable
 The `ujust install-gaming-flatpaks` command installs several useful gaming tools and runtimes:
 
 1. Gaming Platforms:
-
    - Steam
    - Heroic Games Launcher
    - Lutris
