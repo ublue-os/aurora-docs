@@ -16,21 +16,37 @@ Here's what you need to do:
 3. Once you are booted into your new or existing Kinoite installation, run the following command (substituting the placeholder with the image name you noted down earlier):
 
 ```
-rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/<imagename>
+sudo bootc switch ghcr.io/ublue-os/<imagename>
 ```
 
-_For example: `rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/aurora-dx:stable`_
+_For example: `sudo bootc switch ghcr.io/ublue-os/aurora-dx:stable`_
 
 4. After you have rebased to Aurora, you need to rebase a second time. This time, to a signed version of the image so you have a verified and secure copy of the OS.
 
 ```
-rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/<imagename>
+sudo bootc switch --enforce-container-sigpolicy ghcr.io/ublue-os/<imagename>
 ```
 
-_For example: `rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/aurora-dx:stable`_
+_For example: `sudo bootc switch --enforce-container-sigpolicy ghcr.io/ublue-os/aurora-dx:stable`_
 
 5. After all of that is done, you can relax a bit. Now it's time for the last step, you will want to install our curated flatpaks to get the best out of your experience. Run the following command in you terminal:
 
 ```
 ujust install-system-flatpaks
 ```
+
+# Rebasing from an exisiting Fedora Kinoite Installation
+
+Fist you might want to permanently save your current deployment:
+
+```
+sudo ostree admin pin 0
+```
+
+The following command will remove all changes you made with rpm-ostree, like layered packages and kernel parameters to ensure a successful rebase to Aurora.
+
+```
+rpm-ostree reset
+```
+
+After that you can start right from step 3 above
