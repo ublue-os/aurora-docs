@@ -14,10 +14,10 @@ git clone https://github.com/ublue-os/aurora
 
 ## Examples
 
-| build command | produced image |
-| ------- | -------------- |
-| `just build` | `localhost/aurora:latest` |
-| `just build aurora stable` | `localhost/aurora:stable` |
+| build command                             | produced image                           |
+| ----------------------------------------- | ---------------------------------------- |
+| `just build`                              | `localhost/aurora:latest`                |
+| `just build aurora stable`                | `localhost/aurora:stable`                |
 | `just build aurora-dx stable nvidia-open` | `localhost/aurora-dx-nvidia-open:stable` |
 
 ## Rebasing to a locally built image
@@ -86,4 +86,3 @@ To get rid of the writable deployment you can either just (wait for an) update a
 ```
 rpm-ostree cleanup --pending
 ```
-
