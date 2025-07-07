@@ -60,6 +60,12 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
       items: ["guides/credits", "guides/press-kit", "reference/example"],
     },
+    {
+      type: "category",
+      label: "Contributing",
+      collapsed: false,
+      items: ["guides/building"],
+    },
   ],
 };
 
