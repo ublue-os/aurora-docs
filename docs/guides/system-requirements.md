@@ -5,9 +5,18 @@ description: System requirements to comofortably use Aurora
 
 Using Aurora on your computer does not require any special sauce, but there are some system requirements you should be aware of. Other than the hard requirement of a 64-bit capable CPU (AMD/Intel) you should have at least the following system specifications on your Aurora Box:
 
-- A recent quad-core (or 4 threads) or higher multicore processor with at least 2 GHz clock speed
-- 4GB of RAM
-- A modern GPU
+- Architecure: x86_64
+- Firmware: UEFI (CSM Support should be *disabled* in the Firmware Setup if available)
+- Processor (CPU): 2GHz quad core or better
+- System Memory (RAM): 4GB
+- Graphics: A modern GPU that is Vulkan 1.3+ compliant[^1]
   - For **Nvidia** Users: A GTX 900 Series GPU or newer is required. There are no images for older Nvidia GPU hardware. If you have an older Nvidia GPU, then you can try the non-Nvidia editions to utilize the open source nouveau support.
-- SSD with at least 40GB of free space to have space for now and future updates
-  - A spinning hard disk drive will run Aurora, but updates and other I/O heavy operations will decrease performance greatly.
+- Storage: SSD with at least 40GB of free space to have headroom for now and future updates
+    - A spinning hard disk drive will run Aurora, but updates and other I/O heavy operations will decrease performance greatly.
+
+
+> **Note**: older Intel iGPUs like HD 4600 (Haswell, 2013) don't fully support Vulkan 1.3, therefore GTK4 Applications will not display properly. However, the following workaround for this problem is explicitly unsupported by the Aurora Team. See this [blog by the GTK developers](https://blog.gtk.org/2024/01/28/new-renderers-for-gtk/) for more info
+
+```
+sudo flatpak override --system --env=GSK_RENDERER=gl
+```
