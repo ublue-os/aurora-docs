@@ -58,9 +58,19 @@ const sidebars: SidebarsConfig = {
       type: "category",
       label: "Miscellaneous",
       collapsed: false,
-      items: ["guides/credits", "guides/press-kit", "reference/example"],
+      items: [
+        "guides/credits",
+        "guides/press-kit",
+        "reference/example"
+      ],
     },
-  ],
+    {
+      type: "category",
+      label: "Contributing",
+      collapsed: false,
+      items: ["guides/building"]
+    }
+  ]
 };
 
 export default sidebars;
