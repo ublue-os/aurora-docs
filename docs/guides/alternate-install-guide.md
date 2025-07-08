@@ -35,7 +35,7 @@ _For example: `sudo bootc switch --enforce-container-sigpolicy ghcr.io/ublue-os/
 ujust install-system-flatpaks
 ```
 
-# Rebasing from an exisiting Fedora Kinoite Installation
+# Rebasing from an existing Fedora Kinoite Installation
 
 Fist you might want to permanently save your current deployment:
 
