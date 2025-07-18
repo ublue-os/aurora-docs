@@ -7,7 +7,13 @@ description: Installing Aurora to your desktop or laptop.
 
 Download the ISO using the download picker from the [website](https://getaurora.dev) or download the [torrent](https://fosstorrents.com/distributions/aurora/).
 
-Flash the ISO with [Fedora Media Writer](https://fedoraproject.org/workstation/download) or [Ventoy](https://ventoy.net/en/).
+Flash the ISO with one of these tools:
+
+- [Fedora Media Writer](https://fedoraproject.org/workstation/download)
+- [Rufus](https://rufus.ie/en/)
+- [Etcher](>https://etcher.balena.io/)
+
+**Note**: Using Ventoy to boot the installation media is not supported as Ventoy's tricks to house multiple ISOs are incompatible with our ISOs.
 
 ## Booting Aurora's Installer
 
