@@ -3,7 +3,6 @@ title: Can I have some dinosaurs with that?
 description: Bluefin Wallpapers on Aurora
 ---
 
-## Can I have some dinosaurs with that?
 
 To set [Bluefin Wallpapers](https://projectbluefin.io) on your Aurora machine you simply do:
 
