@@ -58,21 +58,17 @@ const sidebars: SidebarsConfig = {
       type: "category",
       label: "Miscellaneous",
       collapsed: false,
-      items: [
-       
-        "reference/example",
-        "guides/dino",
-      ],
+      items: ["reference/example", "guides/dino"],
     },
     {
-        type: "category",
-        label: "Project Information",
-        collapsed: false, 
-        items: [
-          "project-docs/credits",
-          "project-docs/press-kit",
-          "project-docs/coc"
-        ]
+      type: "category",
+      label: "Project Information",
+      collapsed: false,
+      items: [
+        "project-docs/credits",
+        "project-docs/press-kit",
+        "project-docs/coc",
+      ],
     },
     {
       type: "category",
