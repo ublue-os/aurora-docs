@@ -9,7 +9,6 @@ description: The people behind Aurora.
 - [Adam Fidel](https://github.com/ledif)
 - [Vishwas Parpattegar](https://github.com/RealVishy)
 - [Juha Uotila](https://github.com/inffy)
-- [Isaac Beverly](https://github.com/imbev)
 - [renner](https://github.com/renner0e)
 - [dreamyukii](https://github.com/dreamyukii)
 

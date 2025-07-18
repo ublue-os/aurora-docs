@@ -59,11 +59,20 @@ const sidebars: SidebarsConfig = {
       label: "Miscellaneous",
       collapsed: false,
       items: [
-        "guides/credits",
-        "guides/press-kit",
+       
         "reference/example",
         "guides/dino",
       ],
+    },
+    {
+        type: "category",
+        label: "Project Information",
+        collapsed: false, 
+        items: [
+          "project-docs/credits",
+          "project-docs/press-kit",
+          "project-docs/coc"
+        ]
     },
     {
       type: "category",
