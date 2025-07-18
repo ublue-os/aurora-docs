@@ -58,7 +58,7 @@ const sidebars: SidebarsConfig = {
       type: "category",
       label: "Miscellaneous",
       collapsed: false,
-      items: ["guides/credits", "guides/press-kit", "reference/example"],
+      items: ["guides/credits", "guides/press-kit", "reference/example", "guides/dino"],
     },
     {
       type: "category",
