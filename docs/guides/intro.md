@@ -40,7 +40,7 @@ System updates are image-based and automatic. Applications are logically separat
   - [rclone](https://rclone.org/) and [restic](https://restic.net/) included
   - `zsh` and `fish` included (optional)
 - Built on top of the the [Universal Blue main image](https://github.com/ublue-os/main)
-  - Extra udev rules for game controllers and [other devices](https://github.com/ublue-os/config) included out of the box
+  - Extra udev rules for game controllers and [other devices](https://github.com/ublue-os/packages/tree/main/packages/ublue-os-udev-rules/src/udev-rules.d) included out of the box
   - All multimedia codecs included
   - System designed for automatic staging of updates
     - If you've never used an image-based Linux before just use your computer normally
