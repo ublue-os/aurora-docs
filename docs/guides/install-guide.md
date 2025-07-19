@@ -11,7 +11,7 @@ Flash the ISO with one of these tools:
 
 - [Fedora Media Writer](https://fedoraproject.org/workstation/download)
 - [Rufus](https://rufus.ie/en/)
-- [Etcher](>https://etcher.balena.io/)
+- [Etcher](https://etcher.balena.io/)
 
 **Note**: Using Ventoy to boot the installation media is not supported as Ventoy's tricks to house multiple ISOs are incompatible with our ISOs.
 
