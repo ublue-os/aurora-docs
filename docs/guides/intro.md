@@ -25,9 +25,9 @@ System updates are image-based and automatic. Applications are logically separat
 ## For Users
 
 - [Ptyxis terminal](https://devsuite.app/ptyxis/) for container-focused workflows
-  - [Boxbuddy](https://flathub.org/apps/io.github.dvlv.boxbuddyrs) for container management
-- [Tailscale](https://tailscale.com) - included for VPN along with `wireguard-tools`
-- KDE Discover with [Flathub](https://flathub.org):
+  - [DistroShelf](https://github.com/ranfdev/DistroShelf) for container management
+- [Tailscale](https://tailscale.com) + [KTailctl](https://github.com/f-koehler/KTailctl) - included for VPN along with `wireguard-tools`
+- [KDE Discover](https://apps.kde.org/de/discover/) with [Flathub](https://flathub.org):
   - Use a familiar software center UI to install graphical software
   - [Warehouse](https://flathub.org/apps/io.github.flattool.Warehouse) included for flatpak management
 - Quality of Life Features
@@ -48,9 +48,21 @@ System updates are image-based and automatic. Applications are logically separat
 
 ### Applications
 
-- Mozilla Firefox, Mozilla Thunderbird, DejaDup, FontDownloader, Flatseal, and the Haruna Media Player.
+- [Mozilla Firefox](https://www.firefox.com/), [Thunderbird](https://www.thunderbird.net), [DejaDup](https://apps.gnome.org/DejaDup/), [FontDownloader](https://github.com/GustavoPeredo/font-downloader), [Flatseal](https://github.com/tchx84/flatseal), and the [Haruna Media Player](https://apps.kde.org/de/haruna/).
 - Core KDE Applications installed:
-  - Kcalc, Konsole, Okular, Dolphin File Manager, Kate, KWeather, Filelight, and KDE Partition Manager.
+  - [Clock](https://apps.kde.org/kclock/)
+  - [Dolphin File Manager](https://apps.kde.org/dolphin/)
+  - [Filelight](https://apps.kde.org/filelight/)
+  - [Gwenview](https://apps.kde.org/gwenview/)
+  - [KDE Partition Manager](https://apps.kde.org/partitionmanager/)
+  - [KWeather](https://apps.kde.org/kweather/)
+  - [Kate](https://apps.kde.org/kate/)
+  - [Kcalc](https://apps.kde.org/kcalc/)
+  - [Konsole](https://apps.kde.org/konsole/)
+  - [Kontact](https://apps.kde.org/kontact/)
+  - [Okular](https://apps.kde.org/okular/)
+  - [Skanpage](https://apps.kde.org/de/skanpage/)
+
 
 ## How is this different from a traditional Linux Desktop?
 
