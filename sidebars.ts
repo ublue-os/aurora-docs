@@ -21,7 +21,6 @@ const sidebars: SidebarsConfig = {
       items: [
         "guides/system-requirements",
         "guides/install-guide",
-        "guides/surface-install-guide",
         "guides/installation-troubleshoot",
         "guides/alternate-install-guide",
       ],
