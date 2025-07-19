@@ -63,7 +63,6 @@ System updates are image-based and automatic. Applications are logically separat
   - [Okular](https://apps.kde.org/okular/)
   - [Skanpage](https://apps.kde.org/de/skanpage/)
 
-
 ## How is this different from a traditional Linux Desktop?
 
 - Aurora takes a [greenfield approach](https://en.wikipedia.org/wiki/Greenfield_project) to Linux applications by defaulting to Flathub and `brew` by default
