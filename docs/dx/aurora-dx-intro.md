@@ -57,7 +57,7 @@ Check out this talk from [Rich Burroughs](https://timeline.richburroughs.dev/):
 
 [Podman Desktop](https://podman-desktop.io/) is included to provide container management. Check out the Podman Desktop [documentation](https://podman-desktop.io/docs/intro) for more information. All the upstream `podman` tools are included. This is the default system container runtime and is the recommended developer configuration that Fedora ships with.
 
-> Though Bluefin defaults to docker and vscode for development, all of the Fedora upstream tools are included for those who prefer that experience.
+> Though Aurora defaults to docker and vscode for development, all of the Fedora upstream tools are included for those who prefer that experience.
 
 ## Built-in Performance Tooling
 
@@ -125,9 +125,9 @@ DevPod also has support for JetBrains:
 - [kind](https://kind.sigs.k8s.io/) - Run a Kubernetes cluster on your machine. Run `kind create cluster` on the host to get started!
   - [kubectl](https://kubernetes.io/docs/reference/kubectl/) - Administer Kubernetes Clusters
   - [k9s](https://k9scli.io/) and [kubectx](https://github.com/ahmetb/kubectx)
-    = [Dagger](https://dagger.io/) - an open-source runtime for composable workflows. This is a powerful tool that is a perfect match for Bluefin systems. (aka people are talking about this one.)
+    = [Dagger](https://dagger.io/) - an open-source runtime for composable workflows. This is a powerful tool that is a perfect match for Aurora systems. (aka people are talking about this one.)
 
-If you feel there's a tool that should be included by default, send a PR [to this file](https://github.com/ublue-os/packages/blob/main/packages/bluefin/schemas/usr/share/ublue-os/homebrew/kubernetes.Brewfile). But let's not overdo it.
+If you feel there's a tool that should be included by default, send a PR [to this file](https://github.com/ublue-os/packages/blob/main/packages/aurora/schemas/usr/share/ublue-os/homebrew/kubernetes.Brewfile). But let's not overdo it.
 
 ## Ramalama
 
