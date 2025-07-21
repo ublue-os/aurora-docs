@@ -131,7 +131,7 @@ If you feel there's a tool that should be included by default, send a PR [to thi
 
 ## Ramalama
 
-[Ramalama](https://github.com/containers/ramalama) is included for local management and serving of AI models. Check the [AI documentation](/ai) for more information.
+[Ramalama](https://github.com/containers/ramalama) is included for local management and serving of AI models. Check the [AI documentation](/guides/local-ai) for more information.
 
 ## Virtualization and Container Runtimes
 
