@@ -138,7 +138,7 @@ When using both Steam and Lutris:
 
 This guide is regularly updated as Aurora evolves. For the most recent information, troubleshooting help, or if you have any questions:
 
-- Join the [Aurora Discord community](https://discord.gg/WEu6BdFEtp)
+- Join the [Aurora Discord community](https://discord.gg/jN2HHespdk)
 
 ## Additional Notes
 
