@@ -34,6 +34,7 @@ const sidebars: SidebarsConfig = {
         "guides/start-icon",
         "guides/software",
         "guides/layerapp",
+        "guides/vpn",
         "guides/secondary-drives",
         "guides/gaming",
         "guides/quadlet",
