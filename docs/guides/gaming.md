@@ -12,8 +12,6 @@ Before starting with gaming on Aurora, ensure you have:
    - `aurora-nvidia:stable` for NVIDIA GPU systems (older proprietary Nvidia driver)
    - `aurora-nvidia-open:stable` for newer (Turing+ / 16XX+) Nvidia cards supported by the new open driver
 
-   All available builds, including specialized images for Surface devices, Framework laptops, and ASUS hardware, can be found at [https://getaurora.dev](https://getaurora.dev).
-
 2. Enough storage space for games
 3. A stable internet connection for downloads
 
