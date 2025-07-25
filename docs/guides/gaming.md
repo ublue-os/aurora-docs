@@ -72,10 +72,15 @@ If gaming is your primary focus, consider switching to Bazzite as your main oper
 4. Regular updates focused on gaming performance
 5. Active gaming-focused community
 
-To switch to Bazzite from Aurora , use:
+## Switch to Bazzite from Aurora
 
-```command
-rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/bazzite:stable
+**Note**: Make sure you are not rebasing to a GNOME image of Bazzite as rebasing to a different Desktop Environment is not supported.
+
+[Pick the correct Bazzite image](https://bazzite.gg/#image-picker) and insert it in the bootc command below, you don't have to download any ISOs or reinstall for this:
+
+```
+rpm-ostree reset
+sudo bootc switch --enforce-container-sigpolicy ghcr.io/ublue-os/bazzite:stable
 ```
 
 ## Recommendations
