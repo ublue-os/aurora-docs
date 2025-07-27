@@ -92,7 +92,7 @@ const config: Config = {
           position: "right",
         },
         {
-          href: "https://discord.gg/jN2HHespdk",
+          href: "https://discord.gg/WEu6BdFEtp",
           label: "Feedback",
           position: "right",
         },
@@ -132,7 +132,7 @@ const config: Config = {
             },
             {
               label: "Discord",
-              href: "https://discord.gg/jN2HHespdk",
+              href: "https://discord.gg/WEu6BdFEtp",
             },
             {
               label: "Forum",
