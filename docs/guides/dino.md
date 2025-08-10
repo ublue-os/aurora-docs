@@ -3,7 +3,7 @@ title: Can I have some dinosaurs with that?
 description: Bluefin Wallpapers on Aurora
 ---
 
-To set [Bluefin Wallpapers](https://projectbluefin.io) on your Aurora machine you simply do:
+To set [Bluefin Wallpapers](https://projectbluefin.io) on your Aurora machine you do:
 
 ```
 ujust toggle-dinosaurs
