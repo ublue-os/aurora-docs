@@ -3,7 +3,7 @@ services:
     network_mode: "host"
     container_name: aurora-docsy
     command: bash -c "npm i . && npm run start"
-    image: docker.io/library/node:latest@sha256:c99d1ddccdddffe02bb49483a395a0b2a8ab33ed0a01ab4de1c6216ab6fa4188
+    image: docker.io/library/node:latest@sha256:14fe96d5b60b7fe5ac5eeed9e5866a23412cb8503d8a2fd215f6a923cca6de58
     working_dir: /srv/docs
     volumes:
       - "./:/srv/docs:Z"
