@@ -33,4 +33,10 @@ Otherwise click "Continue Boot" if your hardware does not support secure boot or
 
 Dual-booting is generally an unsupported feature of Fedora Atomic Desktop in general. The recommended method is to have Windows on its own drive or using Windows-to-Go created with Rufus on an external drive for Windows.
 
+This sets up an entry in your application launcher that uses [efibootmgr](https://github.com/rhboot/efibootmgr) to boot directly into Windows from Aurora.
+
+```
+ujust configure-boot-to-windows
+```
+
 Dual-Booting with a single drive is **NOT** supported.
