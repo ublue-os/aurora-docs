@@ -31,6 +31,6 @@ Otherwise click "Continue Boot" if your hardware does not support secure boot or
 
 ## Note About Dual-Booting Windows
 
-Dual-booting is generally unsupported feature for Fedora Atomic Desktop in general, however it can be done. The recommended method is to have Windows on its own drive or using Windows-to-Go created with Rufus on an external drive for Windows.
+Dual-booting is generally an unsupported feature of Fedora Atomic Desktop in general. The recommended method is to have Windows on its own drive or using Windows-to-Go created with Rufus on an external drive for Windows.
 
 Dual-Booting with a single drive is **NOT** supported.
