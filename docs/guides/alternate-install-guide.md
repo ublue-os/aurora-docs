@@ -3,7 +3,7 @@ title: Alternate Installation
 description: When you have problems installing from the ISO, you can try rebasing.
 ---
 
-# Rebasing from a Fedora Kinoite
+# Alternate Installation
 
 If you have issues installing with the Aurora ISO and want to try rebasing from a Fedora Kinoite installation (**rebasing from Silverblue is NOT supported!**), this guide is for you. Rebasing will give you almost the same great experience as a fresh installation from our ISO, but there are some steps you need to follow.
 
@@ -49,4 +49,10 @@ The following command will remove all changes you made with rpm-ostree, like lay
 rpm-ostree reset
 ```
 
-After that you can start right from step 3 above
+After that you can start right from step 3 above.
+
+# Rebasing from another Universal Blue Image (e.g. Bazzite)
+
+If you want to rebase from a Bazzite-KDE Installation to Aurora, you can just skip steps 1-3 and grab a command with your desired image from step 4, from the installation guide above.
+
+**NOTE:** Do not rebase from a Gnome-based image to Aurora or back!
