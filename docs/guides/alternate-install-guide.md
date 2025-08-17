@@ -7,8 +7,6 @@ description: When you have problems installing from the ISO, you can try rebasin
 
 If you have issues installing with the Aurora ISO and want to try rebasing from a Fedora Kinoite installation (**rebasing from Silverblue is NOT supported!**), this guide is for you. Rebasing will give you almost the same great experience as a fresh installation from our ISO, but there are some steps you need to follow.
 
-
-
 Here's what you need to do:
 
 1. Determine your image name. Select your desired Aurora Version in the ISO download screen on <a target="_blank" href="https://getaurora.dev">getaurora.dev</a> and note it down. You're gonna need it in the next steps.
@@ -54,6 +52,7 @@ rpm-ostree reset
 After that you can start right from step 3 above.
 
 # Rebasing from another Universal Blue Image (e.g. Bazzite)
+
 If you want to rebase from a Bazzite-KDE Installation to Aurora, you can just skip steps 1-3 and grab a command with your desired image from step 4, from the installation guide above.
 
 **NOTE:** Do not rebase from a Gnome-based image to Aurora or back!
