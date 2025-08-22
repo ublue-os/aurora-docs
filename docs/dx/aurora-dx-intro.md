@@ -129,9 +129,9 @@ DevPod also has support for JetBrains:
 
 If you feel there's a tool that should be included by default, send a PR [to this file](https://github.com/ublue-os/packages/blob/main/packages/aurora/schemas/usr/share/ublue-os/homebrew/kubernetes.Brewfile). But let's not overdo it.
 
-## Ramalama
+## Ramalama and other AI tools
 
-[Ramalama](https://github.com/containers/ramalama) is included for local management and serving of AI models. Check the [AI documentation](/guides/local-ai) for more information.
+[Ramalama](https://github.com/containers/ramalama) can be installed via `ujust install-ai-tools` for local management and serving of AI models. Check the [AI documentation](/guides/local-ai) for more information.
 
 ## Virtualization and Container Runtimes
 
