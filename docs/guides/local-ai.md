@@ -9,7 +9,7 @@ _Use the robots to your advantage!_
 
 ## Ramalama
 
-[Ramalama](https://github.com/containers/ramalama) is a tool which is included on the developer experience images that makes managing and working with AI models on your local machine super easy and smoooth.
+[Ramalama](https://github.com/containers/ramalama) is a tool which can be installed with the `ujust install-ai-tools` recipe, that makes managing and working with AI models on your local machine super easy and smoooth.
 
 It can pull models from Huggingface, Ollama and other providers without extra configuration or hassle. By default it is pulling its models from the Ollama Model Registry, which you can find here: [Ollama Model Registry](https://ollama.com/search).
 
