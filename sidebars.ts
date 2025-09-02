@@ -39,6 +39,7 @@ const sidebars: SidebarsConfig = {
         "guides/quadlet",
         "guides/start-icon",
         "guides/rescue-mode",
+        "guides/disable-airplay-discovery",
         "guides/report-issues",
       ],
     },
