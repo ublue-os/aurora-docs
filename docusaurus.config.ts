@@ -17,7 +17,7 @@ const config: Config = {
   },
 
   // GitHub pages deployment config.
-  organizationName: "NiHaiden",
+  organizationName: "ublue-os",
   projectName: "aurora-docs",
 
   onBrokenLinks: "throw",
@@ -36,7 +36,7 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Disables the landing page
           routeBasePath: "/",
-          editUrl: "https://github.com/NiHaiden/aurora-docs/tree/main",
+          editUrl: "https://github.com/ublue-os/aurora-docs/tree/main",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -149,7 +149,7 @@ const config: Config = {
             },
             {
               label: "Documentation on GitHub",
-              href: "https://github.com/NiHaiden/aurora-docs",
+              href: "https://github.com/ublue-os/aurora-docs",
             },
           ],
         },
