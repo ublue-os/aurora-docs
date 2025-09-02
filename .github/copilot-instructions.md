@@ -39,7 +39,7 @@ Always reference these instructions first and fallback to search or bash command
 
 ### Manual testing scenarios:
 
-- ALWAYS test the site functionality after making changes by running `npm run serve` and accessing http://localhost:3001
+- ALWAYS test the site functionality after making changes by running `npm run serve` and accessing http://localhost:3000
 - Navigate between documentation sections using the sidebar
 - Test search functionality (Ctrl+K)
 - Verify all internal links work correctly
