@@ -32,4 +32,4 @@ Paste the following code in there:
 context.properties = { module.raop = false }
 ```
 
-Save the file and reboot your machine. The AirPlay Sound Outputs should now be gone from your sound settings.s
+Save the file and reboot your machine. The AirPlay Sound Outputs should now be gone from your sound settings.
