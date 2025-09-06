@@ -19,13 +19,6 @@ const config: Config = {
     },
   },
 
-  customFields: {
-    future: {
-      removeLegacyPostBuildHeadAttribute: true,
-    },
-    // add any other custom fields here
-  },
-
   // GitHub pages deployment config.
   organizationName: "ublue-os",
   projectName: "aurora-docs",
