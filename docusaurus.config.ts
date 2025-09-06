@@ -13,10 +13,10 @@ const config: Config = {
   baseUrl: "/",
 
   future: {
-  v4: true,
-  removeLegacyPostBuildHeadAttribute: true,
-  experimental_faster: {
-    ssgWorkerThreads: true,
+    v4: true,
+    removeLegacyPostBuildHeadAttribute: true,
+    experimental_faster: {
+      ssgWorkerThreads: true,
     },
   },
 
