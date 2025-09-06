@@ -118,6 +118,7 @@ ujust rebase-helper
 ```
 
 This interactive tool will guide you through:
+
 - Switching between different Aurora streams (stable, stable-daily, latest)
 - Moving between hardware-specific images (aurora, aurora-dx, aurora-nvidia, etc.)
 - Selecting the appropriate image for your system
