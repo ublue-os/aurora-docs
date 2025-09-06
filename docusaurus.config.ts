@@ -13,11 +13,17 @@ const config: Config = {
   baseUrl: "/",
 
   future: {
-    v4: true,
-    removeLegacyPostBuildHeadAttribute: true,
-    experimental_faster: {
-      ssgWorkerThreads: true,
+  v4: true,
+  experimental_faster: {
+    ssgWorkerThreads: true,
     },
+  },
+
+  customFields: {
+    future: {
+      removeLegacyPostBuildHeadAttribute: true
+    }
+    // add any other custom fields here
   },
 
   // GitHub pages deployment config.
