@@ -13,11 +13,11 @@ const config: Config = {
   baseUrl: "/",
 
   future: {
-    v4: {
-      removeLegacyPostBuildHeadAttribute: true,
-      useCssCascadeLayers: true,
+  v4: true,
+  removeLegacyPostBuildHeadAttribute: true,
+  experimental_faster: {
+    ssgWorkerThreads: true,
     },
-    experimental_faster: true,
   },
 
   // GitHub pages deployment config.
