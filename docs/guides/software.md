@@ -11,6 +11,24 @@ description: How to install software on Aurora
 
 The [Homebrew](https://brew.sh/) package manager is specifically for installing command-line utilities and software used in the terminal.
 
+## Docker
+
+[Docker](https://www.docker.com/) is a popular containerization platform for running and managing containers. Docker is included with Aurora-DX.
+
+For the best Docker experience, switch to **Aurora DX** which includes Docker pre-installed and configured:
+
+- Docker Engine with full integration
+- Visual Studio Code with devcontainer support
+- Pre-configured development tools
+
+To switch to Aurora DX, use the included ujust recipe:
+
+```bash
+ujust devmode
+```
+
+Learn more about Aurora DX and its developer features in the [Aurora DX Introduction](/dx/aurora-dx-intro).
+
 ## Distrobox Containers
 
 [Distrobox](https://distrobox.it/) containers are Linux subsystems of other popular Linux distributions which give users access to their package managers (like `dnf` or `apt`) and their package formats (like RPM and Deb).
