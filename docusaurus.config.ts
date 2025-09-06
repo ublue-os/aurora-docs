@@ -14,7 +14,6 @@ const config: Config = {
 
   future: {
     v4: true,
-    removeLegacyPostBuildHeadAttribute: true,
     experimental_faster: {
       ssgWorkerThreads: true,
     },
