@@ -31,6 +31,7 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
       items: [
         "guides/basic-usage",
+        "guides/release-streams",
         "guides/software",
         "guides/layerapp",
         "guides/vpn",
