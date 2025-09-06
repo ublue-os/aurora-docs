@@ -32,8 +32,6 @@ Adding and editing kernel boot arguments is currently handled by rpm-ostree, che
 
 The **stable** stream is the recommended choice for most users. It provides:
 
-- **Stability**: Thoroughly tested releases with fewer bugs
-- **Reliability**: Changes are well-tested before reaching end users
 - **Regular Updates**: Weekly release cycles
 - **Production Ready**: Suitable for daily use and production environments
 - **Gated Kernel**: Uses a gated kernel for enhanced stability
@@ -53,7 +51,6 @@ The **stable-daily** stream provides:
 
 - **Daily Updates**: Daily builds of the stable stream
 - **Gated Kernel**: Same gated kernel as stable for reliability
-- **Thoroughly Tested**: Same stability guarantees as stable
 - **More Frequent**: Updates daily instead of weekly
 
 **Image Tags**: `stable-daily`
@@ -93,8 +90,7 @@ The **latest** stream provides:
 
 ### Use **Stable-Daily** if you want:
 
-- The same stability as stable
-- Daily updates instead of weekly
+- Daily (package) updates instead of weekly
 - Gated kernel reliability with more frequent updates
 - **Good for users who want stable but more current**
 
@@ -148,14 +144,12 @@ sudo bootc switch --enforce-container-sigpolicy ghcr.io/ublue-os/aurora:latest
 Replace `aurora` with your specific image variant:
 
 - `aurora-dx` for Developer Experience variant
-- `aurora-nvidia` for NVIDIA proprietary driver support
 - `aurora-nvidia-open` for NVIDIA open driver support
 
 ## Update Frequency and Throttling
 
 ### Stable Stream
 
-- Updates are released after thorough testing
 - Weekly release cadence
 - Uses gated kernel for enhanced stability
 - Updates include both system packages and container updates
@@ -163,7 +157,7 @@ Replace `aurora` with your specific image variant:
 ### Stable-Daily Stream
 
 - Daily builds of the stable stream
-- Same gated kernel and testing as stable
+- Same gated kernel as stable
 - More frequent updates for users who want the latest stable changes
 - Updates include both system packages and container updates
 
@@ -171,7 +165,7 @@ Replace `aurora` with your specific image variant:
 
 - Updates follow Fedora's release schedule closely
 - More frequent updates as changes become available
-- Uses latest available kernel
+- Uses latest available Fedora kernel
 - May include beta or release candidate packages
 
 ## Checking Your Current Stream
