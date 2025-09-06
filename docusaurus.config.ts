@@ -13,6 +13,10 @@ const config: Config = {
   baseUrl: "/",
 
   future: {
+     v4: {
+      removeLegacyPostBuildHeadAttribute: true,
+      useCssCascadeLayers: true,
+    },
     experimental_faster: true,
   },
 
