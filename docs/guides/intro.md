@@ -10,7 +10,7 @@ pagination_next: guides/system-requirements
 
 Aurora combines the familiar windows-like KDE Desktop Interface with robustness and unparalleled ease of use. It is intended to be maintenance-free, reliable, fast, and easy to use. The golden age of the Linux Desktop is here.
 
-![Aurora](/img/aurora.png)
+![Aurora](/img/aurora-desktop.png)
 
 - Developers, check out [Aurora-DX](/dx/aurora-dx-intro) for developer focused images!
 
@@ -25,9 +25,9 @@ System updates are image-based and automatic. Applications are logically separat
 ## For Users
 
 - [Ptyxis terminal](https://devsuite.app/ptyxis/) for container-focused workflows
-  - [Boxbuddy](https://flathub.org/apps/io.github.dvlv.boxbuddyrs) for container management
-- [Tailscale](https://tailscale.com) - included for VPN along with `wireguard-tools`
-- KDE Discover with [Flathub](https://flathub.org):
+  - [DistroShelf](https://github.com/ranfdev/DistroShelf) for container management
+- [Tailscale](https://tailscale.com) + [KTailctl](https://github.com/f-koehler/KTailctl) - included for VPN along with `wireguard-tools`
+- [KDE Discover](https://apps.kde.org/de/discover/) with [Flathub](https://flathub.org):
   - Use a familiar software center UI to install graphical software
   - [Warehouse](https://flathub.org/apps/io.github.flattool.Warehouse) included for flatpak management
 - Quality of Life Features
@@ -40,7 +40,7 @@ System updates are image-based and automatic. Applications are logically separat
   - [rclone](https://rclone.org/) and [restic](https://restic.net/) included
   - `zsh` and `fish` included (optional)
 - Built on top of the the [Universal Blue main image](https://github.com/ublue-os/main)
-  - Extra udev rules for game controllers and [other devices](https://github.com/ublue-os/config) included out of the box
+  - Extra udev rules for game controllers and [other devices](https://github.com/ublue-os/packages/tree/main/packages/ublue-os-udev-rules/src/udev-rules.d) included out of the box
   - All multimedia codecs included
   - System designed for automatic staging of updates
     - If you've never used an image-based Linux before just use your computer normally
@@ -48,13 +48,24 @@ System updates are image-based and automatic. Applications are logically separat
 
 ### Applications
 
-- Mozilla Firefox, Mozilla Thunderbird, DejaDup, FontDownloader, Flatseal, and the Haruna Media Player.
+- [Mozilla Firefox](https://www.firefox.com/), [Thunderbird](https://www.thunderbird.net), [DejaDup](https://apps.gnome.org/DejaDup/), [FontDownloader](https://github.com/GustavoPeredo/font-downloader), [Flatseal](https://github.com/tchx84/flatseal), and the [Haruna Media Player](https://apps.kde.org/de/haruna/).
 - Core KDE Applications installed:
-  - Kcalc, Konsole, Okular, Dolphin File Manager, Kate, KWeather, Filelight, and KDE Partition Manager.
+  - [Clock](https://apps.kde.org/kclock/)
+  - [Dolphin File Manager](https://apps.kde.org/dolphin/)
+  - [Filelight](https://apps.kde.org/filelight/)
+  - [Gwenview](https://apps.kde.org/gwenview/)
+  - [KDE Partition Manager](https://apps.kde.org/partitionmanager/)
+  - [KWeather](https://apps.kde.org/kweather/)
+  - [Kate](https://apps.kde.org/kate/)
+  - [Kcalc](https://apps.kde.org/kcalc/)
+  - [Konsole](https://apps.kde.org/konsole/)
+  - [Kontact](https://apps.kde.org/kontact/)
+  - [Okular](https://apps.kde.org/okular/)
+  - [Skanpage](https://apps.kde.org/de/skanpage/)
 
 ## How is this different from a traditional Linux Desktop?
 
-- Aurora takes a [greenfield approach](https://en.wikipedia.org/wiki/Greenfield_project) to Linux applications by defaulting to Flathub and `brew` by default
+- Aurora takes a [greenfield approach](https://en.wikipedia.org/wiki/Greenfield_project) to Linux applications by defaulting to Flathub and `brew`.
 - Aurora recommends using containerized tools - it focuses on [Devcontainers](https://containers.dev) for declarative containerized development. You can use Podman or Docker to run and bootstrap your containers.
 - Aurora _tries_ to remove the need for the user to use `rpm-ostree` or `bootc` directly
 - Aurora focuses on automation of OS services and upgrades instead of user interaction. Upgrades are automatic and silent, so you never have to think about it again.
@@ -66,3 +77,7 @@ You can remove or comment the line below in `/etc/bashrc` to restore the default
 ```bash
 eval "$(starship init bash)"
 ```
+
+## News & Updates
+
+Announcements centered around the project can be found on the [**forums**](https://universal-blue.discourse.group/tags/c/aurora/11/aurora-news/l/latest) that can also be subscribed to from the [**RSS feed**](https://universal-blue.discourse.group/tag/aurora-news.rss). Patch notes for each update can be found in [**Github**](https://github.com/ublue-os/aurora/releases).

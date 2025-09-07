@@ -21,7 +21,6 @@ const sidebars: SidebarsConfig = {
       items: [
         "guides/system-requirements",
         "guides/install-guide",
-        "guides/surface-install-guide",
         "guides/installation-troubleshoot",
         "guides/alternate-install-guide",
       ],
@@ -32,21 +31,18 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
       items: [
         "guides/basic-usage",
-        "guides/start-icon",
+        "guides/release-streams",
         "guides/software",
         "guides/layerapp",
+        "guides/vpn",
         "guides/secondary-drives",
         "guides/gaming",
         "guides/quadlet",
+        "guides/start-icon",
         "guides/rescue-mode",
+        "guides/disable-airplay-discovery",
         "guides/report-issues",
       ],
-    },
-    {
-      type: "category",
-      label: "Aurora LTS",
-      collapsed: false,
-      items: ["lts/introduction"],
     },
     {
       type: "category",
@@ -64,7 +60,23 @@ const sidebars: SidebarsConfig = {
       type: "category",
       label: "Miscellaneous",
       collapsed: false,
-      items: ["guides/credits", "guides/press-kit", "reference/example"],
+      items: ["reference/example", "guides/dino"],
+    },
+    {
+      type: "category",
+      label: "Project Information",
+      collapsed: false,
+      items: [
+        "project-docs/credits",
+        "project-docs/press-kit",
+        "project-docs/coc",
+      ],
+    },
+    {
+      type: "category",
+      label: "Contributing",
+      collapsed: false,
+      items: ["guides/building"],
     },
   ],
 };

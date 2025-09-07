@@ -9,7 +9,7 @@ _Use the robots to your advantage!_
 
 ## Ramalama
 
-[Ramalama](https://github.com/containers/ramalama) is a tool which is included on the developer experience images that makes managing and working with AI models on your local machine super easy and smoooth.
+[Ramalama](https://github.com/containers/ramalama) is a tool which can be installed with the `ujust install-ai-tools` recipe, that makes managing and working with AI models on your local machine super easy and smoooth.
 
 It can pull models from Huggingface, Ollama and other providers without extra configuration or hassle. By default it is pulling its models from the Ollama Model Registry, which you can find here: [Ollama Model Registry](https://ollama.com/search).
 
@@ -30,7 +30,7 @@ ramalama serve deepseek-r1
 If you are on a laptop or other computer with an unsupported CPU but have Vulkan acceleration available (e.g. an iGPU from a Ryzen APU) then you can use the Vulkan-accelerated image to serve models, like so:
 
 ```
-ramalama --image=quay.io/ramalama/ramalama:latest --ngl 999 run llama3.2:3b
+ramalama --image=quay.io/ramalama/ramalama:latest run llama3.2:3b
 ```
 
 It will automatically pull down the needed image and all model files that are needed.
