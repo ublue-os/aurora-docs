@@ -1,0 +1,115 @@
+# GitHub Copilot Coding Agent Environment Configuration
+#
+# This configuration file preinstalls tools and dependencies for the aurora-docs repository
+# to speed up GitHub Copilot coding agent operations. Based on CI workflows and build requirements.
+#
+# Reference: https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/use-copilot-agents/coding-agent/customize-the-agent-environment
+
+# Environment specification
+environment:
+  # Base operating system (consistent with CI)
+  image: ubuntu-latest
+
+  # Required Node.js version (from package.json engines: ">=18.0", recommended 20.19.4+)
+  node: "20"
+
+# Preinstall tools and dependencies
+preinstall:
+  # System packages
+  system:
+    - curl
+    - git
+    - build-essential
+
+  # Language runtimes
+  languages:
+    # Node.js 20.x (primary runtime)
+    - name: nodejs
+      version: "20"
+    # Rust (for typos-cli)
+    - name: rust
+      version: stable
+
+  # Package managers (npm comes with Node.js)
+  package_managers:
+    - npm
+
+  # Additional tools from package registries
+  tools:
+    # Bun package manager (used in CI workflows for faster builds)
+    - name: bun
+      install: |
+        curl -fsSL https://bun.sh/install | bash
+        echo 'export PATH="$HOME/.bun/bin:$PATH"' >> ~/.bashrc
+      timeout: 60
+
+    # typos-cli for spell checking (Rust crate)
+    - name: typos-cli
+      install: cargo install typos-cli
+      timeout: 90
+
+# Project setup
+setup:
+  # Install project dependencies
+  dependencies:
+    # Primary dependency installation (takes ~50-60 seconds)
+    - name: npm-install
+      command: npm install
+      timeout: 120
+
+  # Verify installation
+  verification:
+    - node --version
+    - npm --version
+    - bun --version
+    - typos --version
+
+# Quick reference for common development tasks
+commands:
+  # Build and development
+  build: "npm run build"
+  dev: "npm run start"
+  serve: "npm run serve"
+
+  # Code quality and validation
+  typecheck: "npm run typecheck"
+  format: "npm run prettier"
+  format_check: "npm run prettier-lint"
+  spell_check: "typos --config ./typos.toml ./README.md ./docs"
+
+  # Complete validation pipeline (run before committing)
+  validate: |
+    npm run prettier
+    npm run typecheck
+    npm run build
+    typos --config ./typos.toml ./README.md ./docs
+
+# Project metadata
+project:
+  name: "aurora-docs"
+  description: "Docusaurus TypeScript documentation site for Aurora Linux"
+  type: "documentation"
+
+  # Performance expectations
+  timings:
+    npm_install: "50-60 seconds"
+    build: "5-20 seconds"
+    dev_server_start: "15 seconds"
+
+  # Development server
+  dev_server:
+    url: "http://localhost:3000"
+    hot_reload: true
+
+  # Known issues and warnings (expected during build)
+  known_issues:
+    - "AVIF image warnings are non-critical"
+    - "Broken anchor warnings in rescue-mode docs"
+    - "React peer dependency warnings expected"
+    - "typos-cli false positive 'ba' in local-ai.md"
+
+  # Critical workflow notes
+  warnings:
+    - "NEVER CANCEL npm install (takes up to 60 seconds)"
+    - "NEVER CANCEL cargo install typos-cli (takes up to 90 seconds)"
+    - "Set timeouts to 120+ seconds for npm operations"
