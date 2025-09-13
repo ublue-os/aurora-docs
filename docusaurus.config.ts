@@ -7,7 +7,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "Aurora",
   tagline: "Aurora Documentation Resources",
-  favicon: "img/favicon.svg",
+  favicon: "img/aurora-logo.svg",
 
   url: "https://docs.getaurora.dev/",
   baseUrl: "/",
@@ -75,7 +75,7 @@ const config: Config = {
       title: "Aurora",
       logo: {
         alt: "Aurora Logo",
-        src: "img/favicon.svg",
+        src: "img/aurora-logo.svg",
       },
       items: [
         {
