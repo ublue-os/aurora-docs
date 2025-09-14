@@ -8,18 +8,18 @@ Always reference these instructions first and fallback to search or bash command
 
 ### Bootstrap, build, and test the repository:
 
-- Node.js 18+ is required (v20.19.4+ recommended). Check with `node --version`
-- `npm install` -- takes ~50 seconds. NEVER CANCEL. Set timeout to 120+ seconds.
+- Node.js 18+ is required (v20.19.5+ recommended). Check with `node --version`
+- `npm install` -- takes ~52 seconds. NEVER CANCEL. Set timeout to 120+ seconds.
 - `npm run build` -- takes ~25 seconds. Production build with Docusaurus.
 - `npm run start` -- starts development server on http://localhost:3000 (~15 seconds to start)
 - `npm run serve` -- serves production build on http://localhost:3000 (instant startup)
 
 ### Alternative workflows:
 
-- **Docker**: `docker compose up` -- downloads Node.js image (~2 minutes first time), installs dependencies (~52 seconds) and starts dev server (~8 seconds). NEVER CANCEL during image download.
+- **Docker**: `docker compose up` -- downloads Node.js image (~2 minutes first time), installs dependencies (~9 seconds) and starts dev server (~8 seconds). NEVER CANCEL during image download.
 - **Bun (CI workflow)**:
   - Install: `curl -fsSL https://bun.sh/install | bash && export PATH="$HOME/.bun/bin:$PATH"`
-  - `bun install --frozen-lockfile` -- takes ~3 seconds (without --production flag)
+  - `bun install --frozen-lockfile` -- takes ~34 seconds (without --production flag)
   - `bun run build` -- takes ~26 seconds, same as npm
 
 ### Validation commands (ALWAYS run before committing):
@@ -27,7 +27,7 @@ Always reference these instructions first and fallback to search or bash command
 - `npm run typecheck` -- TypeScript validation (~2 seconds)
 - `npm run prettier` -- auto-format all files (~1.5 seconds)
 - `npm run prettier-lint` -- check formatting without fixing (~1.5 seconds)
-- Typos checking: Install `cargo install typos-cli` (~94 seconds), then `/home/runner/.cargo/bin/typos --config ./typos.toml ./README.md ./docs` (~0.03 seconds)
+- Typos checking: Install `cargo install typos-cli` (~84 seconds), then `/home/runner/.cargo/bin/typos --config ./typos.toml ./README.md ./docs` (~0.03 seconds)
 
 ### NEVER CANCEL warnings:
 
@@ -39,7 +39,7 @@ Always reference these instructions first and fallback to search or bash command
 
 ### Manual testing scenarios:
 
-- ALWAYS test the site functionality after making changes by running `npm run serve` and accessing http://localhost:3001 (or alternative port if 3000 is busy)
+- ALWAYS test the site functionality after making changes by running `npm run serve` and accessing http://localhost:3000 (or alternative port if 3000 is busy)
 - Navigate between documentation sections using the sidebar
 - Test search functionality (Ctrl+K or click search button)
 - Verify all internal links work correctly
