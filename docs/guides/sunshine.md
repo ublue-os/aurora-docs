@@ -57,6 +57,21 @@ Sunshine is included by default in Aurora and provides a web-based configuration
 
 ## Getting Started
 
+### Initial Setup with ujust
+
+Aurora provides a convenient setup command to configure Sunshine with optimal settings:
+
+```bash
+ujust setup-sunshine
+```
+
+This command will:
+
+- Configure Sunshine with recommended settings for Aurora
+- Set up proper firewall rules
+- Enable the Sunshine service
+- Provide initial configuration guidance
+
 ### Installing Moonlight Client
 
 You'll need a Moonlight client on the device you want to stream to:
@@ -69,19 +84,25 @@ You'll need a Moonlight client on the device you want to stream to:
 
 ### First-Time Setup
 
-1. **Access Sunshine Web UI**:
+1. **Run Aurora Setup Command** (recommended):
 
    ```bash
-   # Sunshine should be running by default
+   ujust setup-sunshine
+   ```
+
+2. **Access Sunshine Web UI**:
+
+   ```bash
+   # After running setup-sunshine, or if Sunshine is running by default
    # Open your web browser and go to:
    # https://localhost:47990
    ```
 
-2. **Create Admin Account**:
+3. **Create Admin Account**:
    - On first access, you'll be prompted to create an admin username and password
    - Use a secure password as this controls access to your streaming server
 
-3. **Configure Basic Settings**:
+4. **Configure Basic Settings**:
    - Set your desired streaming resolution and framerate
    - Configure audio settings
    - Set up client authentication
@@ -144,7 +165,7 @@ Working Directory: /home/username
 
 ### Firewall Configuration
 
-Sunshine requires certain ports to be open:
+If you used `ujust setup-sunshine`, the firewall configuration is handled automatically. Otherwise, Sunshine requires certain ports to be open:
 
 ```bash
 # Allow Sunshine through firewall
@@ -238,6 +259,15 @@ nvidia-ml-py3
 ## Managing Sunshine
 
 ### Sunshine Service Control
+
+For initial setup, use the Aurora convenience command:
+
+```bash
+# Complete setup including service enablement
+ujust setup-sunshine
+```
+
+For manual service management:
 
 ```bash
 # Check Sunshine status
