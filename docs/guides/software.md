@@ -46,6 +46,8 @@ While Distrobox can be managed via the command line, there is a graphical applic
 
 [DistroShelf](https://github.com/ranfdev/DistroShelf) is a modern GTK4 application for managing Distrobox containers. It provides an intuitive interface for creating, managing, and accessing your containers.
 
+![DistroShelf Interface](/img/software/distrobox-shelf.png)
+
 - **Installation**: Available as a Flatpak from Flathub
 - **Features**: Create containers from various distributions, manage existing containers, and launch applications directly from containers
 - **Integration**: Included by default in Aurora DX
