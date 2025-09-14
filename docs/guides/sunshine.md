@@ -59,18 +59,20 @@ Sunshine is included by default in Aurora and provides a web-based configuration
 
 ### Initial Setup with ujust
 
-Aurora provides a convenient setup command to configure Sunshine with optimal settings:
+Aurora provides a convenient command to manage the Sunshine service:
 
 ```bash
 ujust setup-sunshine
 ```
 
-This command will:
+This command provides options to:
 
-- Configure Sunshine with recommended settings for Aurora
-- Set up proper firewall rules
-- Enable the Sunshine service
-- Provide initial configuration guidance
+- **Enable** the Sunshine service and start it automatically
+- **Disable** the Sunshine service
+- **Open Portal** to access the web interface at https://localhost:47990
+- **Exit** without making changes
+
+The command will prompt you to choose from these options, or you can specify them directly (e.g., `ujust setup-sunshine enable`).
 
 ### Installing Moonlight Client
 
@@ -84,25 +86,37 @@ You'll need a Moonlight client on the device you want to stream to:
 
 ### First-Time Setup
 
-1. **Run Aurora Setup Command** (recommended):
+1. **Enable Sunshine Service**:
 
    ```bash
-   ujust setup-sunshine
+   ujust setup-sunshine enable
    ```
 
-2. **Access Sunshine Web UI**:
+   Or run `ujust setup-sunshine` and select "Enable" from the menu.
+
+2. **Configure Firewall** (required for network access):
 
    ```bash
-   # After running setup-sunshine, or if Sunshine is running by default
-   # Open your web browser and go to:
-   # https://localhost:47990
+   # Allow Sunshine through firewall
+   sudo firewall-cmd --permanent --add-port=47989/tcp
+   sudo firewall-cmd --permanent --add-port=47990/tcp
+   sudo firewall-cmd --permanent --add-port=48010/tcp
+   sudo firewall-cmd --reload
    ```
 
-3. **Create Admin Account**:
+3. **Access Sunshine Web UI**:
+
+   ```bash
+   # Open the web interface
+   ujust setup-sunshine portal
+   # Or manually navigate to: https://localhost:47990
+   ```
+
+4. **Create Admin Account**:
    - On first access, you'll be prompted to create an admin username and password
    - Use a secure password as this controls access to your streaming server
 
-4. **Configure Basic Settings**:
+5. **Configure Basic Settings**:
    - Set your desired streaming resolution and framerate
    - Configure audio settings
    - Set up client authentication
@@ -165,7 +179,7 @@ Working Directory: /home/username
 
 ### Firewall Configuration
 
-If you used `ujust setup-sunshine`, the firewall configuration is handled automatically. Otherwise, Sunshine requires certain ports to be open:
+The `ujust setup-sunshine` command only manages the service, so you'll need to configure firewall rules manually. Sunshine requires certain ports to be open:
 
 ```bash
 # Allow Sunshine through firewall
@@ -260,14 +274,19 @@ nvidia-ml-py3
 
 ### Sunshine Service Control
 
-For initial setup, use the Aurora convenience command:
+Aurora provides a convenient command for service management:
 
 ```bash
-# Complete setup including service enablement
+# Interactive service management (recommended for beginners)
 ujust setup-sunshine
+
+# Or specify the action directly:
+ujust setup-sunshine enable    # Enable and start the service
+ujust setup-sunshine disable   # Disable and stop the service
+ujust setup-sunshine portal    # Open the web interface
 ```
 
-For manual service management:
+For manual service management using systemctl:
 
 ```bash
 # Check Sunshine status
