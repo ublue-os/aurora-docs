@@ -13,6 +13,13 @@ environment:
   # Required Node.js version (from package.json engines: ">=18.0", recommended 20.19.4+)
   node: "20"
 
+  # Environment variables for optimal development
+  variables:
+    NODE_ENV: "development"
+    DOCUSAURUS_DISABLE_CHUNK_CONCATENATION: "true"
+    FORCE_COLOR: "1"
+    CI: "false"
+
 # Preinstall tools and dependencies
 preinstall:
   # System packages
@@ -41,12 +48,24 @@ preinstall:
       install: |
         curl -fsSL https://bun.sh/install | bash
         echo 'export PATH="$HOME/.bun/bin:$PATH"' >> ~/.bashrc
+        source ~/.bashrc
       timeout: 60
 
     # typos-cli for spell checking (Rust crate)
     - name: typos-cli
-      install: cargo install typos-cli
+      install: |
+        cargo install typos-cli
+        echo "Installed typos-cli for spell checking"
       timeout: 90
+
+    # GitHub CLI for repository management
+    - name: gh-cli
+      install: |
+        curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+        echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+        sudo apt update
+        sudo apt install gh -y
+      timeout: 30
 
 # Project setup
 setup:
@@ -63,6 +82,8 @@ setup:
     - npm --version
     - bun --version
     - typos --version
+    - gh --version
+    - echo "All tools installed successfully"
 
 # Quick reference for common development tasks
 commands:
@@ -83,6 +104,14 @@ commands:
     npm run typecheck
     npm run build
     typos --config ./typos.toml ./README.md ./docs
+
+  # Development shortcuts
+  quick_test: "npm run typecheck && npm run prettier-lint"
+  full_build: "npm run build && npm run serve"
+
+  # Docker workflows
+  docker_dev: "docker compose up"
+  docker_build: "docker compose build"
 
 # Project metadata
 project:
@@ -113,3 +142,25 @@ project:
     - "NEVER CANCEL npm install (takes up to 60 seconds)"
     - "NEVER CANCEL cargo install typos-cli (takes up to 90 seconds)"
     - "Set timeouts to 120+ seconds for npm operations"
+
+# IDE and Editor Configuration
+ide_config:
+  # VS Code settings for optimal development
+  vscode:
+    recommended_extensions:
+      - "esbenp.prettier-vscode"
+      - "bradlc.vscode-tailwindcss"
+      - "ms-vscode.vscode-typescript-next"
+      - "streetsidesoftware.code-spell-checker"
+      - "ms-vscode-remote.remote-containers"
+    settings:
+      "editor.formatOnSave": true
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "typescript.preferences.importModuleSpecifier": "relative"
+
+  # Development container support
+  devcontainer:
+    enabled: true
+    config_path: ".devcontainer/devcontainer.json"
+    features:
+      - "ghcr.io/devcontainers-community/npm-features/prettier:1"
