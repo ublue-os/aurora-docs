@@ -37,6 +37,7 @@ const sidebars: SidebarsConfig = {
         "guides/vpn",
         "guides/secondary-drives",
         "guides/gaming",
+        "guides/sunshine",
         "guides/quadlet",
         "guides/start-icon",
         "guides/rescue-mode",
