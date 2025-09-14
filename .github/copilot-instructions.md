@@ -10,48 +10,53 @@ Always reference these instructions first and fallback to search or bash command
 
 - Node.js 18+ is required (v20.19.4+ recommended). Check with `node --version`
 - `npm install` -- takes ~50 seconds. NEVER CANCEL. Set timeout to 120+ seconds.
-- `npm run build` -- takes ~5 seconds. Production build with Docusaurus.
+- `npm run build` -- takes ~25 seconds. Production build with Docusaurus.
 - `npm run start` -- starts development server on http://localhost:3000 (~15 seconds to start)
 - `npm run serve` -- serves production build on http://localhost:3000 (instant startup)
 
 ### Alternative workflows:
 
-- **Docker**: `docker compose up` -- downloads Node.js image (~2 minutes first time), installs dependencies and starts dev server. NEVER CANCEL during image download.
+- **Docker**: `docker compose up` -- downloads Node.js image (~2 minutes first time), installs dependencies (~52 seconds) and starts dev server (~8 seconds). NEVER CANCEL during image download.
 - **Bun (CI workflow)**:
   - Install: `curl -fsSL https://bun.sh/install | bash && export PATH="$HOME/.bun/bin:$PATH"`
-  - `bun install --frozen-lockfile --production` -- takes ~3 seconds
-  - `bun run build` -- takes ~5 seconds, same as npm
+  - `bun install --frozen-lockfile` -- takes ~3 seconds (without --production flag)
+  - `bun run build` -- takes ~26 seconds, same as npm
 
 ### Validation commands (ALWAYS run before committing):
 
 - `npm run typecheck` -- TypeScript validation (~2 seconds)
 - `npm run prettier` -- auto-format all files (~1.5 seconds)
 - `npm run prettier-lint` -- check formatting without fixing (~1.5 seconds)
-- Typos checking: Install `cargo install typos-cli` (~80 seconds), then `/home/runner/.cargo/bin/typos --config ./typos.toml ./README.md ./docs` (~0.03 seconds)
+- Typos checking: Install `cargo install typos-cli` (~94 seconds), then `/home/runner/.cargo/bin/typos --config ./typos.toml ./README.md ./docs` (~0.03 seconds)
 
 ### NEVER CANCEL warnings:
 
 - NEVER CANCEL `npm install` - takes up to 60 seconds
 - NEVER CANCEL `docker compose up` during image download - takes up to 3 minutes on first run
-- NEVER CANCEL `cargo install typos-cli` - takes up to 90 seconds
+- NEVER CANCEL `cargo install typos-cli` - takes up to 100 seconds
 
 ## Validation
 
 ### Manual testing scenarios:
 
-- ALWAYS test the site functionality after making changes by running `npm run serve` and accessing http://localhost:3000
+- ALWAYS test the site functionality after making changes by running `npm run serve` and accessing http://localhost:3001 (or alternative port if 3000 is busy)
 - Navigate between documentation sections using the sidebar
-- Test search functionality (Ctrl+K)
+- Test search functionality (Ctrl+K or click search button)
 - Verify all internal links work correctly
-- Test responsive design and dark/light mode toggle
+- Test responsive design and dark/light mode toggle (click the theme toggle button)
 - Verify that "Edit this page" links point to correct GitHub files
+- Test code copy buttons in code blocks
+- Navigate through at least 2-3 different documentation pages to ensure routing works
 
 ### End-to-end validation:
 
 - The site must load and display the Aurora homepage at "/"
 - Navigation between sections must work (Installation, User Guides, Developer Experience, etc.)
 - All documentation pages must render properly with correct formatting
-- Search functionality must be accessible and responsive
+- Search functionality must be accessible and responsive (opens overlay when clicked)
+- Dark and light themes must work correctly (toggle button changes themes)
+- External links in footer and header must be accessible
+- "Edit this page" links must point to correct GitHub repository files
 
 ### Always run before committing:
 
@@ -147,3 +152,7 @@ The following are outputs from frequently run commands. Reference them instead o
 ## Port Conflicts
 
 If port 3000 is already in use, Docusaurus will prompt to use an alternative port (typically 3001). Accept this prompt by typing 'Y' when asked.
+
+## Tool-Calling Efficiency
+
+When multiple tools are available, call them simultaneously rather than sequentially for maximum efficiency. This is especially useful when exploring the repository, reading files, viewing directories, or validating changes.
