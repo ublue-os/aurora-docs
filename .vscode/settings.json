@@ -1,0 +1,39 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "files.associations": {
+    "*.md": "markdown"
+  },
+  "markdown.preview.doubleClickToSwitchToEditor": false,
+  "markdown.preview.markEditorSelection": true,
+  "cSpell.words": [
+    "Docusaurus",
+    "Aurora",
+    "ublue",
+    "universalblue",
+    "podman",
+    "cloudnative",
+    "Chandeleer",
+    "devcontainer",
+    "devcontainers"
+  ],
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/build": true,
+    "**/.docusaurus": true,
+    "**/bun.lockb": true,
+    "**/package-lock.json": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": false
+  }
+}
