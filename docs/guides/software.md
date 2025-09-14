@@ -38,6 +38,26 @@ They are commonly used for two different scenarios:
 - Used as a fallback for Linux software that do not have a Flatpak available
 - Development boxes
 
+### GUI Tools for Managing Distrobox
+
+While Distrobox can be managed via the command line, there are several graphical applications that make container management more user-friendly:
+
+#### DistroShelf
+
+[DistroShelf](https://github.com/ranfdev/DistroShelf) is a modern GTK4 application for managing Distrobox containers. It provides an intuitive interface for creating, managing, and accessing your containers.
+
+- **Installation**: Available as a Flatpak from Flathub
+- **Features**: Create containers from various distributions, manage existing containers, and launch applications directly from containers
+- **Integration**: Included by default in Aurora DX
+
+#### BoxBuddy
+
+[BoxBuddy](https://flathub.org/apps/io.github.dvlv.boxbuddy) is another GTK application designed specifically for Distrobox management, offering a clean and simple interface for container operations.
+
+- **Installation**: Available as a Flatpak from Flathub
+- **Features**: Create, delete, and manage Distrobox containers with an easy-to-use graphical interface
+- **Use Case**: Perfect for users who prefer graphical tools over command-line management
+
 ## `rpm-ostree`
 
 > **Note**: It is highly recommended to only use this as a last resort.
