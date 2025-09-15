@@ -1,5 +1,4 @@
 [default.extend-words]
 Chandeleer = "Chandeleer"
-
-[exclude]
-words = ["Pn", "ba"]
+Pn = "Pn"
+ba = "ba"
