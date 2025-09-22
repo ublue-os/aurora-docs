@@ -13,6 +13,8 @@ _Use the robots to your advantage!_
 
 It can pull models from Huggingface, Ollama and other providers without extra configuration or hassle. By default it is pulling its models from the Ollama Model Registry, which you can find here: [Ollama Model Registry](https://ollama.com/search).
 
+Ramalama will probe your system on first run and install the needed support for GPU/iGPUs (for example vulkan / rocm).
+
 Here are some example commands to run models:
 
 ```
@@ -26,14 +28,6 @@ If you want to pull a small Web-UI to use the model rather than the cli, use the
 ```
 ramalama serve deepseek-r1
 ```
-
-If you are on a laptop or other computer with an unsupported CPU but have Vulkan acceleration available (e.g. an iGPU from a Ryzen APU) then you can use the Vulkan-accelerated image to serve models, like so:
-
-```
-ramalama --image=quay.io/ramalama/ramalama:latest run llama3.2:3b
-```
-
-It will automatically pull down the needed image and all model files that are needed.
 
 Models and OCI images of runners are stored in your local podman storage, like the rest of your container images.
 
