@@ -27,8 +27,8 @@ System updates are image-based and automatic. Applications are logically separat
 - [Ptyxis terminal](https://devsuite.app/ptyxis/) for container-focused workflows
   - [DistroShelf](https://github.com/ranfdev/DistroShelf) for container management
 - [Tailscale](https://tailscale.com) + [KTailctl](https://github.com/f-koehler/KTailctl) - included for VPN along with `wireguard-tools`
-- [KDE Discover](https://apps.kde.org/de/discover/) with [Flathub](https://flathub.org):
-  - Use a familiar software center UI to install graphical software
+- [Bazaar](https://github.com/kolunmi/bazaar) for [Flathub](https://flathub.org):
+  - Discover and install graphical applications
   - [Warehouse](https://flathub.org/apps/io.github.flattool.Warehouse) included for flatpak management
 - Quality of Life Features
   - [Starship](https://starship.rs) terminal prompt enabled by default
