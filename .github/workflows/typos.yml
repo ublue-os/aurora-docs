@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
       - name: Check for typos
-        uses: crate-ci/typos@64e4db431eb262bb5c6baa19dce280d78532830c # version 1.0.4
+        uses: crate-ci/typos@90cacd60e824aaf9adff4afa0d6582f52631bc6d # version 1.0.4
         with:
           files: ./README.md ./docs
           config: ./typos.toml
