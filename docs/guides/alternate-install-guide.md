@@ -37,7 +37,7 @@ ujust install-system-flatpaks
 
 # Rebasing from an existing Fedora Kinoite Installation
 
-Fist you might want to permanently save your current deployment:
+First you might want to permanently save your current deployment:
 
 ```
 sudo ostree admin pin 0
