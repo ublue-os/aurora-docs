@@ -16,14 +16,13 @@ Aurora is built with and on [Universal Blue](https://universal-blue.org), which 
 
 - Aurora: Used to refer to this project and the operating system.
 - Aurora DX: Used to refer to the "Developer Experience (-DX)" edition of Aurora.
-- Aurora Helium LTS: this is used to refer to the Long Term Support Release of Aurora.
 
 ### Improper Usage
 
 - AuroraOS - or any addition of "OS" to the name
 - Fedora Aurora - we are not directly related to Fedora and this name implies that. Checkout the [Mission Document](https://universal-blue.org/mission.html) from Universal Blue.
-- Universal Blue Aurora or uBlue Aurora - "Aurora is built with Universal Blue" or "Aurora is a Universal Blue image" is recommended instead.
-- "Immutable Distribution" - Aurora is an operating system, it is neither immutable nor a distribution, it is a custom image based on Fedora or CentOS, depending on the edition.
+- Universal Blue Aurora or uBlue Aurora - "Aurora is built with Universal Blue" or "Aurora is an Universal Blue image" is recommended instead.
+- "Immutable Distribution" - Aurora is an operating system, it is neither immutable nor a distribution, it is a custom image based on Fedora.
 
 ## Artwork
 
