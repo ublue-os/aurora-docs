@@ -70,10 +70,30 @@ Thanks to Ubuntu and Canonical for the [detailed specification](https://discours
 ## Quality of Life Improvements
 
 - [Cockpit](https://cockpit-project.org/) for local and remote management
-- A collection of well-curated monospace fonts
 - [Tailscale](https://universal-blue.discourse.group/t/tailscale-vpn-on-bluefin/290) for VPN
 - [Just](https://github.com/casey/just) task runner for automation tasks
 - `fish` and `zsh` available as optional shells
+
+### Curated Monospace Fonts
+
+Aurora DX includes a well-curated collection of monospace fonts:
+
+| Name                                                                                      | Description                                       |
+| ----------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| [caskaydia-mono-nerd-font](https://formulae.brew.sh/cask/font-caskaydia-mono-nerd-font)   | Cascadia Code with Nerd Font icons                |
+| [droid-sans-mono-nerd-font](https://formulae.brew.sh/cask/font-droid-sans-mono-nerd-font) | Droid Sans Mono with Nerd Font icons              |
+| [go-mono-nerd-font](https://formulae.brew.sh/cask/font-go-mono-nerd-font)                 | Go Mono with Nerd Font icons                      |
+| [blex-mono-nerd-font](https://formulae.brew.sh/cask/font-blex-mono-nerd-font)             | IBM Plex Mono with Nerd Font icons                |
+| [open-dyslexic](https://formulae.brew.sh/cask/font-open-dyslexic)                         | Font designed for dyslexia and readability        |
+| [sauce-code-pro-nerd-font](https://formulae.brew.sh/cask/font-sauce-code-pro-nerd-font)   | Source Code Pro with Nerd Font icons              |
+| [source-code-pro](https://formulae.brew.sh/cask/font-source-code-pro)                     | Monospaced font family from Adobe                 |
+| [ubuntu-nerd-font](https://formulae.brew.sh/cask/font-ubuntu-nerd-font)                   | Ubuntu font family with Nerd Font icons           |
+| [fira-code-nerd-font](https://formulae.brew.sh/cask/font-fira-code-nerd-font)             | Fira Code with Nerd Font icons and ligatures      |
+| [monaspice-nerd-font](https://formulae.brew.sh/cask/font-monaspice-nerd-font)             | Monaspace with Nerd Font icons                    |
+| [symbols-only-nerd-font](https://formulae.brew.sh/cask/font-symbols-only-nerd-font)       | Nerd Font icons only                              |
+| [cascadia-code-nf](https://formulae.brew.sh/cask/font-cascadia-code-nf)                   | Microsoft's Cascadia Code with Nerd Font icons    |
+| [intel-one-mono](https://formulae.brew.sh/cask/font-intel-one-mono)                       | Intel's monospace font for developers             |
+| [inter](https://formulae.brew.sh/cask/font-inter)                                         | A highly readable font family for user interfaces |
 
 ### Pet Containers
 
