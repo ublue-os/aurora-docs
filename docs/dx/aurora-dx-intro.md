@@ -70,10 +70,13 @@ Thanks to Ubuntu and Canonical for the [detailed specification](https://discours
 ## Quality of Life Improvements
 
 - [Cockpit](https://cockpit-project.org/) for local and remote management
-- A collection of well-curated monospace fonts
 - [Tailscale](https://universal-blue.discourse.group/t/tailscale-vpn-on-bluefin/290) for VPN
 - [Just](https://github.com/casey/just) task runner for automation tasks
 - `fish` and `zsh` available as optional shells
+
+### Fonts
+
+Aurora DX includes a collection of well-curated monospace fonts. Additional fonts can be added with Homebrew from the [font cask repository](https://formulae.brew.sh/cask-font/). You can also install [Microsoft fonts](https://github.com/colindean/homebrew-fonts-nonfree) if needed.
 
 ### Pet Containers
 

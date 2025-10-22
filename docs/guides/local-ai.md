@@ -7,6 +7,20 @@ Aurora fully supports local AI workflows using both Nvidia and AMD GPUs. Acceler
 
 _Use the robots to your advantage!_
 
+## AI Tools
+
+The `ujust install-ai-tools` command installs the following AI tools via Homebrew:
+
+| Name                                                                | Description                                |
+| ------------------------------------------------------------------- | ------------------------------------------ |
+| [aichat](https://formulae.brew.sh/formula/aichat)                   | All-in-one AI-powered CLI chat and copilot |
+| [block-goose-cli](https://formulae.brew.sh/formula/block-goose-cli) | CLI for Goose - an AI developer agent      |
+| [clio](https://formulae.brew.sh/formula/clio)                       | AI assistant for the command line          |
+| [codex](https://formulae.brew.sh/cask/codex)                        | AI-powered code completion and chat        |
+| [gemini-cli](https://formulae.brew.sh/formula/gemini-cli)           | Command-line interface for Google Gemini   |
+| [mods](https://formulae.brew.sh/formula/mods)                       | AI on the command line                     |
+| [ramalama](https://formulae.brew.sh/formula/ramalama)               | Tool for managing and running AI models    |
+
 ## Ramalama
 
 [Ramalama](https://github.com/containers/ramalama) is a tool which can be installed with the `ujust install-ai-tools` recipe, that makes managing and working with AI models on your local machine super easy and smoooth.
