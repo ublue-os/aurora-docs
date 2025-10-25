@@ -29,7 +29,6 @@ Despite not being primarily a gaming-focused image, you can still run video game
 
 - [Heroic Games Launcher](https://flathub.org/en/apps/com.heroicgameslauncher.hgl)
 
-
 Other utilities that might be useful:
 
 - Essential Vulkan runtimes and tools ([Gamescope](https://github.com/ValveSoftware/gamescope), [MangoHud](https://github.com/flightlessmango/MangoHud), [OBS VKCapture](https://github.com/nowrep/obs-vkcapture))
