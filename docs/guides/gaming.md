@@ -19,20 +19,18 @@ Before starting with gaming on Aurora, ensure you have:
 
 Despite not being primarily a gaming-focused image, you can still run video games at _nearly_ the same performance as nearly any other Linux operating system out there. Aurora supports gaming through various methods including Flatpak Steam, Lutris, and containerized gaming environments. This guide will help you set up a casual gaming environment through flatpaks.
 
-## Quick Install Gaming Tools
+## Gaming Tools
 
-The fastest way to get started with gaming is to install all necessary gaming Flatpaks and dependencies using:
+![bazaar-gaming-category](/img/software/bazaar-gaming-section.webp)
 
-```command
-ujust install-gaming-flatpaks
-```
+- [Steam](https://flathub.org/en/apps/com.valvesoftware.Steam)
 
-This command will install:
+- [Lutris](https://flathub.org/en/apps/net.lutris.Lutris)
 
-- [Steam](https://store.steampowered.com/about/)
-- [Lutris](https://lutris.net/)
-- [Heroic Games Launcher](https://heroicgameslauncher.com/)
-- [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/)
+- [Heroic Games Launcher](https://flathub.org/en/apps/com.heroicgameslauncher.hgl)
+
+Other utilities that might be useful:
+
 - Essential Vulkan runtimes and tools ([Gamescope](https://github.com/ValveSoftware/gamescope), [MangoHud](https://github.com/flightlessmango/MangoHud), [OBS VKCapture](https://github.com/nowrep/obs-vkcapture))
 
 Steam through Flatpak provides several advantages:
@@ -59,22 +57,13 @@ sudo bootc switch --enforce-container-sigpolicy ghcr.io/ublue-os/bazzite:stable
 
 ## Recommendations
 
-1. **Casual Gaming**: Use Flatpak Steam and gaming tools installed through `ujust install-gaming-flatpaks`
+1. **Casual Gaming**: Use Flatpak Steam and gaming tools installed from Bazaar
 2. **Gaming Focus**: Switch to full Bazzite installation for the best gaming experience
 
 ## Tools and Performance Monitoring
 
-The `ujust install-gaming-flatpaks` command installs several useful gaming tools and runtimes:
-
-1. Gaming Platforms:
-   - Steam
-   - Heroic Games Launcher
-   - Lutris
-   - ProtonUp-Qt
-
-2. Performance Tools:
-   - Gamescope Vulkan Layer
-   - OBS VKCapture for recording
+- [Gamescope Vulkan Layer](https://flathub.org/en/apps/org.freedesktop.Platform.VulkanLayer.gamescope)
+- [OBS VKCapture for recording](https://flathub.org/en/apps/org.freedesktop.Platform.VulkanLayer.OBSVkCapture)
 
 ## Managing Multiple Gaming Platforms
 
