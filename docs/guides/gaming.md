@@ -48,6 +48,8 @@ View the [Steam Flatpak Github Wiki](https://github.com/flathub/com.valvesoftwar
 
 **Note**: Make sure you are not rebasing to a GNOME image of Bazzite as rebasing to a different Desktop Environment is not supported.
 
+**Note**: Bazzite [blocklists](https://github.com/ublue-os/bazzite/blob/d67570f37329e20d26869648cfa759c10bfc667f/system_files/desktop/shared/usr/share/ublue-os/flatpak-blocklist) applications like Flatpak Steam, you will have to undo that with `flatpak remote-modify --system --no-filter flathub`
+
 [Pick the correct Bazzite image](https://bazzite.gg/#image-picker) and insert it in the bootc command below, you don't have to download any ISOs or reinstall for this:
 
 ```
