@@ -45,16 +45,15 @@ const config: Config = {
           customCss: "./src/css/custom.css",
         },
         blog: {
-        showReadingTime: true,
-        feedOptions: {
-          type: ['rss', 'atom'],
-          xslt: true,
+          showReadingTime: true,
+          feedOptions: {
+            type: ["rss", "atom"],
+            xslt: true,
+          },
+          editUrl: "https://github.com/ublue-os/aurora-docs/tree/main/",
+          // Recommended: Remove onInlineTags/onInlineAuthors if present
         },
-        editUrl: 'https://github.com/ublue-os/aurora-docs/tree/main/',
-        // Recommended: Remove onInlineTags/onInlineAuthors if present
-      },
       } satisfies Preset.Options,
-
     ],
   ],
 
@@ -115,8 +114,10 @@ const config: Config = {
           position: "right",
         },
         {
-          to: 'blog', label: 'Blog', position: 'left', // or position: 'right'
-        }
+          to: "blog",
+          label: "Blog",
+          position: "left", // or position: 'right'
+        },
       ],
     },
     footer: {
