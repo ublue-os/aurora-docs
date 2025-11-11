@@ -45,19 +45,18 @@ const config: Config = {
           customCss: "./src/css/custom.css",
         },
         blog: {
-        showReadingTime: true,
-        feedOptions: {
-          type: ['rss', 'atom'],
-          xslt: true,
-          title: 'Aurora Blog',
-          description: 'Updates and announcements from the Aurora project',
-          copyright: `Copyright © ${new Date().getFullYear()} Aurora and Universal Blue`,
-          language: 'en',
+          showReadingTime: true,
+          feedOptions: {
+            type: ["rss", "atom"],
+            xslt: true,
+            title: "Aurora Blog",
+            description: "Updates and announcements from the Aurora project",
+            copyright: `Copyright © ${new Date().getFullYear()} Aurora and Universal Blue`,
+            language: "en",
+          },
+          editUrl: "https://github.com/ublue-os/aurora-docs/tree/main/",
         },
-        editUrl: 'https://github.com/ublue-os/aurora-docs/tree/main/',
-      },
       } satisfies Preset.Options,
-
     ],
   ],
 
@@ -118,8 +117,10 @@ const config: Config = {
           position: "right",
         },
         {
-          to: 'blog', label: 'Blog', position: 'left', // or position: 'right'
-        }
+          to: "blog",
+          label: "Blog",
+          position: "left", // or position: 'right'
+        },
       ],
     },
     footer: {
