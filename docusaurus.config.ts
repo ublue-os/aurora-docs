@@ -49,9 +49,12 @@ const config: Config = {
         feedOptions: {
           type: ['rss', 'atom'],
           xslt: true,
+          title: 'Aurora Blog',
+          description: 'Updates and announcements from the Aurora project',
+          copyright: `Copyright © ${new Date().getFullYear()} Aurora and Universal Blue`,
+          language: 'en',
         },
         editUrl: 'https://github.com/ublue-os/aurora-docs/tree/main/',
-        // Recommended: Remove onInlineTags/onInlineAuthors if present
       },
       } satisfies Preset.Options,
 
