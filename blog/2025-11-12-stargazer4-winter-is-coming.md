@@ -4,6 +4,7 @@ description: Stable F43 builds
 slug: stargazer-4
 authors: inffy
 ---
+![stargazer4-banner](https://github.com/user-attachments/assets/f36f5e8e-2b5d-4ef1-bb97-97da0d62e185)
 
 A couple of weeks have went by from our [last update](https://universal-blue.discourse.group/t/stargazer-3-aurora-october-update/10911/). And Winter is indeed coming, atleast here in the North :smile:
 
