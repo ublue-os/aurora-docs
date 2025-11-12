@@ -48,8 +48,9 @@ We will have a new tool created called [eol-rebaser](https://github.com/ledif/eo
 
 The tool itself will ship with an upcoming update, but it will be configured to perform the automated rebase 1 month after the images become end-of-life to allow plenty of time for users to manually intervene if they wish to rebase to a different OS (maybe Bazzite!).
 
-### vfio & kvmfr 
+### vfio & kvmfr
 We have also removed the kvmfr module and the vfio ujust scripts. These were removed from our akmods repo when Bazzite moved to building them on their own infra.
+These are also in "stale" state currently and Hikari is working on a new version of these, so they might come back if we deem them to be important (we are not making any promises though).
 
 Someone from the community made [this custom image](https://github.com/dmhuisma/aurora-dmhuisma) for themselves that adds this functionality back. If you are interested then you might want to get in touch with them.
 
@@ -57,6 +58,8 @@ If you need these, we recommend you go with a custom image with these added, or 
 
 ## Font changes
 We have also made changes for font handling. Before we had few packages for fonts in the image, which are now removed. We recommend to get fonts from Brew going forward.
+
+You can use our recipe to get the fonts: `ujust aurora-fonts`
 
 ## Live ISOs with the new WebUI in BETA now
 (if this is ready )
