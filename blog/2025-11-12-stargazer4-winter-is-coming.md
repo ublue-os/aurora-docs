@@ -20,7 +20,7 @@ KDE Plasma 6.5 also finally reached our stable images. People on daily images ha
 Check out their [extensive changelog](https://kde.org/announcements/changelogs/plasma/6/6.4.5-6.5.0/).
 
 We also have a new fall wallpaper
-![Yes we are very funny now by showing a fall wallpaper](upload://nMRDogG4TaFnsqLINFFq5UQAZJv.jpeg)
+![Yes we are very funny now by showing a fall wallpaper](https://i.imgur.com/WY1eoLx.jpeg)
 
 ## Refactoring the build pipeline
 
