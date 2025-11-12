@@ -10,6 +10,7 @@ A couple of weeks have went by from our [last update](https://universal-blue.dis
 <!-- truncate -->
 
 ## Fedora 43 based images are now available
+
 `Aurora-stable` has today been updated and is now based on Fedora 43.
 
 Fedora 43 is a "minor" update and doesn't bring many big updates in itself but we have still done some backend work on the Aurora side. Changes are mostly uninvasive and just to make our source more light and easier to manage.
@@ -22,9 +23,11 @@ We also have a new fall wallpaper
 ![Yes we are very funny now by showing a fall wallpaper](upload://nMRDogG4TaFnsqLINFFq5UQAZJv.jpeg)
 
 ## Refactoring the build pipeline
+
 Most of the work this cycle has been to our build pipeline. We have made some cleanup how we build our images. The work is mostly done but there are some small things that we still need to do, but this is mostly backend stuff so won't really show up for end users.
 
 ## Bazaar changes
+
 As we mentioned in our [last update](https://universal-blue.discourse.group/t/stargazer-3-aurora-october-update/10911/), one of the biggest changes is regarding Bazaar, the Flathub appstore.
 
 We have now fully moved to the Flatpak version of Bazaar, which provides us more frequent updates as it is now decoupled from the image. Furthermore it is now easier to help upstream to get issues fixed for everyone.
@@ -40,6 +43,7 @@ Nevertheless, if you notice any issues feel free to reach out to us. Thanks!
 We replaced [InputLeap](https://flathub.org/en/apps/io.github.input_leap.input-leap) with [Deskflow](https://flathub.org/en/apps/org.deskflow.deskflow) as it is more actively developed and is therefore better suited for our default set of applications.
 
 ## Goodbye to nvidia-legacy and HWE
+
 As we progress and grow there are somethings that have to be deprecated and as stated [previously this year](https://universal-blue.discourse.group/t/aurora-stable-is-now-based-on-fedora-42/8463#p-22443-deprecation-notices-5), the old "nvidia-legacy" images (`aurora-nvidia*`) and all HWE images (`aurora-hwe*`) are now deprecated and won't receive any more updates.
 
 Depending on your hardware we recommend you to rebase to the -nvidia-open images (for current nvidia users - only Turing cards and newer) or to the base images (HWE users).
@@ -49,6 +53,7 @@ We will have a new tool created called [eol-rebaser](https://github.com/ledif/eo
 The tool itself will ship with an upcoming update, but it will be configured to perform the automated rebase 1 month after the images become end-of-life to allow plenty of time for users to manually intervene if they wish to rebase to a different OS (maybe Bazzite!).
 
 ### vfio & kvmfr
+
 We have also removed the kvmfr module and the vfio ujust scripts. These were removed from our akmods repo when Bazzite moved to building them on their own infra.
 These are also in "stale" state currently and Hikari is working on a new version of these, so they might come back if we deem them to be important (we are not making any promises though).
 
@@ -57,6 +62,7 @@ Someone from the community made [this custom image](https://github.com/dmhuisma/
 If you need these, we recommend you go with a custom image with these added, or rebase to Bazzite as that will keep supports them.
 
 ## Font changes
+
 We have also made changes for font handling. Before we had few packages for fonts in the image, which are now removed. We recommend to get fonts from Brew going forward.
 
 You can use our recipe to get the fonts: `ujust aurora-fonts`
@@ -75,6 +81,7 @@ Next up we are planning on looking at implementing the new "plasma-welcome" feat
 ![image](upload://AoXJPzbW9q5k8W5N5u7t7Y7gHeA.png)
 
 ## Closing words
+
 We hope you enjoy your new shiny F43 based images. If you find bugs or issues, please always report them to our Github repo: https://github.com/ublue-os/aurora/issues
 
 It doesn't matter how small they are. If you think there is an issue, let us know. Also if you think you have a good idea for a feature or enhancement for a current feature, report it there as well.
