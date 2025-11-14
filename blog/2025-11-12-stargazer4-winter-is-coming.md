@@ -13,7 +13,7 @@ A couple of weeks have went by from our [last update](https://universal-blue.dis
 
 ## Fedora 43 based images are now available
 
-`Aurora-stable` has today been updated and is now based on Fedora 43.
+`Aurora-stable` has today been updated and is now based on Fedora 43. Unfortunately this time the update took a little longer than we would have hoped, but we had to wait for ZFS to get support for the new 6.17 kernel series.
 
 Fedora 43 is a "minor" update and doesn't bring many big updates in itself but we have still done some backend work on the Aurora side. Changes are mostly uninvasive and just to make our source more light and easier to manage.
 
