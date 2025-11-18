@@ -1,5 +1,5 @@
 ---
-title: Stargazer #4 - Winter is coming (and F43 hits stable)
+title: Stargazer 4 - Winter is coming (and F43 hits stable)
 description: Stable F43 builds
 slug: stargazer-4
 authors: inffy
