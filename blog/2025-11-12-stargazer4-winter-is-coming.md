@@ -89,4 +89,3 @@ It doesn't matter how small they are. If you think there is an issue, let us kno
 [@chandeleer](https://ko-fi.com/chandeleer) and [@kolunmi](https://ko-fi.com/kolunmi) have been doing spectacular work on the wallpapers and Bazaar for the past few months.
 
 Please consider donating to both of them and of course all the [other projects](https://docs.getaurora.dev/project-docs/credits/#upstream-projects-included-in-aurora)!
-
