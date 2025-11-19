@@ -76,7 +76,6 @@ We will have these available shortly in BETA. We hope you test drive these and g
 
 These new ISO images should make the install part more faster and it looks nicer too :smile:. Oh and they should be a little bit smaller in size as well :thumbsup:.
 
-
 ## Growth
 
 ![image](upload://AoXJPzbW9q5k8W5N5u7t7Y7gHeA.png)
