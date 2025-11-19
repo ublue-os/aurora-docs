@@ -69,14 +69,13 @@ We have also made changes for font handling. Before we had few packages for font
 
 You can use our recipe to get the fonts: `ujust aurora-fonts`
 
-## Live ISOs with the new WebUI in BETA now
+## Live ISOs with the new WebUI in BETA
 
 With Fedora 43 we finally can build our Live ISO installer with the new Anaconda WebUI and have a working webUI installer in KDE Plasma. Previously there were issues with keyboard layout that couldn't be switched from US layout, which then caused issues with LUKS passwords for non-US layout users.
 We will have these available shortly in BETA. We hope you test drive these and give us feedback so we can start using these as our default installer ISOs.
 
 These new ISO images should make the install part more faster and it looks nicer too :smile:. Oh and they should be a little bit smaller in size as well :thumbsup:.
 
-Next up we are planning on looking at implementing the new "plasma-welcome" feature where you can create your user during the first-boot after installation. Just like Gnome has done this for years already.
 
 ## Growth
 
