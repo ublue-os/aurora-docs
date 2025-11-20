@@ -72,7 +72,11 @@ You can use our recipe to get the fonts: `ujust aurora-fonts`
 With Fedora 43 we finally can build our Live ISO installer with the new Anaconda WebUI and have a working webUI installer in KDE Plasma. Previously there were issues with keyboard layout that couldn't be switched from US layout, which then caused issues with LUKS passwords for non-US layout users.
 We will have these available shortly in BETA. We hope you test drive these and give us feedback so we can start using these as our default installer ISOs.
 
-These new ISO images should make the install part more faster and it looks nicer too :smile:. Oh and they should be a little bit smaller in size as well.
+These new ISO images should make the install part more faster and it looks nicer too. Oh and they should be a little bit smaller in size as well.
+
+Download the WebUI ISO:
+[Intel/AMD](https://dl.getaurora.dev/aurora-stable-webui-x86_64.iso)
+[Nvidia-open](https://dl.getaurora.dev/aurora-nvidia-open-stable-webui-x86_64.iso)
 
 ## Growth
 
