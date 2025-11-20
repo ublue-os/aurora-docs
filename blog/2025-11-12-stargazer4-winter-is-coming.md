@@ -75,7 +75,9 @@ We will have these available shortly in BETA. We hope you test drive these and g
 These new ISO images should make the install part more faster and it looks nicer too. Oh and they should be a little bit smaller in size as well.
 
 Download the WebUI ISO:
+
 [Intel/AMD](https://dl.getaurora.dev/aurora-stable-webui-x86_64.iso)
+
 [Nvidia-open](https://dl.getaurora.dev/aurora-nvidia-open-stable-webui-x86_64.iso)
 
 ## Growth
