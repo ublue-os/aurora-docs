@@ -55,4 +55,5 @@ After that you can start right from step 3 above.
 
 If you want to rebase from a Bazzite-KDE Installation to Aurora, you can just skip steps 1-3 and grab a command with your desired image from step 4, from the installation guide above.
 
+**Note**: Bazzite [blocklists](https://github.com/ublue-os/bazzite/blob/d67570f37329e20d26869648cfa759c10bfc667f/system_files/desktop/shared/usr/share/ublue-os/flatpak-blocklist) applications like Flatpak Steam, you will have to undo that with `flatpak remote-modify --system --no-filter flathub` on Aurora.
 **NOTE:** Do not rebase from a Gnome-based image to Aurora or back!
