@@ -8,7 +8,7 @@ description: How to setup a local Kubernetes cluster on Aurora-DX
 Setting up a local Kubernetes cluster requires one terminal command:
 
 ```bash
-ujust install-k8s-dev-tools
+ujust aurora-k8s
 ```
 
 This command installs a variety of tools including:
