@@ -5,7 +5,7 @@ description: How to install software on Aurora
 
 ## Flatpak
 
-[Flatpak](https://flatpak.org) is the primary package method for graphical applications. By default, the [Flathub](https://www.flathub.org) remote is used which contains several popular applications to install from. Install Flatpaks with the **Discover** application.
+[Flatpak](https://flatpak.org) is the primary package method for graphical applications. By default, the [Flathub](https://www.flathub.org) remote is used which contains several popular applications to install from. Install Flatpaks with the **Bazaar** application.
 
 ## Homebrew
 
