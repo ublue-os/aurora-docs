@@ -25,6 +25,8 @@ So coming next week to stable (`stable-daily` and `latest` are already enjoying 
 
 The idea here is that our ujust recipes, brew files and project artwork can be much more easily managed. From now on, we don't have to upkeep "a copy" of ujust recipes in our own repos, we can just streamline this and pull them from Bluefin.
 
+Also all of the artwork from both projects can be now found in the [artwork repo](https://github.com/ublue-os/artwork/). More info and installation instructions can be found [here](https://docs.projectbluefin.io/blog/huntress-holiday-wallpapers).
+
 Same thing with Homebrew, the common brewfiles that we would still use are maintained in the Bluefin repo and we pull them from there. So there is just one common place where we can maintain these and don't need to copy them over to our own files.
 
 ## Easier Homebrew installation for custom images
