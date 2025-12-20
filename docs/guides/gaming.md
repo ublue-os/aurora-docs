@@ -9,8 +9,7 @@ Before starting with gaming on Aurora, ensure you have:
 
 1. The correct Aurora image for your system:
    - `aurora:stable` for Intel/AMD GPU systems
-   - `aurora-nvidia:stable` for NVIDIA GPU systems (older proprietary Nvidia driver)
-   - `aurora-nvidia-open:stable` for newer (Turing+ / 16XX+) Nvidia cards supported by the new open driver
+   - `aurora-nvidia-open:stable` for newer (Turing+ / 16XX+) cards supported by NVIDIA's open driver
 
 2. Enough storage space for games
 3. A stable internet connection for downloads
