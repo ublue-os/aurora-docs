@@ -107,7 +107,7 @@ const config: Config = {
           position: "right",
         },
         {
-          href: "https://discord.gg/WEu6BdFEtp",
+          href: "https://discord.getaurora.dev",
           label: "Feedback",
           position: "right",
         },
@@ -152,7 +152,7 @@ const config: Config = {
             },
             {
               label: "Discord",
-              href: "https://discord.gg/z4TPpSVbxX",
+              href: "https://discord.getaurora.dev",
             },
             {
               label: "Forum",
