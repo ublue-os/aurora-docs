@@ -65,6 +65,8 @@ Thanks to Ubuntu and Canonical for the [detailed specification](https://discours
 
 Aurora DX includes a collection of well-curated monospace fonts. Additional fonts can be added with Homebrew from the [font cask repository](https://formulae.brew.sh/cask-font/). You can also install [Microsoft fonts](https://github.com/colindean/homebrew-fonts-nonfree) if needed.
 
+Just launch `ujust bbrew` and select "fonts" from the list.
+
 ### Pet Containers
 
 Pet containers are available as interactive terminals via [distrobox](https://distrobox.it/). Manage these via the included [DistroShelf](https://github.com/ranfdev/DistroShelf) application.
