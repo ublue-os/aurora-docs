@@ -31,6 +31,7 @@ These downsides include:
 - More storage will be used despite the package being removed
 
 ## Using `ujust` in Aurora
+
 [just](https://just.systems) is used as a task runner on Aurora. These are commonly community convenience aliases, or more complex scripts that help automate some tasks or initial setup. This is aliased as `ujust`, so that you can use `just` itself for your other projects.
 
 ### Getting Started with ujust
@@ -43,14 +44,15 @@ These downsides include:
 Pro tip, keep your own tasks and aliases in `~/.Justfile`, and they are also handy to put in the root of your project files to automate common tasks, check out this example from [Fedora Kinoite](https://gitlab.com/fedora/ostree/ci-test/-/blob/main/justfile?ref_type=heads).
 
 :::
+
 ### Curated Tool Bundles
 
 Aurora includes curated CLI tools shared as Brewfiles. These commands install curated collections of tools via Homebrew:
 
-| Command             | Description                                                                                                                 |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Command            | Description                                                                                                                 |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------- |
 | `ujust aurora-cli` | Modern CLI tools: atuin, bat, chezmoi, direnv, eza, fd, gh, glab, ripgrep, starship, tealdeer, television, zoxide, and more |
-| `ujust bbrew`       | Launch [Bold Brew](https://bold-brew.com/) to select Brewfile bundles                                                       |
+| `ujust bbrew`      | Launch [Bold Brew](https://bold-brew.com/) to select Brewfile bundles                                                       |
 
 ### System Commands
 
@@ -76,21 +78,21 @@ Aurora includes curated CLI tools shared as Brewfiles. These commands install cu
 
 ### Developer Experience Commands
 
-| Command                | Description                                                                                                                    |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| `ujust devmode`        | Toggle between Aurora and the Developer Experience (Aurora-dx)                                                               |
-| `ujust dx-group`       | Add your user to docker, incus-admin, libvirt, and dialout groups for full developer access                                    |
-| `ujust aurora-cli`    | Install Aurora's curated command line experience with modern tools (atuin, bat, eza, fd, ripgrep, starship, zoxide, and more) |
-| `ujust toggle-devmode` | Alias for `ujust devmode`                                                                                                      |
+| Command                | Description                                                                                                                   |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `ujust devmode`        | Toggle between Aurora and the Developer Experience (Aurora-dx)                                                                |
+| `ujust dx-group`       | Add your user to docker, incus-admin, libvirt, and dialout groups for full developer access                                   |
+| `ujust aurora-cli`     | Install Aurora's curated command line experience with modern tools (atuin, bat, eza, fd, ripgrep, starship, zoxide, and more) |
+| `ujust toggle-devmode` | Alias for `ujust devmode`                                                                                                     |
 
 ### Application Installation Commands
 
-| Command                               | Description                                                                                                                            |
-| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| `ujust jetbrains-toolbox`             | Install [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/) for managing JetBrains IDEs                                        |
-| `ujust install-opentabletdriver`      | Install or uninstall [OpenTabletDriver](https://opentabletdriver.net/), an open source tablet driver                                   |
-| `ujust install-system-flatpaks`       | Install the default system flatpaks (useful after rebasing)                                                                            |
-| `ujust cncf`                          | Launch Bold Brew with the CNCF tools Brewfile for cloud native development tools                                                       |
+| Command                          | Description                                                                                          |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `ujust jetbrains-toolbox`        | Install [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/) for managing JetBrains IDEs      |
+| `ujust install-opentabletdriver` | Install or uninstall [OpenTabletDriver](https://opentabletdriver.net/), an open source tablet driver |
+| `ujust install-system-flatpaks`  | Install the default system flatpaks (useful after rebasing)                                          |
+| `ujust cncf`                     | Launch Bold Brew with the CNCF tools Brewfile for cloud native development tools                     |
 
 Note that generally speaking Aurora tries to keep the system Justfiles finely scoped, most of these are workarounds and not full-fledged commands. They may get removed or changed depending on the problem they were initially meant to solve.
 
