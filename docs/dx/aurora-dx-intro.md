@@ -110,12 +110,36 @@ The JetBrains blog also has more information on JetBrains Dev Containers support
 
 `ujust bbrew` and select `k8s-tools` to get started:
 
-- [kind](https://kind.sigs.k8s.io/) - Run a Kubernetes cluster on your machine. Run `kind create cluster` on the host to get started!
-- [kubectl](https://kubernetes.io/docs/reference/kubectl/) - Administer Kubernetes Clusters
-- [k9s](https://k9scli.io/) and [kubectx](https://github.com/ahmetb/kubectx)
-- [Dagger](https://dagger.io/) - an open-source runtime for composable workflows. This is a powerful tool that is a perfect match for Aurora systems. (aka people are talking about this one.)
 
-If you feel there's a tool that should be included by default, send a PR [to this file](https://github.com/ublue-os/packages/blob/main/packages/aurora/schemas/usr/share/ublue-os/homebrew/kubernetes.Brewfile). But let's not overdo it.
+| Name                                                | Description                                                                                                      |
+
+| --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+
+| [cdk8s](https://formulae.brew.sh/formula/cdk8s)     | Defines Kubernetes applications and reusable abstractions using familiar programming languages.                  |
+
+| [k0sctl](https://formulae.brew.sh/formula/k0sctl)   | A command-line tool for bootstrapping and managing k0s Kubernetes clusters.                                      |
+
+| [k3sup](https://formulae.brew.sh/formula/k3sup)     | A light-weight utility to install k3s on any local or remote VM.                                                 |
+
+| [kind](https://formulae.brew.sh/formula/kind)       | A tool for running local Kubernetes clusters using Docker container “nodes”.                                     |
+
+| [dagger](https://formulae.brew.sh/formula/dagger)   | A portable devkit for CI/CD pipelines.                                                                           |
+
+| [grype](https://formulae.brew.sh/formula/grype)     | A vulnerability scanner for container images and filesystems.                                                    |
+
+| [helm](https://formulae.brew.sh/formula/helm)       | The package manager for Kubernetes.                                                                              |
+
+| [kubectl](https://formulae.brew.sh/formula/kubectl) | The Kubernetes command-line tool, allows you to run commands against Kubernetes clusters.                        |
+
+| [k9s](https://formulae.brew.sh/formula/k9s)         | Provides a terminal UI to interact with your Kubernetes clusters.                                                |
+
+| [kubectx](https://formulae.brew.sh/formula/kubectx) | A tool to switch between contexts (clusters) on kubectl faster.                                                  |
+
+| [pack](https://formulae.brew.sh/formula/pack)       | A CLI tool to build apps using Cloud Native Buildpacks.                                                          |
+
+| [syft](https://formulae.brew.sh/formula/syft)       | A CLI tool and library for generating a Software Bill of Materials (SBOM) from container images and filesystems. |
+
+
 
 ## Ramalama and other AI tools
 
@@ -125,3 +149,7 @@ If you feel there's a tool that should be included by default, send a PR [to thi
 
 - [virt-manager](https://virt-manager.org/) and associated tooling (KVM, qemu)
 - [Incus](https://linuxcontainers.org/incus/) provides system containers
+
+### CNCF Tools
+
+For access to the full suite of [Cloud Native Computing Foundation](https://l.cncf.io) tools, use `ujust cncf` to browse and install from an extensive collection of 89 CNCF projects including graduated, incubating, and sandbox tools. This includes Argo, Cilium, Envoy, Flux, Istio, Linkerd, Prometheus, and many more.
