@@ -11,6 +11,7 @@ description: The people behind Aurora.
 - [Juha Uotila](https://github.com/inffy)
 - [renner](https://github.com/renner0e)
 - [dreamyukii](https://github.com/dreamyukii)
+- [James Reilly](https://github.com/hanthor) 
 
 I want to give a special shoutout to [Chandeleer](https://ko-fi.com/chandeleer) who makes our incredible wallpapers and other artwork. Please support him on Ko-fi by making a donation.
 
