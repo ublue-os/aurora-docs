@@ -10,6 +10,7 @@ Setting up a local Kubernetes cluster requires one terminal command:
 ```bash
 ujust bbrew
 ```
+
 <img width="1173" height="685" alt="bbrew" src="https://github.com/user-attachments/assets/55798d51-0ec0-4029-af90-fae9d9ade5cd" />
 
 Then just select k8s-tools.
