@@ -38,19 +38,6 @@ This can be done with `ujust dx-group` and requires a logout and a login after t
 
 The most current [Docker Engine](https://docs.docker.com/engine/) is included by default and is set up to be the default container runtime for vscode. Using [docker compose](https://danielquinn.org/blog/developing-with-docker/) is also a great way to get started in container development and is an option if devcontainers don't fit your style.
 
-## DevPod
-
-DevPod is an open source tool used to create reproducible developer environments. Each developer environment runs in a separate container and is specified through a `devcontainer.json` file. It's like Codespaces but is open-source, client-only, and unopinionated: it works with any IDE and lets you use any cloud, Kubernetes, or even local `docker` environment.
-
-- [DevPod Website](https://devpod.sh/)
-- [DevPod Documentation](https://devpod.sh/docs/what-is-devpod)
-- [DevPod Quickstart VS Code](https://devpod.sh/docs/getting-started/quickstart-vscode)
-- [Loft.sh](https://www.loft.sh/)
-
-Check out this talk from [Rich Burroughs](https://timeline.richburroughs.dev/):
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jSVWiecTeo0?si=5qtlkPFtOnAAq8aD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 ## Podman and Podman Desktop
 
 ![Podman Desktop](https://github.com/user-attachments/assets/69f64ed1-7fcc-4040-9a3d-12b71308da1b)
@@ -77,6 +64,8 @@ Thanks to Ubuntu and Canonical for the [detailed specification](https://discours
 ### Fonts
 
 Aurora DX includes a collection of well-curated monospace fonts. Additional fonts can be added with Homebrew from the [font cask repository](https://formulae.brew.sh/cask-font/). You can also install [Microsoft fonts](https://github.com/colindean/homebrew-fonts-nonfree) if needed.
+
+Just launch `ujust bbrew` and select "fonts" from the list.
 
 ### Pet Containers
 
@@ -110,10 +99,6 @@ The JetBrains blog also has more information on JetBrains Dev Containers support
 
 - [Using Dev Containers in JetBrains IDEs – Part 1](https://blog.jetbrains.com/idea/2024/07/using-dev-containers-in-jetbrains-ides-part-1/)
 
-DevPod also has support for JetBrains:
-
-- [DevPod Quickstart JetBrains](https://devpod.sh/docs/getting-started/quickstart-jetbrains)
-
 ## Neovim
 
 `brew install neovim devcontainer` then follow these directions for a devcontainer setup:
@@ -123,7 +108,7 @@ DevPod also has support for JetBrains:
 
 ## Kubernetes and other Cloud Native Tooling
 
-`ujust install-k8s-dev-tools` to get started:
+`ujust bbrew` and select `k8s-tools` to get started:
 
 - [kind](https://kind.sigs.k8s.io/) - Run a Kubernetes cluster on your machine. Run `kind create cluster` on the host to get started!
 - [kubectl](https://kubernetes.io/docs/reference/kubectl/) - Administer Kubernetes Clusters
