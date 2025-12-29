@@ -99,10 +99,6 @@ The JetBrains blog also has more information on JetBrains Dev Containers support
 
 - [Using Dev Containers in JetBrains IDEs – Part 1](https://blog.jetbrains.com/idea/2024/07/using-dev-containers-in-jetbrains-ides-part-1/)
 
-DevPod also has support for JetBrains:
-
-- [DevPod Quickstart JetBrains](https://devpod.sh/docs/getting-started/quickstart-jetbrains)
-
 ## Neovim
 
 `brew install neovim devcontainer` then follow these directions for a devcontainer setup:
@@ -112,7 +108,7 @@ DevPod also has support for JetBrains:
 
 ## Kubernetes and other Cloud Native Tooling
 
-`ujust install-k8s-dev-tools` to get started:
+`ujust bbrew` and select `k8s-tools` to get started:
 
 - [kind](https://kind.sigs.k8s.io/) - Run a Kubernetes cluster on your machine. Run `kind create cluster` on the host to get started!
 - [kubectl](https://kubernetes.io/docs/reference/kubectl/) - Administer Kubernetes Clusters
