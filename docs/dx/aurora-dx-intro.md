@@ -138,6 +138,10 @@ The JetBrains blog also has more information on JetBrains Dev Containers support
 
 | [syft](https://formulae.brew.sh/formula/syft) | A CLI tool and library for generating a Software Bill of Materials (SBOM) from container images and filesystems. |
 
+### CNCF Tools
+
+For access to the full suite of [Cloud Native Computing Foundation](https://l.cncf.io) tools, use `ujust cncf` to browse and install from an extensive collection of 89 CNCF projects including graduated, incubating, and sandbox tools. This includes Argo, Cilium, Envoy, Flux, Istio, Linkerd, Prometheus, and many more.
+
 ## Ramalama and other AI tools
 
 [Ramalama](https://github.com/containers/ramalama) can be installed via `ujust install-ai-tools` for local management and serving of AI models. Check the [AI documentation](/guides/local-ai) for more information.
@@ -146,7 +150,3 @@ The JetBrains blog also has more information on JetBrains Dev Containers support
 
 - [virt-manager](https://virt-manager.org/) and associated tooling (KVM, qemu)
 - [Incus](https://linuxcontainers.org/incus/) provides system containers
-
-### CNCF Tools
-
-For access to the full suite of [Cloud Native Computing Foundation](https://l.cncf.io) tools, use `ujust cncf` to browse and install from an extensive collection of 89 CNCF projects including graduated, incubating, and sandbox tools. This includes Argo, Cilium, Envoy, Flux, Istio, Linkerd, Prometheus, and many more.
