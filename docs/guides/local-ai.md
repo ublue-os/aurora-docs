@@ -62,7 +62,8 @@ quay.io/ramalama/rocm                      latest      8875feffdb87  5 days ago 
 
 `ramalama serve` will serve an OpenAI compatible endpoint at `http://0.0.0.0:8080`, you can use this to configure tools that do not support ramalama directly:
 
-![Newelle](/img/user-attachments/ff079ed5-43af-48fb-8e7b-e5b9446b3bfe.png)
+![Newelle](https://github.com/user-attachments/assets/af508f58-e696-4eba-956b-ad3dea19d315)
+)
 
 ## Alpaca
 
