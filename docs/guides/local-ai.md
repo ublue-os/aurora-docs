@@ -32,36 +32,37 @@ The following AI-focused command-line tools are available via homebrew, install 
 
 ## Ramalama
 
-[Ramalama](https://github.com/containers/ramalama) is a tool which can be installed with the `ujust install-ai-tools` recipe, that makes managing and working with AI models on your local machine super easy and smoooth.
+Install [Ramalama](https://github.com/containers/ramalama) via `brew install ramalama`: manage local models and is the preferred default experience. It's for people who work with local models frequently and need advanced features. It offers the ability to pull models from huggingface, ollama, and any container registry. By default it pulls from ollama.com, check the [Ramalama documentation](https://github.com/containers/ramalama/tree/main/docs) for more information.
 
-It can pull models from Huggingface, Ollama and other providers without extra configuration or hassle. By default it is pulling its models from the Ollama Model Registry, which you can find here: [Ollama Model Registry](https://ollama.com/search).
-
-Ramalama will probe your system on first run and install the needed support for GPU/iGPUs (for example vulkan / rocm).
-
-Here are some example commands to run models:
+Ramalama's command line experience is similar to Podman. Bluefin sets `rl` as an alias for `ramalama`, for brevity. Examples include:
 
 ```
-ramalama pull llama3.1:8b
-ramalama run llama3.1:8b
-ramalama run deepseek-r1
+rl pull llama3.2:latest
+rl run llama3.2
+rl run deepseek-r1
 ```
 
-If you want to pull a small Web-UI to use the model rather than the cli, use the `serve` command that Ramalama provides out of the box. Like this:
+You can also serve the models locally:
 
 ```
-ramalama serve deepseek-r1
+rl serve deepseek-r1
 ```
 
-Models and OCI images of runners are stored in your local podman storage, like the rest of your container images.
+Then go to `http://127.0.0.0:8080` in your browser.
+
+Ramalama will automatically pull in anything your host needs to do the workload. The images are also stored in the same container storage as your other containers. This allows for centralized management of the models and other podman images:
 
 ```
-aurora ~> podman images
-REPOSITORY                         TAG         IMAGE ID      CREATED       SIZE
-registry.fedoraproject.org/fedora  latest      9f3411e5c4ba  10 days ago   330 MB
-quay.io/admiller/ramalama-fedora   rocm-42     79126d1c9dbd  3 weeks ago   7.87 GB
-quay.io/ramalama/rocm              latest      9ec451829443  4 weeks ago   7.71 GB
-quay.io/ramalama/vulkan            latest      db288c77cab0  5 weeks ago   1.07 GB
+❯ podman images
+REPOSITORY                                 TAG         IMAGE ID      CREATED        SIZE
+quay.io/ramalama/rocm                      latest      8875feffdb87  5 days ago     6.92 GB
 ```
+
+### Integrating with Existing Tools
+
+`ramalama serve` will serve an OpenAI compatible endpoint at `http://0.0.0.0:8080`, you can use this to configure tools that do not support ramalama directly:
+
+![Newelle](/img/user-attachments/ff079ed5-43af-48fb-8e7b-e5b9446b3bfe.png)
 
 ## Alpaca
 
