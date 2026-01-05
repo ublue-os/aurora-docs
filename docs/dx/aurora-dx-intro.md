@@ -67,6 +67,23 @@ Aurora DX includes a collection of well-curated monospace fonts. Additional font
 
 Just launch `ujust bbrew` and select "fonts" from the list.
 
+- Microsoft Fonts:
+  If you need to install Microsoft fonts in order to ensure compatibility with some documents, most of them are in Homebrew.
+
+Be aware that some of these fonts are copyrighted by Microsoft.
+
+Microsoft UK confirmed you are allowed to have them, provided that you own a copy of either:
+
+- Microsoft PowerPoint Viewer (free, retired)
+- May include PowerPoint Mobile (free)
+- Microsoft Office (Any version, Windows or Mac)
+
+Calibri, Cambria, Candara, Consolas, Constantia and Corbel are included in font-microsoft-office, the others must be installed individually. You can install all of them at once by running the following command in a terminal:
+
+```
+brew tap colindean/fonts-nonfree && brew install --cask font-microsoft-office font-microsoft-aptos font-arial font-arial-black font-courier-new font-times-new-roman font-georgia
+```
+
 ### Pet Containers
 
 Pet containers are available as interactive terminals via [distrobox](https://distrobox.it/). Manage these via the included [DistroShelf](https://github.com/ranfdev/DistroShelf) application.
