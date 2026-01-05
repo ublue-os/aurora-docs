@@ -68,11 +68,12 @@ Aurora DX includes a collection of well-curated monospace fonts. Additional font
 Just launch `ujust bbrew` and select "fonts" from the list.
 
 - Microsoft Fonts:
-If you need to install Microsoft fonts in order to ensure compatibility with some documents, most of them are in Homebrew.
+  If you need to install Microsoft fonts in order to ensure compatibility with some documents, most of them are in Homebrew.
 
 Be aware that some of these fonts are copyrighted by Microsoft.
 
 Microsoft UK confirmed you are allowed to have them, provided that you own a copy of either:
+
 - Microsoft PowerPoint Viewer (free, retired)
 - May include PowerPoint Mobile (free)
 - Microsoft Office (Any version, Windows or Mac)
