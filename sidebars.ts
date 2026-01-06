@@ -33,7 +33,6 @@ const sidebars: SidebarsConfig = {
         "guides/basic-usage",
         "guides/release-streams",
         "guides/software",
-        "guides/layerapp",
         "guides/vpn",
         "guides/secondary-drives",
         "guides/gaming",
