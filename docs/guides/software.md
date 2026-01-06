@@ -56,9 +56,9 @@ While Distrobox can be managed via the command line, there is a graphical applic
 
 > **Note**: It is highly recommended to only use this as a last resort.
 
-Layer RPM packages to the host like a traditional Linux operating system which comes with major downsides such as:
+Layering RPM packages to the host like a traditional Linux operating system comes with major downsides such as:
 
 - High potential for broken upgrades due to dependency issues.
 - Slower updates due to adding an extra layer to the deployment.
 
-Read more about layering packages to the host [here](/guides/layerapp).
+If you absolutely need to layer packages on your host, read the guide from our friends over at Bazzite [here](https://docs.bazzite.gg/Installing_and_Managing_Software/rpm-ostree).
