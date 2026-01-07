@@ -26,6 +26,7 @@ cd aurora
 ```
 
 ## Examples
+
 The build process will automatically pull the necessary OCI containers from `get-aurora-dev/common` and `projectbluefin/common` during the build.
 
 ## Building Images
@@ -69,6 +70,7 @@ systemctl reboot
 ```
 
 ## Testing without building an image
+
 ## Testing Local Changes to Common Layers
 
 If you want to modify and test Aurora-specific configurations (ujust recipes, artwork, etc.) locally, follow this workflow:
