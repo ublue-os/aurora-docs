@@ -5,10 +5,11 @@
 Aurora images are built from multiple repositories working together:
 
 - **[ublue-os/aurora](https://github.com/ublue-os/aurora)** - Main image repository that orchestrates the build process and defines the final images
-- **[get-aurora-dev/common](https://github.com/get-aurora-dev/common)** - Aurora-specific configurations, ujust recipes, artwork, and customizations shipped as OCI containers
+- **[get-aurora-dev/common](https://github.com/get-aurora-dev/common)** - Aurora-specific configurations, ujust recipes, artwork, and customizations (built on top of projectbluefin/common)
 - **[projectbluefin/common](https://github.com/projectbluefin/common)** - Shared distro experience layer (ujust, MOTD, CLI config, etc.) used by both Aurora and Bluefin
+- **[ublue-os/brew](https://github.com/ublue-os/brew)** - Homebrew setup and configuration
 
-The build process in `ublue-os/aurora` pulls these common layers as OCI containers during the image build. This modular architecture allows Aurora to share code with Bluefin while maintaining Aurora-specific customizations in the `get-aurora-dev/common` repository.
+The build process in `ublue-os/aurora` pulls these common layers as OCI containers. The `get-aurora-dev/common` image itself is built from `projectbluefin/common` as its base, creating a layered architecture.
 
 ## Build Dependencies
 
@@ -27,7 +28,7 @@ cd aurora
 
 ## Examples
 
-The build process will automatically pull the necessary OCI containers from `get-aurora-dev/common` and `projectbluefin/common` during the build.
+The build process will automatically pull the necessary OCI containers from `get-aurora-dev/common` (which includes `projectbluefin/common`) and `ublue-os/brew` during the build.
 
 ## Building Images
 
@@ -45,9 +46,9 @@ The build process will automatically pull the necessary OCI containers from `get
 
 When you build an Aurora image locally:
 
-1. The base Fedora image is pulled
-2. OCI containers from `get-aurora-dev/common` are layered in (Aurora-specific configs, artwork, ujust recipes)
-3. OCI containers from `projectbluefin/common` are layered in (shared experience with Bluefin)
+1. The base Fedora Kinoite image is pulled from `ghcr.io/ublue-os/kinoite-main`
+2. OCI containers from `get-aurora-dev/common` are layered in (which includes `projectbluefin/common` shared experience layer plus Aurora-specific configs, artwork, ujust recipes)
+3. OCI containers from `ublue-os/brew` are layered in (Homebrew setup)
 4. Additional packages and configurations specific to the image variant are applied
 5. The final image is created in your local container storage
 
@@ -98,14 +99,21 @@ This will create a local image tagged as `localhost/aurora-common:latest` (or si
 
 In your local `ublue-os/aurora` repository, you need to modify the Containerfile to reference your local common build instead of the remote one.
 
-Find lines that reference the remote common container (e.g., `ghcr.io/get-aurora-dev/common:latest`) and replace them with your local build:
+At the top of the Containerfile, find the `ARG COMMON_IMAGE` line and change it to point to your local build:
 
 ```dockerfile
 # Change from:
-COPY --from=ghcr.io/get-aurora-dev/common:latest /system_files /
+ARG COMMON_IMAGE="ghcr.io/get-aurora-dev/common:latest"
 
 # To:
-COPY --from=localhost/aurora-common:latest /system_files /
+ARG COMMON_IMAGE="localhost/aurora-common:latest"
+```
+
+Also comment out or remove the `COMMON_IMAGE_SHA` line since local builds don't use SHA pinning:
+
+```dockerfile
+# Comment out or remove:
+# ARG COMMON_IMAGE_SHA=""
 ```
 
 ### Step 4: Build Aurora with Your Local Common Changes
@@ -136,8 +144,10 @@ If you need to make more changes:
 
 Once you've tested your changes locally:
 
-- For Aurora-specific features, submit a pull request to [get-aurora-dev/common](https://github.com/get-aurora-dev/common)
-- For shared features that affect both Aurora and Bluefin, contribute to [projectbluefin/common](https://github.com/projectbluefin/common)
+- For Aurora-specific features (configurations, artwork, Aurora ujust recipes), submit a pull request to [get-aurora-dev/common](https://github.com/get-aurora-dev/common)
+- For shared features that affect both Aurora and Bluefin (base ujust recipes, MOTD, CLI config), contribute to [projectbluefin/common](https://github.com/projectbluefin/common)
+- For Homebrew-related changes, contribute to [ublue-os/brew](https://github.com/ublue-os/brew)
+- For changes to the Aurora image itself (package lists, build scripts), contribute to [ublue-os/aurora](https://github.com/ublue-os/aurora)
 
 Remember to revert any Containerfile changes you made for local testing before committing to the Aurora repository.
 
