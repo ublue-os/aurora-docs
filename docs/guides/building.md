@@ -99,21 +99,14 @@ This will create a local image tagged as `localhost/aurora-common:latest` (or si
 
 In your local `ublue-os/aurora` repository, you need to modify the Containerfile to reference your local common build instead of the remote one.
 
-At the top of the Containerfile, find the `ARG COMMON_IMAGE` line and change it to point to your local build:
+At the Containerfile, find the `FROM ${COMMON_IMAGE}@${COMMON_IMAGE_SHA} AS common` line and change it to point to your local build:
 
 ```dockerfile
 # Change from:
-ARG COMMON_IMAGE="ghcr.io/get-aurora-dev/common:latest"
+FROM ${COMMON_IMAGE}@${COMMON_IMAGE_SHA} AS common
 
 # To:
-ARG COMMON_IMAGE="localhost/aurora-common:latest"
-```
-
-Also comment out or remove the `COMMON_IMAGE_SHA` line since local builds don't use SHA pinning:
-
-```dockerfile
-# Comment out or remove:
-# ARG COMMON_IMAGE_SHA=""
+FROM localhost/aurora-common AS common
 ```
 
 ### Step 4: Build Aurora with Your Local Common Changes
