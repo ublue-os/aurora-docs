@@ -151,7 +151,7 @@ Remember to revert any Containerfile changes you made for local testing before c
 Makes `/usr` writable for the duration of this boot
 
 ```
-sudo ostree admin unlock
+sudo bootc usroverlay
 ```
 
 Use `dnf5`/make whatever modification to `/usr`
