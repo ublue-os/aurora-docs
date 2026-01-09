@@ -103,7 +103,7 @@ This will create a local image tagged as `localhost/aurora-common:latest` (or si
 
 In your local `ublue-os/aurora` repository, you need to modify the Containerfile to reference your local common build instead of the remote one.
 
-At the Containerfile, find the `FROM ${COMMON_IMAGE}@${COMMON_IMAGE_SHA} AS common` line and change it to point to your local build:
+In the `Containerfile` in the root of the repository, find the `FROM ${COMMON_IMAGE}@${COMMON_IMAGE_SHA} AS common` line and change it to point to your local build:
 
 ```patch
 -FROM ${COMMON_IMAGE}@${COMMON_IMAGE_SHA} AS common
