@@ -37,9 +37,9 @@ The `Justfile` at the root of the repo is used to build the images and ISOs, her
 
 The general pattern is `just build/run image tag flavor`
 
-- Images: `bluefin`,`bluefin-dx`
-- Tags: `gts`,`stable`,`latest`,`beta`
-- Flavors: `main`,`nvidia`,`hwe`,`hwe-nvidia`
+- Images: `aurora`,`aurora-dx`
+- Tags: `stable`,`latest`,`beta`
+- Flavors: `main`,`nvidia`
 
 ## Examples
 
