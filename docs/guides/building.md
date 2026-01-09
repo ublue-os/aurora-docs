@@ -28,10 +28,10 @@ cd aurora
 
 The `Justfile` at the root of the repo is used to build the images and ISOs, here's some examples:
 
-| Command                            | Description                                         |
-| ---------------------------------- | --------------------------------------------------- |
-| `just build aurora `               | Defaults to `latest` main                           |
-| `just build aurora-dx`             | Builds Aurora DX                                    |
+| Command                                 | Description                                              |
+| --------------------------------------- | -------------------------------------------------------- |
+| `just build aurora `                    | Defaults to `latest` main                                |
+| `just build aurora-dx`                  | Builds Aurora DX                                         |
 | `just build aurora-dx beta nvidia-open` | Builds `beta` `nvidia-open` version of Aurora DX         |
 | `just build aurora stable nvidia-open`  | Builds `nvidia-open` version of the Aurora stable branch |
 
