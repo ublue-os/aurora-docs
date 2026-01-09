@@ -25,6 +25,20 @@ Clone the main Aurora repository:
 git clone https://github.com/ublue-os/aurora
 cd aurora
 ```
+The `Justfile` at the root of the repo is used to build the images and ISOs, here's some examples:
+
+| Command                             | Description                                          |
+| ----------------------------------- | ---------------------------------------------------- |
+| `just build aurora `                | Defaults to `latest` main                            |
+| `just build aurora-dx`              | Builds Aurora DX                                     |
+| `just build aurora-dx beta nvidia`  | Builds `beta` `nvidia` version of Aurora DX          |
+| `just build aurora stable nvidia`   | Builds `nvidia` version of the Aurora stable branch  |
+
+The general pattern is `just build/run image tag flavor`
+
+- Images: `bluefin`,`bluefin-dx`
+- Tags: `gts`,`stable`,`latest`,`beta`
+- Flavors: `main`,`nvidia`,`hwe`,`hwe-nvidia`
 
 ## Examples
 
