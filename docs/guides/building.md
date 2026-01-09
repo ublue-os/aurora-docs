@@ -84,6 +84,7 @@ and lastly reboot into the new image
 ```
 systemctl reboot
 ```
+
 _You can also add `sudo` before the just build commands, then you don't need to do the `podman image scp` part._
 
 ## Testing without building an image
