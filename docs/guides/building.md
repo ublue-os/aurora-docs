@@ -32,14 +32,14 @@ The `Justfile` at the root of the repo is used to build the images and ISOs, her
 | ---------------------------------- | --------------------------------------------------- |
 | `just build aurora `               | Defaults to `latest` main                           |
 | `just build aurora-dx`             | Builds Aurora DX                                    |
-| `just build aurora-dx beta nvidia` | Builds `beta` `nvidia` version of Aurora DX         |
-| `just build aurora stable nvidia`  | Builds `nvidia` version of the Aurora stable branch |
+| `just build aurora-dx beta nvidia-open` | Builds `beta` `nvidia-open` version of Aurora DX         |
+| `just build aurora stable nvidia-open`  | Builds `nvidia-open` version of the Aurora stable branch |
 
 The general pattern is `just build/run image tag flavor`
 
 - Images: `aurora`,`aurora-dx`
 - Tags: `stable`,`latest`,`beta`
-- Flavors: `main`,`nvidia`
+- Flavors: `main`,`nvidia-open`
 
 ## Examples
 
