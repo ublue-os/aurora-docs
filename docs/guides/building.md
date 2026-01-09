@@ -17,16 +17,19 @@ The build process in `ublue-os/aurora` pulls these common layers as OCI containe
 - [just](https://github.com/casey/just)
 - [podman](https://podman.io/)/[docker](https://www.docker.com/)
 - [jq](https://jqlang.org/)
+- [yq](https://mikefarah.gitbook.io/yq/)
 - [cosign](https://www.sigstore.dev/)
+
+## Building Images
 
 Clone the main Aurora repository:
 
-```
+```sh
 git clone https://github.com/ublue-os/aurora
 cd aurora
 ```
 
-The `Justfile` at the root of the repo is used to build the images and ISOs, here's some examples:
+The `Justfile` at the root of the repo is used to build the images, here are some examples:
 
 | Command                                 | Description                                              |
 | --------------------------------------- | -------------------------------------------------------- |
@@ -41,21 +44,7 @@ The general pattern is `just build/run image tag flavor`
 - Tags: `stable`,`latest`,`beta`
 - Flavors: `main`,`nvidia-open`
 
-## Examples
-
 The build process will automatically pull the necessary OCI containers from `get-aurora-dev/common` (which includes `projectbluefin/common`) and `ublue-os/brew` during the build.
-
-## Building Images
-
-### Basic Build Examples
-
-| build command                             | produced image                           |
-| ----------------------------------------- | ---------------------------------------- |
-| `just build`                              | `localhost/aurora:latest`                |
-| `just build aurora stable`                | `localhost/aurora:stable`                |
-| `just build aurora-dx stable nvidia-open` | `localhost/aurora-dx-nvidia-open:stable` |
-
-## Rebasing to a locally built image
 
 ### What Gets Built
 
@@ -71,31 +60,29 @@ When you build an Aurora image locally:
 
 For `bootc` to see the new image it has to be moved from users container-storage to the container-storage of the root user like this:
 
-```
-podman image scp localhost/aurora:latest root
+```sh
+podman image scp localhost/aurora:latest root@localhost
 ```
 
-```
+```sh
 sudo bootc switch --transport containers-storage localhost/aurora:latest
 ```
 
 and lastly reboot into the new image
 
-```
+```sh
 systemctl reboot
 ```
 
 _You can also add `sudo` before the just build commands, then you don't need to do the `podman image scp` part._
 
-## Testing without building an image
-
-## Testing Local Changes to Common Layers
+### Testing Local Changes to Common Layers
 
 If you want to modify and test Aurora-specific configurations (ujust recipes, artwork, etc.) locally, follow this workflow:
 
 ### Step 1: Clone and Modify the Common Repository
 
-```
+```sh
 git clone https://github.com/get-aurora-dev/common
 cd common
 ```
@@ -106,7 +93,7 @@ Make your desired changes to the common repository files.
 
 Build the common OCI container:
 
-```
+```sh
 just build
 ```
 
@@ -118,12 +105,9 @@ In your local `ublue-os/aurora` repository, you need to modify the Containerfile
 
 At the Containerfile, find the `FROM ${COMMON_IMAGE}@${COMMON_IMAGE_SHA} AS common` line and change it to point to your local build:
 
-```dockerfile
-# Change from:
-FROM ${COMMON_IMAGE}@${COMMON_IMAGE_SHA} AS common
-
-# To:
-FROM localhost/aurora-common AS common
+```patch
+-FROM ${COMMON_IMAGE}@${COMMON_IMAGE_SHA} AS common
++FROM localhost/aurora-common AS common
 ```
 
 ### Step 4: Build Aurora with Your Local Common Changes
@@ -163,33 +147,33 @@ Remember to revert any Containerfile changes you made for local testing before c
 
 ## Testing Without Building an Image
 
-### Mutations that don't require a reboot
+### Changes that don't require a reboot
 
-Makes `/usr` writable for the duration of this boot
+Makes `/usr` writable for the duration of this boot, this is usually good enough for most things
 
-```
+```sh
 sudo bootc usroverlay
 ```
 
-Use `dnf5`/make whatever modification to `/usr`
+Use `dnf `/make whatever modification to `/usr`
 
-```
-sudo dnf5 -y downgrade somepackage-6.9.1-1$(rpm -E %{dist})
+```sh
+sudo dnf -y downgrade somepackage-6.9.1-1$(rpm -E %{dist})
 ```
 
 reboot to undo any changes you made after the overlayfs on `/usr` is mounted
 
-### Mutations which need to survive a reboot
+### Changes that persist after reboot
 
 Could be useful for firmware downgrades or triaging bugs that only happen on shutdown etc.
 
-```
+```sh
 sudo ostree admin unlock --hotfix
 ```
 
 This will make the current deployment writable and will make it work like any other deployment as well
 
-```
+```sh
 rpm-ostree status
 ```
 
@@ -200,12 +184,12 @@ rpm-ostree status
                  Unlocked: hotfix
 ```
 
-```
-sudo dnf5 -y downgrade atheros-firmware-20250311-1$(rpm -E %{dist})
+```sh
+sudo dnf -y downgrade atheros-firmware-20250311-1$(rpm -E %{dist})
 ```
 
 To get rid of the writable deployment you can either just (wait for an) update and it will get cleaned up eventually or you boot into the previous deployment from Grub and run:
 
-```
+```sh
 rpm-ostree cleanup --pending
 ```
