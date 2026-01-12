@@ -29,7 +29,13 @@ sudo bootc switch --enforce-container-sigpolicy ghcr.io/ublue-os/<imagename>
 
 _For example: `sudo bootc switch --enforce-container-sigpolicy ghcr.io/ublue-os/aurora-dx:stable`_
 
-5. After all of that is done, you can relax a bit. Now it's time for the last step, you will want to install our curated flatpaks to get the best out of your experience. Run the following command in you terminal:
+5. Now that you are on Aurora, add the flathub repo as your system flatpak repo:
+
+```
+flatpak remote-add --if-not-exists --system flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+
+6. After all of that is done, you can relax a bit. Now it's time for the last step, you will want to install our curated flatpaks to get the best out of your experience. Run the following command in you terminal:
 
 ```
 ujust install-system-flatpaks
