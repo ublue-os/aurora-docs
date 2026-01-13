@@ -5,6 +5,8 @@ description: When you have problems installing from the ISO, you can try rebasin
 
 # Alternate Installation
 
+This guide is supported on a best effort basis, expect paper cuts!
+
 If you have issues installing with the Aurora ISO and want to try rebasing from a Fedora Kinoite installation (**rebasing from Silverblue is NOT supported!**), this guide is for you. Rebasing will give you almost the same great experience as a fresh installation from our ISO, but there are some steps you need to follow.
 
 Here's what you need to do:
@@ -13,7 +15,7 @@ Here's what you need to do:
 
 2. Download Fedora Kinoite (**<a target="_blank" href="https://fedoraproject.org/atomic-desktops/kinoite/">from here</a>**) and install it when you don't have an existing installation. The process is very similar to the Aurora installation process. **_Do not create a root user._**
 
-3. Once you are booted into your new or existing Kinoite installation, run the following command (substituting the placeholder with the image name you noted down earlier):
+3. Once you are booted into your new or existing Kinoite installation, run the following command (substituting the placeholder with the image name you noted down earlier) and reboot afterwards:
 
 ```
 sudo bootc switch ghcr.io/ublue-os/<imagename>
@@ -29,13 +31,15 @@ sudo bootc switch --enforce-container-sigpolicy ghcr.io/ublue-os/<imagename>
 
 _For example: `sudo bootc switch --enforce-container-sigpolicy ghcr.io/ublue-os/aurora-dx:stable`_
 
-5. Now that you are on Aurora, add the flathub repo as your system flatpak repo:
+5. Now that you are on Aurora, add Flathub:
 
 ```
 flatpak remote-add --if-not-exists --system flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
-6. After all of that is done, you can relax a bit. Now it's time for the last step, you will want to install our curated flatpaks to get the best out of your experience. Run the following command in you terminal:
+6. Download the Warehouse application with `flatpak install flathub io.github.flattool.Warehouse`, click on Packages -> Filter Packages -> Select All and uninstall them, after that you go to the Remotes tab and remove the Fedora Flatpak remote. This will not remove any application data.
+
+7. After all of that is done, you can relax a bit. Now it's time for the last step, you will want to install our curated flatpaks to get the best out of your experience. Run the following command in you terminal:
 
 ```
 ujust install-system-flatpaks
@@ -63,4 +67,4 @@ If you want to rebase from a Bazzite-KDE Installation to Aurora, you can just sk
 
 **Note**: Bazzite [blocklists](https://github.com/ublue-os/bazzite/blob/d67570f37329e20d26869648cfa759c10bfc667f/system_files/desktop/shared/usr/share/ublue-os/flatpak-blocklist) applications like Flatpak Steam, you will have to undo that with `flatpak remote-modify --system --no-filter flathub` on Aurora.
 
-**NOTE:** Do not rebase from a Gnome-based image to Aurora or back!
+**Note:** Do not rebase from a Gnome-based image to Aurora or back!
