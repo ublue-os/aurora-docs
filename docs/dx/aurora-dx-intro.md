@@ -148,7 +148,7 @@ For access to the full suite of [Cloud Native Computing Foundation](https://l.cn
 
 ## Ramalama and other AI tools
 
-[Ramalama](https://github.com/containers/ramalama) can be installed via `ujust install-ai-tools` for local management and serving of AI models. Check the [AI documentation](/guides/local-ai) for more information.
+[Ramalama](https://github.com/containers/ramalama) and can be installed via `ujust bbrew` and selecting the `ai` option for local management and serving of AI models. Check the [AI documentation](/guides/local-ai) for more information.
 
 ## Virtualization and Container Runtimes
 
