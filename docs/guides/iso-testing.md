@@ -33,6 +33,7 @@ Our ISO testing program is an easy way to contribute back to the project. We pla
    ```bash
    sha256sum -c aurora-stable-webui-x86_64.iso-CHECKSUM
    ```
+
    2. **Verify the checksums match:**
 
    ```bash
