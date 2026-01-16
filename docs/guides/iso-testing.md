@@ -3,7 +3,7 @@ title: ISO Testing
 description: Aurora ISO testing
 ---
 
-Our ISO testing program is an easy way to contribute back to the project. We plan to refresh these ISO images every firts of the month. If you find issues, please raise on github issue on the [ISO repo](https://github.com/get-aurora-dev/iso).
+Our ISO testing program is an easy way to contribute back to the project. We plan to refresh these ISO images every first of the month. If you find issues, please raise on github issue on the [ISO repo](https://github.com/get-aurora-dev/iso).
 
 ## Things to Test For
 
