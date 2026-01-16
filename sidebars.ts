@@ -76,10 +76,7 @@ const sidebars: SidebarsConfig = {
       type: "category",
       label: "Contributing",
       collapsed: false,
-      items: [
-        "guides/building",
-        "guides/iso-testing",
-      ],
+      items: ["guides/building", "guides/iso-testing"],
     },
   ],
 };

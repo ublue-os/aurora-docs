@@ -14,10 +14,10 @@ Our ISO testing program is an easy way to contribute back to the project. We pla
 
 ## Aurora
 
-| Version | GPU       | Download                                                                                                     | Checksum                                                                               |
-| ------- | --------- | ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
-| Aurora | AMD/Intel | [📥 aurora-stable-webui-x86_64.iso](https://dl-test.getaurora.dev/aurora-stable-webui-x86_64.iso)            | [🔐 Verify](https://dl-test.getaurora.dev/aurora-stable-webui-x86_64.iso-CHECKSUM)     |
-| Aurora | Nvidia    | [📥 aurora-nvidia-open-stable-webui-x86_64.iso](https://dl-test.getaurora.dev/aurora-nvidia-open-stable-webui-x86_64.iso) | [🔐 Verify](https://dl-test.getaurora.dev/aurora-nvidia-open-stable-webui-x86_64.iso-CHECKSUM) |
+| Version | GPU       | Download                                                                                                                  | Checksum                                                                                       |
+| ------- | --------- | ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Aurora  | AMD/Intel | [📥 aurora-stable-webui-x86_64.iso](https://dl-test.getaurora.dev/aurora-stable-webui-x86_64.iso)                         | [🔐 Verify](https://dl-test.getaurora.dev/aurora-stable-webui-x86_64.iso-CHECKSUM)             |
+| Aurora  | Nvidia    | [📥 aurora-nvidia-open-stable-webui-x86_64.iso](https://dl-test.getaurora.dev/aurora-nvidia-open-stable-webui-x86_64.iso) | [🔐 Verify](https://dl-test.getaurora.dev/aurora-nvidia-open-stable-webui-x86_64.iso-CHECKSUM) |
 
 ## Verifying Downloads with Checksums
 
