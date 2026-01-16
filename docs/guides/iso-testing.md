@@ -28,13 +28,7 @@ Our ISO testing program is an easy way to contribute back to the project. We pla
 1. **Download both the ISO file and its corresponding CHECKSUM file**
    - For example: `aurora-stable-webui-x86_64.iso` and `aurora-stable-webui-x86_64.iso-CHECKSUM`
 
-2. **Compare with the official checksum file:**
-
-   ```bash
-   sha256sum -c aurora-stable-webui-x86_64.iso-CHECKSUM
-   ```
-
-   2. **Verify the checksums match:**
+2. **Verify the checksums match:**
 
    ```bash
    sha256sum -c aurora-stable-webui-x86_64.iso-CHECKSUM
