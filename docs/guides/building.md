@@ -50,7 +50,7 @@ The build process will automatically pull the necessary OCI containers from `get
 
 When you build an Aurora image locally:
 
-1. The base Fedora Kinoite image is pulled from `ghcr.io/ublue-os/kinoite-main`
+1. The unofficial base Fedora Kinoite image is pulled from `quay.io/fedora-ostree-desktops/kinoite`
 2. OCI containers from `get-aurora-dev/common` are layered in (which includes `projectbluefin/common` shared experience layer plus Aurora-specific configs, artwork, ujust recipes)
 3. OCI containers from `ublue-os/brew` are layered in (Homebrew setup)
 4. Additional packages and configurations specific to the image variant are applied
