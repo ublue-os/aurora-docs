@@ -72,10 +72,12 @@ System updates are image-based and automatic. Applications are logically separat
 
 ## Starship is not for me, how do I disable it?
 
-You can remove or comment the line below in `/etc/bashrc` to restore the default prompt.
+You can remove or comment the lines below in `/etc/profile.d/90-aurora-starship.sh` to restore the default prompt.
 
 ```bash
-eval "$(starship init bash)"
+if [ "$(basename "$(readlink /proc/$$/exe)")" = "bash" ]; then
+  eval "$(starship init bash)"
+fi
 ```
 
 ## News & Updates
