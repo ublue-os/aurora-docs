@@ -156,7 +156,7 @@ const config: Config = {
             },
             {
               label: "Forum",
-              href: "https://universal-blue.discourse.group/",
+              href: "https://github.com/ublue-os/aurora/discussions",
             },
           ],
         },
