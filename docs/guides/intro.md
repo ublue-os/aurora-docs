@@ -61,7 +61,7 @@ System updates are image-based and automatic. Applications are logically separat
   - [Konsole](https://apps.kde.org/konsole/)
   - [Kontact](https://apps.kde.org/kontact/)
   - [Okular](https://apps.kde.org/okular/)
-  - [Skanpage](https://apps.kde.org/de/skanpage/)
+  - [Skanpage](https://apps.kde.org/skanpage/)
 
 ## How is this different from a traditional Linux Desktop?
 
