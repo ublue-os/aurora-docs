@@ -22,7 +22,7 @@ The major difference between latest and stable is the kernel cadence and when th
 
 #### Gated Kernel
 
-The stable tag feature a gated kernel. This kernel follows the same version as the [Fedora CoreOS stable stream](https://fedoraproject.org/coreos/release-notes?arch=x86_64&stream=stable), which is a slower cadence than default Fedora Kinoite. The Universal Blue team may temporarily pin to a specific kernel in order to avoid regressions that may affect users.
+The stable tag features a gated kernel. This kernel follows the same version as the [Fedora CoreOS stable stream](https://fedoraproject.org/coreos/release-notes?arch=x86_64&stream=stable), which is a slower cadence than default Fedora Kinoite. The Universal Blue team may temporarily pin to a specific kernel in order to avoid regressions that may affect users.
 
 Adding and editing kernel boot arguments is currently handled by rpm-ostree, check the [upstream documentation](https://docs.fedoraproject.org/en-US/fedora-coreos/kernel-args/#_modifying_kernel_arguments_on_existing_systems) for more information.
 
