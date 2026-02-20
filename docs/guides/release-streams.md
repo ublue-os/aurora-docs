@@ -42,8 +42,8 @@ The **stable** stream is the recommended choice for most users. It provides:
 
 - `ghcr.io/ublue-os/aurora:stable`
 - `ghcr.io/ublue-os/aurora-dx:stable`
-- `ghcr.io/ublue-os/aurora-nvidia:stable`
 - `ghcr.io/ublue-os/aurora-nvidia-open:stable`
+- `ghcr.io/ublue-os/aurora-dx-nvidia-open:stable`
 
 ### Stable-Daily
 
@@ -59,8 +59,8 @@ The **stable-daily** stream provides:
 
 - `ghcr.io/ublue-os/aurora:stable-daily`
 - `ghcr.io/ublue-os/aurora-dx:stable-daily`
-- `ghcr.io/ublue-os/aurora-nvidia:stable-daily`
 - `ghcr.io/ublue-os/aurora-nvidia-open:stable-daily`
+- `ghcr.io/ublue-os/aurora-dx-nvidia-open:stable-daily`
 
 ### Latest
 
@@ -78,23 +78,25 @@ The **latest** stream provides:
 
 - `ghcr.io/ublue-os/aurora:latest`
 - `ghcr.io/ublue-os/aurora-dx:latest`
+- `ghcr.io/ublue-os/aurora-nvidia-open:latest`
+- `ghcr.io/ublue-os/aurora-dx-nvidia-open:latest`
 
 ## Choosing the Right Stream
 
-### Use **Stable** if you want:
+### Use **Stable** if you want
 
 - A reliable daily driver
 - Weekly updates without cutting-edge instability
 - The best balance of features and stability
 - **Recommended for most users**
 
-### Use **Stable-Daily** if you want:
+### Use **Stable-Daily** if you want
 
 - Daily (package) updates instead of weekly
 - Gated kernel reliability with more frequent updates
 - **Good for users who want stable but more current**
 
-### Use **Latest** if you want:
+### Use **Latest** if you want
 
 - The newest features immediately
 - Latest kernel and packages
