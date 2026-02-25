@@ -5,8 +5,6 @@ description: Make your secondary drives connected to your device automatically m
 
 ## Preliminary Warnings
 
-**This is an edited version of the [Bazzite documentation](https://docs.bazzite.gg/Advanced/Auto-Mounting_Secondary_Drives/).**
-
 **You may lose data on the drive(s) or result in an unbootable system if configured improperly.**
 
 Follow this guide **at your own discretion** and make sure to read the entire document relevant to your method, so you do not miss anything!
