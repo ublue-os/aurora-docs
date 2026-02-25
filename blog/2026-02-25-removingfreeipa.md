@@ -1,14 +1,14 @@
 ---
-title: Removing FreeIPA-Client due to SELinux Issue
-description: Removing FreeIPA-Client due to SELinux Issue
+title: Removing freeipa-client from Aurora
+description: We are removing freeipa-client from Aurora due to SELinux issues.
 slug: removing-freeipa
 authors: niklas
 ---
 
 Hello Stargazers!
 
-This is quick but necessary heads up. We are removing freeipa-client in Aurora, because the package is breaking updates due to a SELinux Policy Issue. Check out the issue [here](https://github.com/ublue-os/aurora/pull/1811). If you depend on freeipa-client, please create a custom image yourself with the package installed as we can currently not ship it in this state. The issue with the falsely labeled SELinux Policy was also brought up in an issue to the Fedora Issue Tracker [here](https://github.com/fedora-selinux/selinux-policy/issues/3081), if you want to keep track. Thank you to RoyalOughtness for figuring it out!
+We are removing `freeipa-client` permanently from Aurora because it is breaking our updates. Among other issues, there are multiple issues, in particular this [upstream ostree/bootc bug](https://bugzilla.redhat.com/show_bug.cgi?id=2332433) and [this bug](https://bugzilla.redhat.com/show_bug.cgi?id=2332433). Our change is tracked in [this PR](https://github.com/ublue-os/aurora/pull/1811), and the related SELinux policy discussion is on the [Fedora SELinux issue tracker](https://github.com/fedora-selinux/selinux-policy/issues/3081).
 
-We will push out new stable updates with the package removed shortly. Thank you for your understanding.
+If you depend on `freeipa-client`, you can build a custom image with the package re-added as a layer. New stable images with the package removed will be pushed out shortly. Thanks to RoyalOughtness for tracking this down!
 
 Cheers ~Niklas
