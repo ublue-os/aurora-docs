@@ -82,4 +82,4 @@ fi
 
 ## News & Updates
 
-Announcements centered around the project can be found on the [\*blog\*\*](https://docs.getaurora.dev/blog), that can also be subscribed to from the [**RSS feed**](https://docs.getaurora.dev/blog/rss.xml). Patch notes for each update can be found in [**Github**](https://github.com/ublue-os/aurora/releases).
+Announcements centered around the project can be found on the [**blog**](https://docs.getaurora.dev/blog), that can also be subscribed to from the [**RSS feed**](https://docs.getaurora.dev/blog/rss.xml). Patch notes for each update can be found in [**Github**](https://github.com/ublue-os/aurora/releases).
