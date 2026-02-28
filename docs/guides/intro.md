@@ -24,8 +24,7 @@ System updates are image-based and automatic. Applications are logically separat
 
 ## For Users
 
-- [Ptyxis terminal](https://devsuite.app/ptyxis/) for container-focused workflows
-  - [DistroShelf](https://github.com/ranfdev/DistroShelf) for container management
+- [DistroShelf](https://github.com/ranfdev/DistroShelf) for container management
 - [Tailscale](https://tailscale.com) + [KTailctl](https://github.com/f-koehler/KTailctl) - included for VPN along with `wireguard-tools`
 - [Bazaar](https://github.com/kolunmi/bazaar) for [Flathub](https://flathub.org):
   - Discover and install graphical applications
