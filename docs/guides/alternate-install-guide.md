@@ -37,7 +37,7 @@ flatpak remote-add --if-not-exists --system flathub https://flathub.org/repo/fla
 
 6. Download the Warehouse application with `flatpak install flathub io.github.flattool.Warehouse`, click on Packages -> Filter Packages -> Select All and uninstall them, after that you go to the Remotes tab and remove the Fedora Flatpak remote. This will not remove any application data.
 
-7. After all of that is done, you can relax a bit. Now it's time for the last step, you will want to install our curated flatpaks to get the best out of your experience. Run the following command in you terminal:
+7. After all of that is done, you can relax a bit. Now it's time for the last step, you will want to install our curated flatpaks to get the best out of your experience. Run the following command in your terminal:
 
 ```
 ujust install-system-flatpaks
