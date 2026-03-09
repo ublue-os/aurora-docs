@@ -15,11 +15,11 @@ We have implemented a fix by downgrading the package to an earlier version. The 
 
 `rpm-ostree usroverlay`
 
-Now update the affected package:
+Now downgrade the package:
 
 `sudo dnf5 install --from-repo=updates-archive rpm-ostree-2025.12-1.fc$(rpm -E %fedora)`
 
-And then upgrade your image:
+And lastly upgrade your image:
 
 `rpm-ostree upgrade`
 
