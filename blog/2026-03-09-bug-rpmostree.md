@@ -2,7 +2,9 @@
 title: Bug in rpm-ostree stops updates
 description: Bug in rpm-ostree stops updates.
 slug: bug-rpmostree
-authors: inffy
+authors:
+  - inffy
+  - renner0e
 ---
 
 Hello, Stargazers!
@@ -27,4 +29,6 @@ to update.
 
 This does not affect our `stable` stream; it only affects users on the `stable-daily` or `latest` streams.
 
-We are sorry for the inconvenience.
+ You can check [this](https://github.com/coreos/rpm-ostree/issues/5567) upstream issue if you are interested.
+
+We are sorry for the inconvenience. If you have any further questions then don't hesitate to reach out to us over on [Github](https://github.com/ublue-os/aurora)
