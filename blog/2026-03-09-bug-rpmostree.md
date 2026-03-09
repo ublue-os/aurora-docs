@@ -13,6 +13,8 @@ This post is relevant if you happen to be running either our `stable-daily` or `
 
 One upstream package — rpm-ostree — was updated to version 2026.1 last week, and that version contains a bug that prevents updates.
 
+<!-- truncate -->
+
 We have implemented a fix by downgrading the package to an earlier version. The fix is now live, so make sure you manually update your image:
 
 `rpm-ostree usroverlay`
