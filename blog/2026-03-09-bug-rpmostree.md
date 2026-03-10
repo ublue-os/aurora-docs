@@ -9,7 +9,7 @@ authors:
 
 Hello, Stargazers!
 
-This post is relevant if you happen to be running either our `stable-daily` or `latest` stream. And affects images from 6th of March.
+This post is relevant if you happen to be running either our `stable-daily` or `latest` stream and affects images from 6th of March.
 
 One upstream package — rpm-ostree — was updated to version 2026.1 last week, and that version contains a bug that prevents updates.
 
@@ -17,7 +17,7 @@ One upstream package — rpm-ostree — was updated to version 2026.1 last week,
 
 We have implemented a fix by downgrading the package to an earlier version. The fix is now live, so make sure you manually update your image:
 
-`rpm-ostree usroverlay`
+`sudo rpm-ostree usroverlay`
 
 Now downgrade the package:
 
