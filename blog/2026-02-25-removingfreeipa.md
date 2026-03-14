@@ -12,3 +12,5 @@ We are removing `freeipa-client` permanently from Aurora because it is breaking 
 If you depend on `freeipa-client`, you can build a custom image with the package re-added as a layer. New stable images with the package removed will be pushed out shortly. Thanks to RoyalOughtness for tracking this down!
 
 Cheers ~Niklas
+
+## [Discussion](https://github.com/ublue-os/aurora/discussions/1813)
