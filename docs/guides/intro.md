@@ -39,9 +39,9 @@ System updates are image-based and automatic. Applications are logically separat
   - [OpenRazer](https://openrazer.github.io/) for managing your Razer devices.
   - [rclone](https://rclone.org/) and [restic](https://restic.net/) included
   - `zsh` and `fish` included (optional)
-- Built on top of the the [Universal Blue main image](https://github.com/ublue-os/main)
-  - Extra udev rules for game controllers and [other devices](https://github.com/ublue-os/packages/tree/main/packages/ublue-os-udev-rules/src/udev-rules.d) included out of the box
-  - All multimedia codecs included
+- Built on top of [Kinoite Bootc Images](https://gitlab.com/fedora/ostree/ci-test)
+- Extra udev rules for game controllers and [other devices](https://github.com/projectbluefin/common) included out of the box
+- Multimedia codecs included
   - System designed for automatic staging of updates
     - If you've never used an image-based Linux before just use your computer normally
     - Don't overthink it, just shut your computer off when you're not using it
