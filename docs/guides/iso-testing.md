@@ -26,7 +26,7 @@ These images are built on `aurora:beta` and are meant to test Fedora 44 based IS
 | Version | GPU       | Download                                                                                                                | Checksum                                                                                     |
 | ------- | --------- | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | Aurora  | AMD/Intel | [📥 aurora-beta-webui-x86_64.iso](https://dl-test.getaurora.dev/aurora-beta-webui-x86_64.iso)                           | [🔐 Verify](https://dl-test.getaurora.dev/aurora-beta-webui-x86_64.iso-CHECKSUM)             |
-| Aurora  | Nvidia    | [📥 aurora-nvidia-open-stable-webui-x86_64.iso](https://dl-test.getaurora.dev/aurora-nvidia-open-beta-webui-x86_64.iso) | [🔐 Verify](https://dl-test.getaurora.dev/aurora-nvidia-open-beta-webui-x86_64.iso-CHECKSUM) |
+| Aurora  | Nvidia    | [📥 aurora-nvidia-open-beta-webui-x86_64.iso](https://dl-test.getaurora.dev/aurora-nvidia-open-beta-webui-x86_64.iso)   | [🔐 Verify](https://dl-test.getaurora.dev/aurora-nvidia-open-beta-webui-x86_64.iso-CHECKSUM) |
 
 ## Verifying Downloads with Checksums
 
