@@ -23,7 +23,7 @@ Our ISO testing program is an easy way to contribute back to the project. These 
 
 These images are built on `aurora:beta` and are meant to test Fedora 44 based ISOs. These have the new plasma-setup workflow.
 
-:::Nvidia
+:::tip
 Nvidia BETA ISO is currently unavailable until we are able to build them
 :::
 
