@@ -22,7 +22,7 @@
     "@docusaurus/preset-classic": "3.9.2",
     "@easyops-cn/docusaurus-search-local": "^0.55.0",
     "@mdx-js/react": "^3.0.0",
-    "baseline-browser-mapping": "^2.10.10",
+    "baseline-browser-mapping": "^2.10.0",
     "caniuse-lite": "^1.0.30001780",
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
