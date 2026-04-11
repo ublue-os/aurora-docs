@@ -61,7 +61,7 @@ rpm-ostree reset
 
 After that you can start right from step 3 above.
 
-## Rebasing from another Universal Blue Image (e.g. Bazzite)
+## Rebasing from another Bootable Container Image (e.g. Bazzite)
 
 If you want to rebase from a Bazzite-KDE Installation to Aurora, you can just skip steps 1-3 and grab a command with your desired image from step 4, from the installation guide above.
 
