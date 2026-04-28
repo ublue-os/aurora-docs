@@ -103,4 +103,4 @@ _The Aurora team_
 
 _PS: Don't forget to gaze at the night sky!_
 
-## [Discussion]()
+## [Discussion](https://github.com/ublue-os/aurora/discussions/2127)
