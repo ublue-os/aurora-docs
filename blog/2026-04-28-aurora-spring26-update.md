@@ -11,7 +11,7 @@ authors:
 
 Hey Stargazers,
 
-Fedora 44 releases today (Tuesday 28th) and we have enabled Fedora 44 based builds of Aurora on our `latest` stream, which is aimed at enthusiasts who want the latest and greatest.
+[Fedora 44 releases today](https://fedoramagazine.org/announcing-fedora-linux-44/) (Tuesday 28th) and we have enabled Fedora 44 based builds of Aurora on our `latest` stream, which is aimed at enthusiasts who want the latest and greatest.
 
 Users who are already on the `latest` stream will be automatically updated to the new base or you can run `ujust update` if you don't want to wait :).
 
