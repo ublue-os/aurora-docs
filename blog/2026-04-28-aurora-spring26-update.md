@@ -61,9 +61,9 @@ OpenRazer (kernel module and daemon) is another package that we have bundled for
 
 ### Asus support in homebrew
 
-One new thing, not directly related to the release of Fedora 44, is the inclusion of a previously out-of-tree patches providing support for ASUS ROG Laptops (and some others). Most of the patches are now included in the kernel and only thing you need is [`asusctl`](https://github.com/NeroReflex/asusctl).
+One new thing, not directly related to the release of Fedora 44, is the inclusion of previously out-of-tree patches providing support for ASUS ROG laptops (and some others). Most of the patches are now included in the kernel, and the only thing you need is [`asusctl`](https://github.com/NeroReflex/asusctl).
 
-We have a new homebrew cask for `asusctl`, thanks to work from Daegalus. It is now available in the [ublue-os homebrew-tap](https://github.com/ublue-os/homebrew-tap). With that you are able to control the keyboard lights etc. Take it for spin if you have these Asus laptops (unfortunately we don't) and let us know how it works out.
+We have a new homebrew cask for `asusctl`, thanks to work from Daegalus. It is now available in the [ublue-os homebrew-tap](https://github.com/ublue-os/homebrew-tap). With that you are able to control the keyboard lights etc. Take it for a spin if you have these Asus laptops (unfortunately we don't) and let us know how it works out.
 
 ### General build system enhancements
 
@@ -79,7 +79,7 @@ We've implemented SBOMs (Software Bill of Materials) and [Build Attestation](htt
 
 ## What about Aurora:stable?
 
-Just like previously, the `stable` stream follows a gated cadence from [CoreOS](https://fedoraproject.org/coreos/). Currently their release timeline for F44 images looks to be after few weeks (usually two). After that, we will also make the F44 builds available on `stable` and `stable-daily`. We will of course make another announcement when those are ready.
+Just like previously, the `stable` stream follows a gated cadence from [CoreOS](https://fedoraproject.org/coreos/). Currently their release timeline for F44 images looks to be after a few weeks (usually two). After that, we will also make the F44 builds available on `stable` and `stable-daily`. We will of course make another announcement when those are ready.
 
 ## I want F44 now
 
@@ -95,7 +95,7 @@ As we mentioned [previously](https://docs.getaurora.dev/blog/aurora44-beta#impor
 
 ## A look into the future
 
-Now let's get into the time machine and have a look into the future, a future where we don't need a seperate Developer Experience Image anymore. [JumpyVi](https://github.com/jumpyvi) is working on a [new kind of layer](https://github.com/projectbluefin/common/pull/288) here, which brings the developer experience to the base image via homebrew, quadlets and other neat tricks. Bringing the DX layer to the base image effectively halves the maintenance, image and build burden for everyone and get's you started faster when setting up your developer workstation. This is currently in super-early stages and should not be used in a production system, but its cool nonetheless. The future is bright!
+Now let's get into the time machine and have a look into the future, a future where we don't need a separate Developer Experience Image anymore. [JumpyVi](https://github.com/jumpyvi) is working on a [new kind of layer](https://github.com/projectbluefin/common/pull/288) here, which brings the developer experience to the base image via homebrew, quadlets and other neat tricks. Bringing the DX layer to the base image effectively halves the maintenance, image and build burden for everyone and get's you started faster when setting up your developer workstation. This is currently in super-early stages and should not be used in a production system, but its cool nonetheless. The future is bright!
 
 Until next time, stargazers!
 
