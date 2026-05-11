@@ -24,6 +24,7 @@ System updates are image-based and automatic. Applications are logically separat
 
 ## For Users
 
+- [Konsole](https://apps.kde.org/konsole/) for container management
 - [Kontainer](https://github.com/DenysMb/Kontainer) for container management
 - [Tailscale](https://tailscale.com) + [KTailctl](https://github.com/f-koehler/KTailctl) - included for VPN along with `wireguard-tools`
 - [Bazaar](https://github.com/kolunmi/bazaar) for [Flathub](https://flathub.org):
