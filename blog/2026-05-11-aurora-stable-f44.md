@@ -8,9 +8,9 @@ authors:
 
 Hey Stargazers,
 
-New `stable` update is now rolling out! This update is now the first stable stream update that is based on Fedora 44.
+New `stable` update is now rolling out! This is the first stable stream update based on Fedora 44.
 
-Checkout the previous release announcement for all the goodies.
+Check out the previous release announcement for all the goodies.
 
 [Aurora Spring 2026 update](https://docs.getaurora.dev/blog/aurora-spring26-update)
 
