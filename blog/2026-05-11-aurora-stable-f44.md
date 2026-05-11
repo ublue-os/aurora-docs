@@ -14,4 +14,6 @@ Check out the previous release announcement for all the goodies.
 
 [Aurora Spring 2026 update](https://docs.getaurora.dev/blog/aurora-spring26-update)
 
+This update has the 6.19.14 kernel with backported fixes for CopyFail2 and DirtyFrag exploits that were discovered last week.
+
 ## [Discussion](https://github.com/ublue-os/aurora/discussions/2127)
