@@ -23,7 +23,7 @@ If your software is included in Aurora and missing from this list, please send a
 
 - [Bazaar](https://ko-fi.com/kolunmi)
 - [Deja Dup](https://liberapay.com/DejaDup)
-- [DistroShelf](https://github.com/sponsors/ranfdev)
+- [Kontainer](https://github.com/sponsors/DenysMb)
 - Flatpak: Currently migrating fiscal hosts
 - [Homebrew](https://github.com/Homebrew/brew#donations)
 - [KDE](https://kde.org/donate)

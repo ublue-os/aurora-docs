@@ -86,11 +86,9 @@ brew tap colindean/fonts-nonfree && brew install --cask font-microsoft-office fo
 
 ### Pet Containers
 
-Pet containers are available as interactive terminals via [distrobox](https://distrobox.it/). Manage these via the included [DistroShelf](https://github.com/ranfdev/DistroShelf) application.
+Pet containers are available as interactive terminals via [distrobox](https://distrobox.it/). Manage these via the included [Kontainer](https://github.com/DenysMb/Kontainer) application.
 
-Use DistroShelf's interface to create your own pet containers from whichever distribution is on the list:
-
-![image](https://github.com/user-attachments/assets/2daf276d-2aed-47b9-9792-923d674ef226)
+Use Kontainer to create your own pet containers from whichever distribution is on the list:
 
 For CLI warriors you can manage your containers with the Terminal's built-in container support:
 
