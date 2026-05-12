@@ -42,15 +42,12 @@ They are commonly used for two different scenarios:
 
 While Distrobox can be managed via the command line, there is a graphical application that makes container management more user-friendly:
 
-#### DistroShelf
+#### Kontainer
 
-[DistroShelf](https://github.com/ranfdev/DistroShelf) is a modern GTK4 application for managing Distrobox containers. It provides an intuitive interface for creating, managing, and accessing your containers.
-
-![DistroShelf Interface](/img/software/distrobox-shelf.png)
+[Kontainer](https://github.com/DenysMb/Kontainer) is a modern Kirigami application for managing Distrobox containers. It provides an intuitive interface for creating, managing, and accessing your containers.
 
 - **Installation**: Available as a Flatpak from Flathub
 - **Features**: Create containers from various distributions, manage existing containers, and launch applications directly from containers
-- **Integration**: Included by default in Aurora DX
 
 ## `rpm-ostree`
 
