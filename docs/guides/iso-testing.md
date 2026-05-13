@@ -3,7 +3,7 @@ title: ISO Testing
 description: Aurora ISO testing
 ---
 
-Our ISO testing program is an easy way to contribute back to the project. These ISOs get refreshed every Tuesday, two hours after the `aurora:stable` weekly build has completed. If you find issues, please file an issue on the [ISO repo](https://github.com/get-aurora-dev/iso).
+Our ISO testing program is an easy way to contribute back to the project. These ISOs get refreshed every first day of the month. If you find issues, please file an issue on the [ISO repo](https://github.com/get-aurora-dev/iso).
 
 ## Things to Test For
 
