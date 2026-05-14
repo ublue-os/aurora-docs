@@ -107,6 +107,7 @@ This interactive tool will guide you through:
 ```bash
 sudo bootc switch --enforce-container-sigpolicy ghcr.io/ublue-os/aurora:stable
 ```
+
 ### To Latest Stream
 
 ```bash
