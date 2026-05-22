@@ -11,7 +11,9 @@ Aurora offers different release streams to meet various user needs and preferenc
 
 :::info stable-daily images removed
 
-We previously had also `stable-daily` images that were built daily with the same gated kernel as `stable` but other packages updated from Fedora. We stopped building them because they didn't really make much sense and in preparation for our `testing` stream. Users using `stable-daily` have been moved to the `stable` stream.
+We previously had also `stable-daily` images that were built daily with the same gated kernel as `stable` but other packages updated from Fedora. We have stopped building them because they didn't really make much sense and in preparation for our `testing` stream. The `stable-daily` tag has been pointed towards `stable`.
+
+We recommend that `stable-daily` users switch to `stable` using the `ujust rebase-helper` tool.
 
 :::
 
