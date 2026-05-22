@@ -9,7 +9,13 @@ Aurora offers different release streams to meet various user needs and preferenc
 
 ## Stream Comparison
 
-Aurora provides three main release streams with different characteristics:
+:::info stable-daily images removed
+
+We previously had also `stable-daily` images that were built daily with the same gated kernel as `stable` but other packages updated from Fedora. We stopped building them because they didn't really make much sense and in preparation for our `testing` stream. Users using `stable-daily` have been moved to the `stable` stream.
+
+:::
+
+Aurora provides two main release streams with different characteristics:
 
 | Feature                 | Stable      | Latest                  |
 | ----------------------- | ----------- | ----------------------- |
