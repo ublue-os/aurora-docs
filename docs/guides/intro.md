@@ -24,8 +24,8 @@ System updates are image-based and automatic. Applications are logically separat
 
 ## For Users
 
-- [Ptyxis terminal](https://devsuite.app/ptyxis/) for container-focused workflows
-  - [DistroShelf](https://github.com/ranfdev/DistroShelf) for container management
+- [Konsole](https://apps.kde.org/konsole/) for container management
+- [Kontainer](https://github.com/DenysMb/Kontainer) for container management
 - [Tailscale](https://tailscale.com) + [KTailctl](https://github.com/f-koehler/KTailctl) - included for VPN along with `wireguard-tools`
 - [Bazaar](https://github.com/kolunmi/bazaar) for [Flathub](https://flathub.org):
   - Discover and install graphical applications
@@ -39,9 +39,9 @@ System updates are image-based and automatic. Applications are logically separat
   - [OpenRazer](https://openrazer.github.io/) for managing your Razer devices.
   - [rclone](https://rclone.org/) and [restic](https://restic.net/) included
   - `zsh` and `fish` included (optional)
-- Built on top of the the [Universal Blue main image](https://github.com/ublue-os/main)
-  - Extra udev rules for game controllers and [other devices](https://github.com/ublue-os/packages/tree/main/packages/ublue-os-udev-rules/src/udev-rules.d) included out of the box
-  - All multimedia codecs included
+- Built on top of [Kinoite Bootc Images](https://gitlab.com/fedora/ostree/ci-test)
+- Extra udev rules for game controllers and [other devices](https://github.com/projectbluefin/common) included out of the box
+- Multimedia codecs included
   - System designed for automatic staging of updates
     - If you've never used an image-based Linux before just use your computer normally
     - Don't overthink it, just shut your computer off when you're not using it
@@ -82,4 +82,4 @@ fi
 
 ## News & Updates
 
-Announcements centered around the project can be found on the [**forums**](https://universal-blue.discourse.group/tags/c/aurora/11/aurora-news/l/latest) that can also be subscribed to from the [**RSS feed**](https://universal-blue.discourse.group/tag/aurora-news.rss). Patch notes for each update can be found in [**Github**](https://github.com/ublue-os/aurora/releases).
+Announcements centered around the project can be found on the [**blog**](https://docs.getaurora.dev/blog), that can also be subscribed to from the [**RSS feed**](https://docs.getaurora.dev/blog/rss.xml). Patch notes for each update can be found in [**Github**](https://github.com/ublue-os/aurora/releases).

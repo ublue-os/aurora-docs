@@ -3,7 +3,7 @@ title: ISO Testing
 description: Aurora ISO testing
 ---
 
-Our ISO testing program is an easy way to contribute back to the project. These ISOs get refreshed every Tuesday, two hours after the `aurora:stable` weekly build has completed. If you find issues, please file an issue on the [ISO repo](https://github.com/get-aurora-dev/iso).
+Our ISO testing program is an easy way to contribute back to the project. These ISOs get refreshed every first day of the month. If you find issues, please file an issue on the [ISO repo](https://github.com/get-aurora-dev/iso).
 
 ## Things to Test For
 
@@ -12,12 +12,23 @@ Our ISO testing program is an easy way to contribute back to the project. These 
 - Bare metal if possible but not required
 - If you've got the time, go through the docs and run through the new user experience. These bugs are highly prized, so if you find one, file it!
 
-## Aurora
+## Aurora (stable ISOs)
 
 | Version | GPU       | Download                                                                                                                  | Checksum                                                                                       |
 | ------- | --------- | ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | Aurora  | AMD/Intel | [📥 aurora-stable-webui-x86_64.iso](https://dl-test.getaurora.dev/aurora-stable-webui-x86_64.iso)                         | [🔐 Verify](https://dl-test.getaurora.dev/aurora-stable-webui-x86_64.iso-CHECKSUM)             |
 | Aurora  | Nvidia    | [📥 aurora-nvidia-open-stable-webui-x86_64.iso](https://dl-test.getaurora.dev/aurora-nvidia-open-stable-webui-x86_64.iso) | [🔐 Verify](https://dl-test.getaurora.dev/aurora-nvidia-open-stable-webui-x86_64.iso-CHECKSUM) |
+
+{/\* ## Aurora BETA ISOs
+
+These images are built on `aurora:beta` and are meant to test Fedora 44 based ISOs. These have the new plasma-setup workflow.
+
+| Version | GPU       | Download                                                                                                              | Checksum                                                                                     |
+| ------- | --------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Aurora  | AMD/Intel | [📥 aurora-beta-webui-x86_64.iso](https://dl-test.getaurora.dev/aurora-beta-webui-x86_64.iso)                         | [🔐 Verify](https://dl-test.getaurora.dev/aurora-beta-webui-x86_64.iso-CHECKSUM)             |
+| Aurora  | Nvidia    | [📥 aurora-nvidia-open-beta-webui-x86_64.iso](https://dl-test.getaurora.dev/aurora-nvidia-open-beta-webui-x86_64.iso) | [🔐 Verify](https://dl-test.getaurora.dev/aurora-nvidia-open-beta-webui-x86_64.iso-CHECKSUM) |
+
+\*/}
 
 ## Verifying Downloads with Checksums
 

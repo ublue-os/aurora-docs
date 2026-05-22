@@ -102,7 +102,7 @@ const config: Config = {
           position: "right",
         },
         {
-          href: "https://universal-blue.discourse.group/",
+          href: "https://github.com/ublue-os/aurora/discussions",
           label: "Community",
           position: "right",
         },

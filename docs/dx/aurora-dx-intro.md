@@ -86,19 +86,15 @@ brew tap colindean/fonts-nonfree && brew install --cask font-microsoft-office fo
 
 ### Pet Containers
 
-Pet containers are available as interactive terminals via [distrobox](https://distrobox.it/). Manage these via the included [DistroShelf](https://github.com/ranfdev/DistroShelf) application.
+Pet containers are available as interactive terminals via [distrobox](https://distrobox.it/). Manage these via the included [Kontainer](https://github.com/DenysMb/Kontainer) application.
 
-Use DistroShelf's interface to create your own pet containers from whichever distribution is on the list:
-
-![image](https://github.com/user-attachments/assets/2daf276d-2aed-47b9-9792-923d674ef226)
+Use Kontainer to create your own pet containers from whichever distribution is on the list:
 
 For CLI warriors you can manage your containers with the Terminal's built-in container support:
 
 ![image](https://github.com/user-attachments/assets/2a4dc4b5-f1a8-4781-80a4-92ea4dfeeb97)
 
-The included [Terminal](https://gitlab.gnome.org/chergert/ptyxis) includes a host terminal so that you can quickly switch between containers and the host.
-
-- The default terminal is [Ptyxis](https://gitlab.gnome.org/chergert/ptyxis), which includes built in integration of distrobox containers. It is aliased as "Terminal" in the menu. It is mapped to <kbd>Ctrl</kbd>-<kbd>Alt</kbd>-<kbd>Enter</kbd> by default for quick launch
+- The default terminal is [Konsole](https://apps.kde.org/konsole/), which includes integration of distrobox containers nowadays. Historically [Ptyxis](https://gitlab.gnome.org/chergert/ptyxis) has been used.
 - [Podman Desktop](https://flathub.org/apps/io.podman_desktop.PodmanDesktop) - Containers and Kubernetes for application developers
 - [Pods](https://flathub.org/apps/com.github.marhkb.Pods) is also a great way to manage your containers graphically
 
