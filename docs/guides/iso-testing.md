@@ -19,17 +19,6 @@ Our ISO testing program is an easy way to contribute back to the project. These 
 | Aurora  | AMD/Intel | [📥 aurora-stable-webui-x86_64.iso](https://dl-test.getaurora.dev/aurora-stable-webui-x86_64.iso)                         | [🔐 Verify](https://dl-test.getaurora.dev/aurora-stable-webui-x86_64.iso-CHECKSUM)             |
 | Aurora  | Nvidia    | [📥 aurora-nvidia-open-stable-webui-x86_64.iso](https://dl-test.getaurora.dev/aurora-nvidia-open-stable-webui-x86_64.iso) | [🔐 Verify](https://dl-test.getaurora.dev/aurora-nvidia-open-stable-webui-x86_64.iso-CHECKSUM) |
 
-{/\* ## Aurora BETA ISOs
-
-These images are built on `aurora:beta` and are meant to test Fedora 44 based ISOs. These have the new plasma-setup workflow.
-
-| Version | GPU       | Download                                           | Checksum         |
-| ------- | --------- | -------------------------------------------------- | ---------------- |
-| Aurora  | AMD/Intel | [📥 aurora-beta-webui-x86_64.iso](...)             | [🔐 Verify](...) |
-| Aurora  | Nvidia    | [📥 aurora-nvidia-open-beta-webui-x86_64.iso](...) | [🔐 Verify](...) |
-
-\*/}
-
 ## Verifying Downloads with Checksums
 
 **Checksums** allow you to verify that your download completed successfully and wasn't corrupted or tampered with. After downloading an ISO, you can compare its checksum to the official checksum file to ensure integrity. While optional, verification is recommended for important installations.
