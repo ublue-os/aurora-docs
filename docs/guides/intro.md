@@ -71,6 +71,10 @@ System updates are image-based and automatic. Applications are logically separat
 
 ## Starship is not for me, how do I disable it?
 
+::: tip
+Starship has been removed from the base image starting from Fedora 44 based images. It is not enabled by default anymore
+:::
+
 You can remove or comment the lines below in `/etc/profile.d/90-aurora-starship.sh` to restore the default prompt.
 
 ```bash
