@@ -35,7 +35,6 @@ If your software is included in Aurora and missing from this list, please send a
 - [fzf](https://github.com/sponsors/junegunn)
 - [just](https://github.com/sponsors/casey)
 - [rclone](https://rclone.org/sponsor/)
-- [starship](https://github.com/sponsors/starship)
 - [ydotool](https://www.patreon.com/classicoldsong)
 - [yq](https://github.com/sponsors/mikefarah)
 

@@ -69,20 +69,6 @@ System updates are image-based and automatic. Applications are logically separat
 - Aurora _tries_ to remove the need for the user to use `rpm-ostree` or `bootc` directly
 - Aurora focuses on automation of OS services and upgrades instead of user interaction. Upgrades are automatic and silent, so you never have to think about it again.
 
-## Starship is not for me, how do I disable it?
-
-::: tip
-Starship has been removed from the base image starting from Fedora 44 based images. It is not enabled by default anymore
-:::
-
-You can remove or comment the lines below in `/etc/profile.d/90-aurora-starship.sh` to restore the default prompt.
-
-```bash
-if [ "$(basename "$(readlink /proc/$$/exe)")" = "bash" ]; then
-  eval "$(starship init bash)"
-fi
-```
-
 ## News & Updates
 
 Announcements centered around the project can be found on the [**blog**](https://docs.getaurora.dev/blog), that can also be subscribed to from the [**RSS feed**](https://docs.getaurora.dev/blog/rss.xml). Patch notes for each update can be found in [**Github**](https://github.com/ublue-os/aurora/releases).
