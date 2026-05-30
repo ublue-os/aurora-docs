@@ -25,6 +25,6 @@ As we mentioned, there is a plan to move us to a two-step process for how we bui
 
 The `stable-daily` stream is now pointed to `stable`, so you will still keep getting updates — but from now on they'll be based on weekly builds.
 
-This ensures the streams stay working without needing user intervention to keep receiving updates. However, we still recommend users rebase to the stable stream using the `ujust rebase-helper`.
+You don't have to do anything, however, we still recommend users rebase to the stable stream using the `ujust rebase-helper`. If you still want to receive daily updates then we would recommend you to rebase to the `latest` stream, the difference between `stable-daily` and `latest` is that the former has ZFS included and has an older Fedora CoreOS Kernel. [See our docs](https://docs.getaurora.dev/guides/release-streams/).
 
 ## [Discussion](https://github.com/ublue-os/aurora/discussions/2279)
