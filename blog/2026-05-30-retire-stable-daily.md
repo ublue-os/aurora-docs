@@ -27,4 +27,4 @@ The `stable-daily` stream is now pointed to `stable`, so you will still keep get
 
 This ensures the streams stay working without needing user intervention to keep receiving updates. However, we still recommend users rebase to the stable stream using the `ujust rebase-helper`.
 
-## [Discussion](https://github.com/ublue-os/aurora/discussions/XXX)
+## [Discussion](https://github.com/ublue-os/aurora/discussions/2279)
