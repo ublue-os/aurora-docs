@@ -13,11 +13,14 @@ jobs:
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
 
+      
+
+
       - name: Install Prince
         run: |
-          curl https://www.princexml.com/download/prince-15.4.1-linux-generic-x86_64.tar.gz -O
-          tar zxf prince-15.4.1-linux-generic-x86_64.tar.gz
-          cd prince-15.4.1-linux-generic-x86_64
+          curl https://www.princexml.com/download/prince-16.2-linux-generic-x86_64.tar.gz
+          tar zxf prince-16.2-linux-generic-x86_64.tar.gz
+          cd prince-16.2-linux-generic-x86_64.tar.gz
           yes "" | sudo ./install.sh
       - name: Build PDF
         run: npx docusaurus-prince-pdf --toc -u https://docs.getaurora.dev -o pdf/aurora.pdf
