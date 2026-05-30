@@ -178,7 +178,7 @@ rpm-ostree status
 ```
 
 ```
-● ostree-image-signed:docker://ghcr.io/ublue-os/aurora-dx:stable-daily
+● ostree-image-signed:docker://ghcr.io/ublue-os/aurora-dx:stable
                    Digest: sha256:4d08e32db51d634eb6fa1cf27e8472de074db783aee5c89849899e00c36c4b59
                   Version: 42.20250630 (2025-06-30T04:54:48Z)
                  Unlocked: hotfix

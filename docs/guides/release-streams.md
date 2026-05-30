@@ -9,16 +9,24 @@ Aurora offers different release streams to meet various user needs and preferenc
 
 ## Stream Comparison
 
-Aurora provides three main release streams with different characteristics:
+:::info stable-daily images removed
 
-| Feature                 | Stable      | Stable-Daily | Latest                  |
-| ----------------------- | ----------- | ------------ | ----------------------- |
-| **Target Users**        | Production  | Enthusiasts  | Advanced users, testers |
-| **System Updates**      | Weekly      | Daily        | As available            |
-| **Application Updates** | Twice a day | Twice a day  | Twice a day             |
-| **Kernel**              | Gated       | Gated        | Not-gated               |
+We previously had also `stable-daily` images that were built daily with the same gated kernel as `stable` but other packages updated from Fedora. We have stopped building them because they didn't really make much sense and in preparation for our `testing` stream. The `stable-daily` tag has been pointed towards `stable`.
 
-The major difference between latest and stable is the kernel cadence and when they do a major upgrade. latest will upgrade to the next major Fedora release as soon as it is available and builds daily. stable will upgrade when CoreOS does its userspace upgrade, which is usually a few weeks afterwards, and builds weekly or daily. Users can choose the stable-daily image for daily stable updates, or stick to stable for weekly builds.
+We recommend that `stable-daily` users switch to `stable` using the `ujust rebase-helper` tool.
+
+:::
+
+Aurora provides two main release streams with different characteristics:
+
+| Feature                 | Stable      | Latest                  |
+| ----------------------- | ----------- | ----------------------- |
+| **Target Users**        | Production  | Advanced users, testers |
+| **System Updates**      | Weekly      | As available            |
+| **Application Updates** | Twice a day | Twice a day             |
+| **Kernel**              | Gated       | Not-gated               |
+
+The major difference between latest and stable is the kernel cadence and when they do a major upgrade. latest will upgrade to the next major Fedora release as soon as it is available and builds daily. Stable will upgrade when CoreOS does its userspace upgrade, which is usually a few weeks afterwards, and builds weekly.
 
 #### Gated Kernel
 
@@ -44,23 +52,6 @@ The **stable** stream is the recommended choice for most users. It provides:
 - `ghcr.io/ublue-os/aurora-dx:stable`
 - `ghcr.io/ublue-os/aurora-nvidia-open:stable`
 - `ghcr.io/ublue-os/aurora-dx-nvidia-open:stable`
-
-### Stable-Daily
-
-The **stable-daily** stream provides:
-
-- **Daily Updates**: Daily builds of the stable stream
-- **Gated Kernel**: Same gated kernel as stable for reliability
-- **More Frequent**: Updates daily instead of weekly
-
-**Image Tags**: `stable-daily`
-
-**Examples**:
-
-- `ghcr.io/ublue-os/aurora:stable-daily`
-- `ghcr.io/ublue-os/aurora-dx:stable-daily`
-- `ghcr.io/ublue-os/aurora-nvidia-open:stable-daily`
-- `ghcr.io/ublue-os/aurora-dx-nvidia-open:stable-daily`
 
 ### Latest
 
@@ -90,12 +81,6 @@ The **latest** stream provides:
 - The best balance of features and stability
 - **Recommended for most users**
 
-### Use **Stable-Daily** if you want
-
-- Daily (package) updates instead of weekly
-- Gated kernel reliability with more frequent updates
-- **Good for users who want stable but more current**
-
 ### Use **Latest** if you want
 
 - The newest features immediately
@@ -119,7 +104,7 @@ ujust rebase-helper
 
 This interactive tool will guide you through:
 
-- Switching between different Aurora streams (stable, stable-daily, latest)
+- Switching between different Aurora streams (stable, latest)
 - Moving between hardware-specific images (aurora, aurora-dx, aurora-nvidia, etc.)
 - Selecting the appropriate image for your system
 
@@ -129,12 +114,6 @@ This interactive tool will guide you through:
 
 ```bash
 sudo bootc switch --enforce-container-sigpolicy ghcr.io/ublue-os/aurora:stable
-```
-
-### To Stable-Daily Stream
-
-```bash
-sudo bootc switch --enforce-container-sigpolicy ghcr.io/ublue-os/aurora:stable-daily
 ```
 
 ### To Latest Stream
@@ -158,13 +137,6 @@ Replace `aurora` with your specific image variant:
 - Uses gated kernel for enhanced stability
 - Updates include both system packages and container updates
 
-### Stable-Daily Stream
-
-- Daily builds of the stable stream
-- Same gated kernel as stable
-- More frequent updates for users who want the latest stable changes
-- Updates include both system packages and container updates
-
 ### Latest Stream
 
 - Updates follow Fedora's release schedule closely
@@ -185,8 +157,7 @@ Look for the container image URL in the output to identify your current stream.
 ## Recommendations
 
 - **New Users**: Start with the **stable** stream
-- **Users wanting frequent updates**: Consider **stable-daily** for daily stable builds
-- **Developers**: Consider **stable** or **stable-daily** for reliability or **latest** for newest tools
+- **Developers**: Consider **stable** for reliability or **latest** for newest tools
 - **Enthusiasts**: Try **latest** for cutting-edge features
 
 Remember that you can always switch between streams if your needs change!
