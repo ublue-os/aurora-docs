@@ -2,7 +2,8 @@ name: Generate Docs PDF
 on:
   push:
     branches:
-      - main
+      - "**"
+  pull_request:
   workflow_dispatch:
 
 jobs:
@@ -13,18 +14,20 @@ jobs:
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
 
-      
-
+      - uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6
+        with:
+          node-version: 24
 
       - name: Install Prince
         run: |
-          curl https://www.princexml.com/download/prince-16.2-linux-generic-x86_64.tar.gz
+          curl -LO https://www.princexml.com/download/prince-16.2-linux-generic-x86_64.tar.gz
           tar zxf prince-16.2-linux-generic-x86_64.tar.gz
-          cd prince-16.2-linux-generic-x86_64.tar.gz
+          cd prince-16.2-linux-generic-x86_64
           yes "" | sudo ./install.sh
       - name: Build PDF
         run: npx docusaurus-prince-pdf --toc -u https://docs.getaurora.dev -o pdf/aurora.pdf
       - name: Upload results
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7
         with:
           name: aurora
@@ -33,7 +36,7 @@ jobs:
           if-no-files-found: error
           overwrite: true
       - name: Upload Release Artifact
-        if: github.event_name != 'pull_request'
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
