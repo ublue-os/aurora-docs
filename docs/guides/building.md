@@ -5,8 +5,7 @@
 Aurora images are built from multiple repositories working together:
 
 - **[ublue-os/aurora](https://github.com/ublue-os/aurora)** - Main image repository that orchestrates the build process and defines the final images
-- **[get-aurora-dev/common](https://github.com/get-aurora-dev/common)** - Aurora-specific configurations, ujust recipes, artwork, and customizations (built on top of projectbluefin/common)
-- **[projectbluefin/common](https://github.com/projectbluefin/common)** - Shared distro experience layer (ujust, MOTD, CLI config, etc.) used by both Aurora and Bluefin
+- **[get-aurora-dev/common](https://github.com/get-aurora-dev/common)** - Aurora-specific configurations, ujust recipes, artwork, and customizations built on top of [aurorafin-shared](https://github.com/ublue-os/aurorafin-shared), which includes the shared experience (ujust, MOTD, CLI config, etc.) used by both Aurora and Bluefin
 - **[ublue-os/brew](https://github.com/ublue-os/brew)** - Homebrew setup and configuration
 
 The build process in `ublue-os/aurora` pulls these common layers as OCI containers. The `get-aurora-dev/common` image itself is built from `projectbluefin/common` as its base, creating a layered architecture.
