@@ -138,7 +138,7 @@ Make sure to only commit the actual changes to the repo with things like `git ad
 
 ## Rebasing to a Locally Built Image
 
-For `bootc` to be able to rebase/switch to the new image it has to be moved from the users container storage to the container storage of the root user,
+For `bootc` to be able to rebase/switch to the new image it has to be moved from the users container storage to the container storage of the root user.
 
 ```sh
 podman image scp localhost/aurora:latest root@localhost
