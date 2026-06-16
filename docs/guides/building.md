@@ -24,7 +24,7 @@ Aurora images are built from multiple repositories working together:
 
 ## Preparations
 
-###  Build Dependencies
+### Build Dependencies
 
 - [git](https://git-scm.com/)
 - [just](https://github.com/casey/just)
@@ -44,7 +44,7 @@ git clone https://github.com/ublue-os/aurora
 The `Justfile` at the root of the repo is used to build the images, here are some examples:
 
 | Command                                    | Description                                              |
-| -------------------------------------------| -------------------------------------------------------- |
+| ------------------------------------------ | -------------------------------------------------------- |
 | `just build aurora `                       | Defaults to `latest` main                                |
 | `just build aurora-dx`                     | Builds Aurora DX                                         |
 | `just build aurora-dx testing nvidia-open` | Builds `testing` `nvidia-open` version of Aurora DX      |
@@ -138,7 +138,7 @@ Make sure to only commit the actual changes to the repo with things like `git ad
 
 ## Rebasing to a Locally Built Image
 
-For `bootc` to be able to rebase/switch to the new image it has to be moved from the users container storage to the container storage of the root user, 
+For `bootc` to be able to rebase/switch to the new image it has to be moved from the users container storage to the container storage of the root user,
 
 ```sh
 podman image scp localhost/aurora:latest root@localhost
