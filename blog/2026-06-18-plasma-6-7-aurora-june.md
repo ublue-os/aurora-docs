@@ -76,3 +76,5 @@ See the [Github issue](https://github.com/ublue-os/aurora/issues/1765).
 This is all for today.
 
 Have a nice summer, stargazers!
+
+## [Discussion](https://github.com/ublue-os/aurora/discussions/2413)
