@@ -32,10 +32,10 @@ The `Justfile` at the root of the repo is used to build the images, here are som
 
 | Command                                               | Description                                              |
 | ----------------------------------------------------- | -------------------------------------------------------- |
-| `just build aurora`                                   | Defaults to `latest` main                                |
-| `just build aurora-dx`                                | Builds Aurora DX                                         |
-| `just build aurora-dx --flavor nvidia-open --testing` | Builds `testing` `nvidia-open` version of Aurora DX      |
-| `just build aurora --tag stable --flavor nvidia-open` | Builds `nvidia-open` version of the Aurora stable branch |
+| `just build`                                   | Defaults to `latest`  with main-akmods flavor                               |
+| `just build --image aurora-dx`                                | Builds Aurora DX                                         |
+| `just build --image aurora-dx --flavor nvidia-open --testing` | Builds `testing` `nvidia-open` version of Aurora DX      |
+| `just build --tag stable --flavor nvidia-open` | Builds `nvidia-open` version of the Aurora stable branch |
 
 The general pattern is `just build/run image tag flavor`
 
