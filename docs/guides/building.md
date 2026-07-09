@@ -45,10 +45,10 @@ The `Justfile` at the root of the repo is used to build the images, here are som
 
 | Command                                    | Description                                              |
 | ------------------------------------------ | -------------------------------------------------------- |
-| `just build aurora `                       | Defaults to `latest` main                                |
-| `just build aurora-dx`                     | Builds Aurora DX                                         |
-| `just build aurora-dx testing nvidia-open` | Builds `testing` `nvidia-open` version of Aurora DX      |
-| `just build aurora stable nvidia-open`     | Builds `nvidia-open` version of the Aurora stable branch |
+| `just build`                       | Defaults to `latest` main                                |
+| `just build --image aurora-dx`                     | Builds Aurora DX                                         |
+| `just build --image aurora-dx --tag testing --flavor nvidia-open` | Builds `testing` `nvidia-open` version of Aurora DX      |
+| `just build --tag stable --flavor nvidia-open`     | Builds `nvidia-open` version of the Aurora stable branch |
 
 - Images: `aurora`,`aurora-dx`
 - Tags: `stable`,`latest`,`testing`
