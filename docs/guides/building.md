@@ -54,7 +54,7 @@ The `Justfile` at the root of the repo is used to build the images, here are som
 - Tags: `stable`,`latest`,`testing`
 - Flavors: `main`,`nvidia-open`
 
-The general pattern is `just build/run image tag flavor`. We recommend you to prefix sudo with these build commands.
+We recommend you to prefix sudo with these build commands.
 
 We use `just` because our image builds are rather complex because we add many `build-arg`s and `label`s. This just recipe basically generates one big `buildah build` command and verifies the authenticity of our build containers with `cosign`.
 
