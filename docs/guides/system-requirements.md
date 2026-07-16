@@ -8,7 +8,7 @@ Using Aurora on your computer does not require any special sauce, but there are 
 - Architecture: x86_64
 - Firmware: UEFI (CSM/Legacy Boot will not work)
 - Processor (CPU): 2GHz quad core or better
-- System Memory (RAM): 4GB
+- System Memory (RAM): 4GB (8GB or more recommended)
 - Graphics: A modern GPU that is Vulkan 1.3+ compliant
   - For **Nvidia** Users: A RTX 16XX/20XX GPU or newer is required. There are no images for older Nvidia GPU hardware. If you have an older Nvidia GPU, then you can try the non-Nvidia editions to utilize the open source nouveau support. If you need support for older Nvidia cards (especially Pascal and Maxwell, please rebase / reinstall to Bazzite.)
 - Storage: SSD with at least 40GB of free space to have headroom for now and future updates
