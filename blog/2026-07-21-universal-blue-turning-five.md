@@ -10,7 +10,7 @@ Hello stargazers!
 
 Today is an awesome day, our parent project, Universal Blue, has turned five years old. Can you believe it?? I can't. Aurora has now been part of that journey for over 2 out of the 5 years, which is already an amazing timeframe.
 
-Thank you for riding with us. Thank you for using our software, giving feedback on where we can improve. Thank you for enjoying our artwork, thank you for your awesomeness. Here's to another 5 years and many more awesome stories.
+Thank you for riding with us. Thank you for using our software and for giving feedback on where we can improve. Thank you for enjoying our artwork. Thank you for your awesomeness. Here's to another 5 years and many more awesome stories.
 
 Enjoy your summer. Don't forget to gaze at the night sky (it's beautiful out there this summer) and enjoy yourselves. Let's celebrate this milestone together.
 
