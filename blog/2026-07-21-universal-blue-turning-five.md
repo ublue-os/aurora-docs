@@ -14,7 +14,7 @@ Thank you for riding with us. Thank you for using our software and for giving fe
 
 Enjoy your summer. Don't forget to gaze at the night sky (it's beautiful out there this summer) and enjoy yourselves. Let's celebrate this milestone together.
 
-If you want, you can checkout [this awesome blog post](https://docs.projectbluefin.io/blog/five-years-of-bluefin/) from Jorge, all around Bluefin and what's going on over there.
+If you want, you can check out [this awesome blog post](https://docs.projectbluefin.io/blog/five-years-of-bluefin/) from Jorge about Bluefin and what's going on over there.
 
 Have an awesome summer, stargazers.
 
