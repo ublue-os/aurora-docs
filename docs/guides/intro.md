@@ -33,9 +33,7 @@ System updates are image-based and automatic. Applications are logically separat
 - Quality of Life Features
   - Docker & Podman Developer Edition Images contain both Docker and Podman runtimes to support your containerized needs.
   - [Input Leap](https://github.com/input-leap/input-leap) built in.
-  - [Solaar](https://github.com/pwr-Solaar/Solaar) - included for Logitech mouse
-    management along with `libratbagd`.
-  - [OpenRazer](https://openrazer.github.io/) for managing your Razer devices.
+  - `libratbagd` for [Solaar](https://flathub.org/apps/io.github.pwr_solaar.solaar)
   - [rclone](https://rclone.org/) and [restic](https://restic.net/) included
   - `zsh` and `fish` included (optional)
 - Built on top of [Kinoite Bootc Images](https://gitlab.com/fedora/ostree/ci-test)
@@ -47,7 +45,7 @@ System updates are image-based and automatic. Applications are logically separat
 
 ### Applications
 
-- [Mozilla Firefox](https://www.firefox.com/), [Thunderbird](https://www.thunderbird.net), [DejaDup](https://apps.gnome.org/DejaDup/), [FontDownloader](https://github.com/GustavoPeredo/font-downloader), [Flatseal](https://github.com/tchx84/flatseal), and the [Haruna Media Player](https://apps.kde.org/de/haruna/).
+- [Mozilla Firefox](https://www.firefox.com/), [Thunderbird](https://www.thunderbird.net), [DejaDup](https://apps.gnome.org/DejaDup/), [Flatseal](https://github.com/tchx84/flatseal), and the [Haruna Media Player](https://apps.kde.org/haruna/).
 - Core KDE Applications installed:
   - [Clock](https://apps.kde.org/kclock/)
   - [Dolphin File Manager](https://apps.kde.org/dolphin/)
