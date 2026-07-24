@@ -13,8 +13,6 @@ Flash the ISO with one of these tools:
 - [Rufus](https://rufus.ie/en/)
 - [Etcher](https://etcher.balena.io/)
 
-**Note**: Using Ventoy to boot the installation media is not supported as Ventoy's tricks to house multiple ISOs are incompatible with our ISOs.
-
 ## Booting Aurora's Installer
 
 **Note**: The current installer may be [changing](https://github.com/ublue-os/titanoboa) in the near future and this documentation may become outdated.
