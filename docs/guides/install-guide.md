@@ -5,7 +5,7 @@ description: Installing Aurora to your desktop or laptop.
 
 ## Downloading & Flashing
 
-Download the ISO using the download picker from the [website](https://getaurora.dev) or download the [torrent](https://fosstorrents.com/distributions/aurora/).
+Download the ISO using the download picker from the [website](https://getaurora.dev).
 
 Flash the ISO with one of these tools:
 
