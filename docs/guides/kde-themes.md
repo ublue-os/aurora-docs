@@ -25,21 +25,15 @@ Global themes are placed in `~/.local/share/plasma/look-and-feel/` (_you may nee
 
 "Plasma themes" are placed in `~/.local/share/plasma/desktoptheme/` (_you may need to make this directory_).
 
-#### SDDM (Login Manager) Themes
-
-SDDM themes are placed in `/etc/sddm/themes` (_you may need to make this directory_).
-
-SDDM themes can also be layered at your own risk if they are available as RPM packages.
-
 #### Icon / Cursor Themes
 
-"Icon/Cursor themes" are placed in `~/.icons`
+"Icon/Cursor themes" are placed in `~/.local/share/icons`
 
 #### Application Permissions to Use Themes
 
 Some Flatpaks need filesystem permissions for applications that have issues with cursor themes.
 
-> **Example**: (`~/.icons/:ro` in "Filesystem" in each problematic application or globally in Flatseal).
+> **Example**: (xdg-data/icons:ro` in "Filesystem" in each problematic application or globally in Flatseal).
 
 #### Themes that require `kvantum`
 
