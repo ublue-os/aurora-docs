@@ -175,7 +175,6 @@ Replace `aurora` with your specific image variant:
   - **Patched security vulnerabilities** — critical fixes are backported and released immediately
   - **Major feature updates** — significant releases such as new KDE Plasma versions
 - Uses gated kernel for enhanced stability
-- Updates include both system packages and container updates
 
 ### Latest Stream
 
