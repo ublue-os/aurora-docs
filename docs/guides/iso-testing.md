@@ -14,10 +14,10 @@ Our ISO testing program is an easy way to contribute back to the project. These 
 
 ## Aurora (stable ISOs)
 
-| Version | GPU       | Download                                                                                                                  | Checksum                                                                                       |
-| ------- | --------- | ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| Aurora  | AMD/Intel | [📥 aurora-stable-webui-x86_64.iso](https://dl-test.getaurora.dev/aurora-stable-webui-x86_64.iso)                         | [🔐 Verify](https://dl-test.getaurora.dev/aurora-stable-webui-x86_64.iso-CHECKSUM)             |
-| Aurora  | Nvidia    | [📥 aurora-nvidia-open-stable-webui-x86_64.iso](https://dl-test.getaurora.dev/aurora-nvidia-open-stable-webui-x86_64.iso) | [🔐 Verify](https://dl-test.getaurora.dev/aurora-nvidia-open-stable-webui-x86_64.iso-CHECKSUM) |
+| Version | GPU       | Download                                                                                                      | Checksum                                                                                 |
+| ------- | --------- | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Aurora  | AMD/Intel | [📥 aurora-stable-x86_64.iso](https://dl-test.getaurora.dev/aurora-stable-x86_64.iso)                         | [🔐 Verify](https://dl-test.getaurora.dev/aurora-stable-x86_64.iso-CHECKSUM)             |
+| Aurora  | Nvidia    | [📥 aurora-nvidia-open-stable-x86_64.iso](https://dl-test.getaurora.dev/aurora-nvidia-open-stable-x86_64.iso) | [🔐 Verify](https://dl-test.getaurora.dev/aurora-nvidia-open-stable-x86_64.iso-CHECKSUM) |
 
 ## Verifying Downloads with Checksums
 
@@ -26,12 +26,12 @@ Our ISO testing program is an easy way to contribute back to the project. These 
 #### How to verify checksums using sha256sum
 
 1. **Download both the ISO file and its corresponding CHECKSUM file**
-   - For example: `aurora-stable-webui-x86_64.iso` and `aurora-stable-webui-x86_64.iso-CHECKSUM`
+   - For example: `aurora-stable-x86_64.iso` and `aurora-stable-x86_64.iso-CHECKSUM`
 
 2. **Verify the checksums match:**
 
    ```bash
-   sha256sum -c aurora-stable-webui-x86_64.iso-CHECKSUM
+   sha256sum -c aurora-stable-x86_64.iso-CHECKSUM
    ```
 
 **Example:**
@@ -39,6 +39,6 @@ Our ISO testing program is an easy way to contribute back to the project. These 
 ```bash
 
 # Check that the checksums match
-$ sha256sum -c aurora-stable-webui-x86_64.iso-CHECKSUM
-aurora-stable-webui-x86_64.iso: OK
+$ sha256sum -c aurora-stable-x86_64.iso-CHECKSUM
+aurora-stable-x86_64.iso: OK
 ```
