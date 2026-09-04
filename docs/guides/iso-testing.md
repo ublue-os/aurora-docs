@@ -42,6 +42,7 @@ Our ISO testing program is an easy way to contribute back to the project. These 
 $ sha256sum -c aurora-stable-webui-x86_64.iso-CHECKSUM
 aurora-stable-webui-x86_64.iso: OK
 ```
+
 ## Verify download with Attestation
 
 All official ISOs built via GitHub Actions include signed cryptographic build provenance attestations. You can verify that the ISO was built and published directly by this repository using the [GitHub CLI (`gh`)](https://cli.github.com/):
