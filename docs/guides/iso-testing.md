@@ -45,7 +45,7 @@ aurora-stable-webui-x86_64.iso: OK
 
 ## Verify download with Attestation
 
-All official ISOs built via GitHub Actions include signed cryptographic build provenance attestations. You can verify that the ISO was built and published directly by this repository using the [GitHub CLI (`gh`)](https://cli.github.com/):
+All official ISOs built via GitHub Actions include signed cryptographic build provenance attestations. You can verify that the ISO was built and published by the aurora team using the [GitHub CLI (`gh`)](https://cli.github.com/):
 
 ```bash
 gh attestation verify <iso-name>.iso --owner get-aurora-dev
