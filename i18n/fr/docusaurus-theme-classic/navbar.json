@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "Aurora",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Logo Aurora",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Documentation": {
+    "message": "Documentation",
+    "description": "Navbar item with label Documentation"
+  },
+  "item.label.Website": {
+    "message": "Site web",
+    "description": "Navbar item with label Website"
+  },
+  "item.label.Community": {
+    "message": "Communauté",
+    "description": "Navbar item with label Community"
+  },
+  "item.label.Feedback": {
+    "message": "Discord",
+    "description": "Navbar item with label Feedback"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  }
+}
