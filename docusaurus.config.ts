@@ -28,7 +28,7 @@ const config: Config = {
 
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "fr"],
   },
 
   presets: [
@@ -120,6 +120,10 @@ const config: Config = {
           to: "blog",
           label: "Blog",
           position: "left", // or position: 'right'
+        },
+        {
+          type: "localeDropdown",
+          position: "right",
         },
       ],
     },

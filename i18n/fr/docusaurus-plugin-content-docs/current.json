@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "À venir",
+    "description": "The label for version current"
+  },
+  "sidebar.baseSidebar.category.Installation": {
+    "message": "Installation",
+    "description": "The label for category 'Installation' in sidebar 'baseSidebar'"
+  },
+  "sidebar.baseSidebar.category.User Guides": {
+    "message": "Guides d'utilisation",
+    "description": "The label for category 'User Guides' in sidebar 'baseSidebar'"
+  },
+  "sidebar.baseSidebar.category.Developer Experience": {
+    "message": "Environnement de développement",
+    "description": "The label for category 'Developer Experience' in sidebar 'baseSidebar'"
+  },
+  "sidebar.baseSidebar.category.Miscellaneous": {
+    "message": "Divers",
+    "description": "The label for category 'Miscellaneous' in sidebar 'baseSidebar'"
+  },
+  "sidebar.baseSidebar.category.Project Information": {
+    "message": "Informations sur le projet",
+    "description": "The label for category 'Project Information' in sidebar 'baseSidebar'"
+  },
+  "sidebar.baseSidebar.category.Contributing": {
+    "message": "Contribuer",
+    "description": "The label for category 'Contributing' in sidebar 'baseSidebar'"
+  }
+}
