@@ -8,7 +8,7 @@ authors:
 
 Hello stargazers,
 
-Fedora 45 Beta has been [released](https://fedoraproject.org/wiki/Releases/45/Beta) and we have already been building Fedora 45 based builds in our `testing` branch. If you want to see the whole planned Fedora 45 changes, you can find them [here](https://fedoraproject.org/wiki/Releases/45/ChangeSet).
+Fedora 45 Beta has been [released](https://fedoraproject.org/wiki/Releases/45/Beta) and we have already been building Fedora 45 based builds in our `testing` branch. If you want to see the whole planned Fedora 45 changes, you can find them [here](https://fedoraproject.org/wiki/Releases/45/ChangeSet). Current blocker bugs can be found from [Fedora QA](https://qa.fedoraproject.org/blockerbugs/milestone/45/final/buglist).
 
 If you want to help us test these builds, you can easily rebase to the `testing` branch.
 
