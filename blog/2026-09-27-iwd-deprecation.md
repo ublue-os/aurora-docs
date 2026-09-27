@@ -23,11 +23,13 @@ We recommend you pin your current deployment before rebasing:
 ```bash
 sudo ostree admin pin 0
 ```
+
 Then you can rebase to the `testing` branch with the rebase-helper tool:
 
-``` bash
+```bash
 ujust rebase-helper
 ```
+
 Then select your current image (aurora/aurora-dx or the nvidia-open variant) and then select the testing branch:
 ![rebase-helper branch selection](/img/blog/rebase-helper.png)
 
