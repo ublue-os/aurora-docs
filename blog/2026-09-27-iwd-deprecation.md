@@ -8,7 +8,8 @@ authors:
 
 Hello stargazers,
 
-Fedora 45 Beta has been [released](https://fedoraproject.org/wiki/Releases/45/Beta) and we have already been building Fedora 45 based builds in our `testing` branch.
+Fedora 45 Beta has been [released](https://fedoraproject.org/wiki/Releases/45/Beta) and we have already been building Fedora 45 based builds in our `testing` branch. If you want to see the whole planned Fedora 45 changes, you can find them [here](https://fedoraproject.org/wiki/Releases/45/ChangeSet).
+
 If you want to help us test these builds, you can easily rebase to the `testing` branch.
 
 Then we have some news about IWD Wi-fi backend that some of you might be using.
@@ -22,8 +23,15 @@ We recommend you pin your current deployment before rebasing:
 ```bash
 sudo ostree admin pin 0
 ```
+Then you can rebase to the `testing` branch with the rebase-helper tool:
 
-Then you can rebase to the `testing` branch for example:
+``` bash
+ujust rebase-helper
+```
+Then select your current image (aurora/aurora-dx or the nvidia-open variant) and then select the testing branch:
+![rebase-helper branch selection](/img/blog/rebase-helper.png)
+
+or you can do it manually with `bootc switch`:
 
 ```bash
 sudo bootc switch --enforce-container-sigpolicy ghcr.io/ublue-os/aurora:testing
