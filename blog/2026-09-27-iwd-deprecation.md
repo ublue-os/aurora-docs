@@ -73,3 +73,5 @@ Because `iwd` and `wpa_supplicant` manage network secrets and connection profile
 
 After rebooting, **you will need to select your Wi-Fi network and re-enter your password** in the system tray or network settings. Wired Ethernet and VPN connections are unaffected.
 :::
+
+## [Discussion](https://github.com/ublue-os/aurora/discussions/2954)
