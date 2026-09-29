@@ -31,6 +31,7 @@ ujust rebase-helper
 ```
 
 Then select your current image (aurora/aurora-dx or the nvidia-open variant) and then select the testing branch:
+
 ![rebase-helper branch selection](/img/blog/rebase-helper.png)
 
 or you can do it manually with `bootc switch`:
