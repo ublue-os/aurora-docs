@@ -34,15 +34,3 @@ Aurora is built with and on [Universal Blue](https://universal-blue.org), which 
 This is Aurora's logo and wordmark. The white variant of the logo is available [here](/img/aurora-logo-white.svg).
 
 Delphic Melody (`@furtivetardigrade` on Discord) and `@zandrro` created this logo with the advice and instruction of numerous members of the Universal Blue Discord server.
-
-### Mascot
-
-The official Aurora mascot is Scope, created by [Chandeleer](https://ko-fi.com/chandeleer).
-
-![Aurora Mascot](/img/aurora_mascot.png)
-
-### Wallpaper
-
-The main wallpaper used in all Aurora variants is this one, created by [Chandeleer](https://ko-fi.com/chandeleer).
-
-![Aurora Wallpaper](/img/aurora_wallpaper.png)

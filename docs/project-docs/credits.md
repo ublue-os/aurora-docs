@@ -7,13 +7,9 @@ description: The people behind Aurora.
 
 - [Niklas Haiden](https://github.com/NiHaiden)
 - [Adam Fidel](https://github.com/ledif)
-- [Vishwas Parpattegar](https://github.com/RealVishy)
 - [Juha Uotila](https://github.com/inffy)
 - [renner](https://github.com/renner0e)
 - [dreamyukii](https://github.com/dreamyukii)
-- [James Reilly](https://github.com/hanthor)
-
-I want to give a special shoutout to [Chandeleer](https://ko-fi.com/chandeleer) who makes our incredible wallpapers and other artwork. Please support him on Ko-fi by making a donation.
 
 View the full list of [Aurora contributors](https://github.com/ublue-os/aurora/graphs/contributors).
 
