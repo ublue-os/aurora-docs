@@ -98,7 +98,7 @@ Lorsque vous utilisez à la fois Steam et Lutris :
 - Steam : `~/.var/app/com.valvesoftware.Steam/data/Steam`
 - Lutris : les jeux peuvent être installés à des emplacements personnalisés
 
-## Support communautaire {#community-support}
+## Aide communautaire {#community-support}
 
 Ce guide est régulièrement mis à jour au fil de l'évolution d'Aurora. Pour obtenir les informations les plus récentes, de l'aide au dépannage, ou si vous avez la moindre question :
 
