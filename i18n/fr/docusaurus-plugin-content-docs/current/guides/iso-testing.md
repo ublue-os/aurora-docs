@@ -19,7 +19,7 @@ Notre programme de test des ISO est un moyen simple de contribuer au projet. Ces
 | Aurora  | AMD/Intel | [aurora-stable-x86_64.iso](https://dl-test.getaurora.dev/aurora-stable-x86_64.iso)                         | [Vérifier](https://dl-test.getaurora.dev/aurora-stable-x86_64.iso-CHECKSUM)             |
 | Aurora  | Nvidia    | [aurora-nvidia-open-stable-x86_64.iso](https://dl-test.getaurora.dev/aurora-nvidia-open-stable-x86_64.iso) | [Vérifier](https://dl-test.getaurora.dev/aurora-nvidia-open-stable-x86_64.iso-CHECKSUM) |
 
-## Vérifier les téléchargements avec des sommes de contrôle {#verifying-downloads-with-checksums}
+## Vérifier les téléchargements grâce aux sommes de contrôle {#verifying-downloads-with-checksums}
 
 Les **sommes de contrôle** permettent de vérifier que votre téléchargement s'est terminé correctement et qu'il n'a été ni corrompu ni altéré. Après avoir téléchargé une ISO, vous pouvez comparer sa somme de contrôle à celle du fichier officiel pour vous assurer de son intégrité. Bien que facultative, cette vérification est recommandée pour les installations importantes.
 
