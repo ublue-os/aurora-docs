@@ -29,7 +29,7 @@ Sinon, cliquez sur « Continue Boot » si votre matériel ne prend pas en charge
 
 ## Remarque sur le double démarrage avec Windows {#note-about-dual-booting-windows}
 
-Le double démarrage n'est généralement pas pris en charge par Fedora Atomic Desktop. La méthode recommandée consiste à installer Windows sur son propre disque ou à utiliser Windows-to-Go, créé avec Rufus, sur un disque externe dédié à Windows.
+Le dual-boot n'est généralement pas pris en charge par Fedora Atomic Desktop. La méthode recommandée consiste à installer Windows sur son propre disque ou à utiliser Windows-to-Go, créé avec Rufus, sur un disque externe dédié à Windows.
 
 La commande suivante crée une entrée dans votre lanceur d'applications qui utilise [efibootmgr](https://github.com/rhboot/efibootmgr) pour démarrer directement sous Windows depuis Aurora.
 
