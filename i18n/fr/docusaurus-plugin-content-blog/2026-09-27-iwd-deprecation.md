@@ -18,7 +18,7 @@ Nous avons également des nouvelles concernant le backend Wi-Fi IWD, que certain
 
 ## Tests de Fedora 45 Bêta
 
-Nous vous recommandons d'épingler (*pin*) votre déploiement actuel avant de procéder au rebase :
+Nous vous recommandons d'épingler (_pin_) votre déploiement actuel avant de procéder au rebase :
 
 ```bash
 sudo ostree admin pin 0
@@ -50,7 +50,7 @@ Comme indiqué, ce mode n'a jamais été activé par défaut. Les informations s
 
 ### Contexte
 
-Pendant un certain temps, Aurora intégrait une recette optionnelle (`ujust toggle-iwd`) permettant de choisir IWD à la place de `wpa_supplicant` comme backend sans fil pour NetworkManager. Sur certains équipements, IWD présentait des avantages tels qu'un balayage plus rapide, une latence réduite lors de l'itinérance (*roaming*) et une meilleure prise en charge de puces Wi-Fi Intel récentes.
+Pendant un certain temps, Aurora intégrait une recette optionnelle (`ujust toggle-iwd`) permettant de choisir IWD à la place de `wpa_supplicant` comme backend sans fil pour NetworkManager. Sur certains équipements, IWD présentait des avantages tels qu'un balayage plus rapide, une latence réduite lors de l'itinérance (_roaming_) et une meilleure prise en charge de puces Wi-Fi Intel récentes.
 
 Cependant, en raison de l'arrêt de la maintenance en amont par Intel, ce composant risque de cesser de fonctionner avec les futurs noyaux ou de provoquer d'autres dysfonctionnements. De plus, Fedora finira probablement par retirer son paquet RPM.
 
