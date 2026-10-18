@@ -95,7 +95,7 @@ Comme nous l'avons [mentionné précédemment](/fr/blog/aurora44-beta#important-
 
 ## Regardons vers l'avenir {#a-look-into-the-future}
 
-Montons à présent dans la machine à remonter le temps pour jeter un œil au futur, un futur où nous n'aurons plus besoin d'une image Developer Experience séparée. [JumpyVi](https://github.com/jumpyvi) travaille ici sur un [nouveau type de couche](https://github.com/projectbluefin/common/pull/288), qui apporte l'expérience développeur à l'image de base via homebrew, des quadlets et autres astuces malines. Intégrer la couche DX à l'image de base réduit de moitié la charge de maintenance, d'image et de build pour tout le monde, et vous permet de démarrer plus vite lors de la configuration de votre station de développement. C'est actuellement à un stade très précoce et cela ne doit pas être utilisé dans un système de production, mais c'est tout de même sympa. L'avenir s'annonce radieux !
+Embarquons pour un voyage temporel et jetons un œil au futur, un futur où nous n'aurons plus besoin d'une image Developer Experience séparée. [JumpyVi](https://github.com/jumpyvi) travaille ici sur un [nouveau type de couche](https://github.com/projectbluefin/common/pull/288), qui apporte l'expérience développeur à l'image de base via homebrew, des quadlets et autres astuces malines. Intégrer la couche DX à l'image de base réduit de moitié la charge de maintenance, d'image et de build pour tout le monde, et vous permet de démarrer plus vite lors de la configuration de votre station de développement. C'est actuellement à un stade très précoce et cela ne doit pas être utilisé dans un système de production, mais c'est tout de même sympa. L'avenir s'annonce radieux !
 
 À la prochaine fois, Stargazers !
 
