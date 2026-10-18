@@ -1,5 +1,5 @@
 ---
-title: Le jeu sur Aurora
+title: Jouer sur Aurora
 description: Un guide complet des options et configurations de jeu sur Aurora
 ---
 
