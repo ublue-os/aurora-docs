@@ -27,7 +27,7 @@ Si le démarrage sécurisé est activé sur votre matériel, enregistrez la clé
 
 Sinon, cliquez sur « Continue Boot » si votre matériel ne prend pas en charge le démarrage sécurisé ou si celui-ci est désactivé.
 
-## Remarque sur le double démarrage avec Windows {#note-about-dual-booting-windows}
+## Remarque sur le dual-boot avec Windows {#note-about-dual-booting-windows}
 
 Le dual-boot n'est généralement pas pris en charge par Fedora Atomic Desktop. La méthode recommandée consiste à installer Windows sur son propre disque ou à utiliser Windows-to-Go, créé avec Rufus, sur un disque externe dédié à Windows.
 
