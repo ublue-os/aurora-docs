@@ -1,6 +1,6 @@
 ---
 title: Workflow de développement
-description: Différentes méthodes de travail pour développer avec Aurora-DX.
+description: Différents workflows pour développer avec Aurora-DX.
 ---
 
 ## Méthodes de travail pour développer avec Aurora {#developer-workflows-on-aurora}
