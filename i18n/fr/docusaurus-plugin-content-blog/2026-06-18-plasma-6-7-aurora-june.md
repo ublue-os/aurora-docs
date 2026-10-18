@@ -40,7 +40,7 @@ Si vous souhaitez savoir comment cela fonctionne en coulisses, consultez [ce doc
 
 Exécuter les builds testing est un excellent moyen de nous aider à trouver les problèmes avant qu'ils n'atteignent nos images `stable`. Nous ne recommandons pas de les utiliser sur des systèmes de production critiques, mais si vous avez un ordinateur portable ou de bureau disponible, c'est une excellente façon de nous aider (merci !).
 
-En pratique, cela signifie que le flux `latest` en particulier est désormais mieux testé et, si vous étiez déjà à l'aise avec les images quotidiennes, les branches testing ne devraient pas vous déranger non plus, car elles constituaient de fait notre terrain de test. Même si elles ne portaient pas la redoutable étiquette « testing ».
+En pratique, cela signifie que le flux `latest` en particulier est désormais mieux testé et, si vous étiez déjà à l'aise avec les images quotidiennes, les branches testing ne devraient pas vous déranger non plus, car elles constituaient de fait notre banc d'essai. Même si elles ne portaient pas l'inquiétante étiquette « testing ».
 
 Vous pouvez utiliser notre outil `ujust rebase-helper`, qui propose une option pour sélectionner le flux `testing`, ou basculer manuellement à l'aide des commandes ci-dessous :
 
