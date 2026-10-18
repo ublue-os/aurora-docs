@@ -37,4 +37,4 @@ La commande suivante crée une entrée dans votre lanceur d'applications qui uti
 ujust configure-boot-to-windows
 ```
 
-Le double démarrage sur un seul disque n'est **PAS** pris en charge.
+Le dual-boot sur un seul disque n'est **PAS** pris en charge.
