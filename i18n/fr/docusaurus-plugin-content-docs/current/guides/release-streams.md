@@ -68,7 +68,7 @@ Le canal **latest** offre :
 - **À la pointe** : les dernières fonctionnalités et améliorations
 - **Mises à jour plus rapides** : des mises à jour dès qu'elles sont disponibles
 - **Dernier noyau** : utilise le dernier noyau disponible
-- **Terrain d'essai** : des paquets plus récents qui peuvent parfois poser problème
+- **Banc d'essai** : des paquets plus récents qui peuvent parfois poser problème
 - **Pour les passionnés** : idéal pour les utilisateurs qui souhaitent les paquets les plus récents
 
 **Étiquettes d'image** : `latest`
