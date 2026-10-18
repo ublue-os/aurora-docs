@@ -61,7 +61,7 @@ OpenRazer (module noyau et démon) est un autre paquet que nous incluons depuis 
 
 ### Prise en charge d'Asus dans homebrew {#asus-support-in-homebrew}
 
-Une nouveauté, sans lien direct avec la sortie de Fedora 44, est l'inclusion de correctifs jusqu'ici hors arbre apportant la prise en charge des ordinateurs portables ASUS ROG (et de quelques autres). La plupart de ces correctifs font désormais partie du noyau, et il ne vous reste qu'à installer [`asusctl`](https://github.com/NeroReflex/asusctl).
+Une nouveauté, sans lien direct avec la sortie de Fedora 44, est l'inclusion de correctifs jusqu'ici out-of-tree apportant la prise en charge des ordinateurs portables ASUS ROG (et de quelques autres). La plupart de ces correctifs font désormais partie du noyau, et il ne vous reste qu'à installer [`asusctl`](https://github.com/NeroReflex/asusctl).
 
 Nous disposons d'un nouveau cask homebrew pour `asusctl`, grâce au travail de Daegalus. Il est désormais disponible dans le [homebrew-tap d'ublue-os](https://github.com/ublue-os/homebrew-tap). Avec lui, vous pouvez contrôler l'éclairage du clavier, etc. Essayez-le si vous possédez ces ordinateurs portables Asus (malheureusement ce n'est pas notre cas) et dites-nous ce que cela donne.
 
