@@ -93,7 +93,7 @@ Vous pouvez utiliser l'outil `ujust rebase-helper` ou le menu Préférences d'Au
 
 Comme nous l'avons [mentionné précédemment](/fr/blog/aurora44-beta#important-notice-related-to-fedora-45), à l'automne, une fois Fedora 45 publiée, nous retirerons la prise en charge de ZFS d'Aurora. Vous trouverez plus d'informations sur ce changement dans l'article lié.
 
-## Un regard vers le futur {#a-look-into-the-future}
+## Regardons vers l'avenir {#a-look-into-the-future}
 
 Montons à présent dans la machine à remonter le temps pour jeter un œil au futur, un futur où nous n'aurons plus besoin d'une image Developer Experience séparée. [JumpyVi](https://github.com/jumpyvi) travaille ici sur un [nouveau type de couche](https://github.com/projectbluefin/common/pull/288), qui apporte l'expérience développeur à l'image de base via homebrew, des quadlets et autres astuces malines. Intégrer la couche DX à l'image de base réduit de moitié la charge de maintenance, d'image et de build pour tout le monde, et vous permet de démarrer plus vite lors de la configuration de votre station de développement. C'est actuellement à un stade très précoce et cela ne doit pas être utilisé dans un système de production, mais c'est tout de même sympa. L'avenir s'annonce radieux !
 
