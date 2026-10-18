@@ -1,5 +1,5 @@
 ---
-title: Et si j'avais des dinosaures avec ça ?
+title: Et si je veux ajouter des dinosaures ?
 description: Fonds d'écran Bluefin sur Aurora
 ---
 
