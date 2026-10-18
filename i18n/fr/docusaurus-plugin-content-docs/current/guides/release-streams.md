@@ -82,7 +82,7 @@ Le canal **latest** offre :
 
 ### Testing {#testing}
 
-Le canal **testing** s'adresse aux utilisateurs qui souhaitent valider les nouvelles fonctionnalités et modifications avant leur arrivée en production. Il offre :
+Le canal **testing** s'adresse aux utilisateurs qui souhaitent tester les nouvelles fonctionnalités et modifications avant leur arrivée en production. Il offre :
 
 - **Validation avant publication** : testez les nouvelles fonctionnalités avant leur promotion vers `stable`
 - **Le moins stable** : attendez-vous à des problèmes occasionnels ; ce canal s'adresse aux passionnés et aux testeurs prêts à faire face à d'éventuels dysfonctionnements
