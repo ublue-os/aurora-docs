@@ -1,5 +1,5 @@
 ---
-title: Méthodes de travail pour le développement
+title: Workflow de développement
 description: Différentes méthodes de travail pour développer avec Aurora-DX.
 ---
 
