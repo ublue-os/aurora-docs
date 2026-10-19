@@ -7,7 +7,7 @@ authors:
   - renner0e
 ---
 
-Bonjour Stargazers,
+Bonjour les *stargazers*,
 
 Nous avons une petite annonce à faire concernant nos flux d'images stable-daily.
 
