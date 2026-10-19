@@ -6,7 +6,7 @@ authors:
   - inffy
 ---
 
-Bonjour Stargazers,
+Bonjour les *stargazers*,
 
 Une nouvelle mise à jour `stable` est en cours de déploiement ! Il s'agit de la première mise à jour du flux stable basée sur Fedora 44.
 

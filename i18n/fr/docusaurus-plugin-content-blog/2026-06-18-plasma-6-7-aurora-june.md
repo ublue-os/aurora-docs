@@ -7,7 +7,7 @@ authors:
   - renner0e
 ---
 
-Bonjour Stargazers,
+Bonjour les *stargazers*,
 
 L'année avance et nous sommes déjà à mi-parcours de 2026. Beaucoup de choses se sont passées dans les coulisses ; c'est donc le moment idéal pour vous donner un point d'étape sur ce que nous avons réalisé et sur ce qui arrive.
 
@@ -75,6 +75,6 @@ Voir l'[issue GitHub](https://github.com/ublue-os/aurora/issues/1765).
 
 C'est tout pour aujourd'hui.
 
-Bel été à tous, Stargazers !
+Bel été à tous les *stargazers* !
 
 ## [Discussion](https://github.com/ublue-os/aurora/discussions/2413) {#discussion}
