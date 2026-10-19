@@ -6,7 +6,7 @@ authors:
   - inffy
 ---
 
-Bonjour les *stargazers*,
+Bonjour les _stargazers_,
 
 La bêta de Fedora 45 a été [publiée](https://fedoraproject.org/wiki/Releases/45/Beta) et nous proposons déjà des builds basés sur Fedora 45 dans notre branche `testing`. Si vous souhaitez consulter l'ensemble des changements prévus pour Fedora 45, vous pouvez les retrouver [ici](https://fedoraproject.org/wiki/Releases/45/ChangeSet). La liste des bogues bloquants actuels est disponible sur [Fedora QA](https://qa.fedoraproject.org/blockerbugs/milestone/45/final/buglist).
 
