@@ -6,7 +6,7 @@ authors:
   - niklas
 ---
 
-Bonjour Stargazers !
+Bonjour les *stargazers* !
 
 Aujourd'hui est un jour formidable : notre projet parent, Universal Blue, vient de fêter ses cinq ans. Vous y croyez ?? Pas moi. Aurora fait partie de cette aventure depuis plus de 2 des 5 années, ce qui constitue déjà une période remarquable.
 
@@ -16,6 +16,6 @@ Profitez bien de votre été. N'oubliez pas de contempler le ciel nocturne (il e
 
 Si vous le souhaitez, vous pouvez lire [ce superbe article de blog](https://docs.projectbluefin.io/blog/five-years-of-bluefin/) de Jorge sur Bluefin et sur ce qui s'y passe.
 
-Passez un été formidable, Stargazers.
+Passez un été formidable les *stargazers*.
 
 ~ Niklas

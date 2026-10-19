@@ -5,7 +5,7 @@ slug: hello-aurora-blog
 authors: niklas
 ---
 
-Bonjour à vous qui contemplez les étoiles, bienvenue dans ce premier article du blog Aurora ! De belles nouveautés vous attendent.
+Bonjour les *stargazers*, bienvenue dans ce premier article du blog Aurora ! De belles nouveautés vous attendent.
 
 <!-- truncate -->
 
