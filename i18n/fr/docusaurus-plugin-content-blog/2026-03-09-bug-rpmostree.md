@@ -7,7 +7,7 @@ authors:
   - renner0e
 ---
 
-Bonjour les stargazers !
+Bonjour les *stargazers* !
 
 Cet article vous concerne si vous utilisez notre canal `stable-daily` ou `latest`. Le problème touche les images du 6 mars.
 
