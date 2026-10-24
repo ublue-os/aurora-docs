@@ -57,7 +57,6 @@ Les mises à jour du système sont basées sur des images et automatiques. Les a
   - [Kate](https://apps.kde.org/kate/)
   - [Kcalc](https://apps.kde.org/kcalc/)
   - [Konsole](https://apps.kde.org/konsole/)
-  - [Kontact](https://apps.kde.org/kontact/)
   - [Okular](https://apps.kde.org/okular/)
   - [Skanpage](https://apps.kde.org/skanpage/)
 
