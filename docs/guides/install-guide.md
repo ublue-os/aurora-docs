@@ -17,11 +17,11 @@ Flash the ISO with one of these tools:
 
 **Note**: The current installer may be [changing](https://github.com/ublue-os/titanoboa) in the near future and this documentation may become outdated.
 
-Boot the ISO when starting up your device. Follow the instructions in the installer. Please note: "Root Account" should stay **disabled**.
+Boot the ISO when starting up your device. Follow the instructions in the installer. AFter the installation has completed, reboot the computer.
 
 ### Secure Boot Information
 
-If your hardware has secure boot enabled then enroll Universal Blue's secure boot key during the installation process by selecting "Enroll MOK" when prompted.
+If your hardware has secure boot enabled then enroll Universal Blue's secure boot key after the installation process on the first boot by selecting "Enroll MOK" when prompted.
 
 **The secure boot password is**: `universalblue`.
 
