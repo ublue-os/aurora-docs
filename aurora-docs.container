@@ -1,7 +1,7 @@
 [Container]
 ContainerName=aurora-docs
 Exec=bash -c 'npm i . && npm run build && npm run serve'
-Image=docker.io/library/node:latest
+Image=docker.io/library/node:latest@sha256:508d817af6ec83e38d24a3d7da7da34b7119085c1d213abf0b7a3fab5dac5bf1
 Network=host
 PublishPort=3000:3000
 Volume=%h/path/to/aurora-docs/repo:/srv/docs:Z
