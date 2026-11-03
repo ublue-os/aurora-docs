@@ -26,6 +26,11 @@
       "description": "Major updates require manual review",
       "matchUpdateTypes": ["major"],
       "automerge": false
+    },
+    {
+      "description": "Disable digest pinning for quadlet files",
+      "matchManagers": ["quadlet"],
+      "pinDigests": false
     }
   ],
   "vulnerabilityAlerts": {
