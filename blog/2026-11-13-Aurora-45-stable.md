@@ -17,6 +17,7 @@ Six months has again passed and that means that it's time for another Fedora rel
 <!-- truncate -->
 
 ## Upstream Changes
+
 Fedora 45 mostly consists of backend changes, which you can check out full details from their [release notes](https://docs.fedoraproject.org/en-US/release-notes/f45/). The most prominent changes for upstream atomic images can be found in [Fedora Magazine](https://fedoramagazine.org/whats-new-for-fedora-atomic-desktops-in-fedora-linux-45/).
 
 ## Aurora Changes
@@ -33,8 +34,8 @@ Support for Chrome and related browsers is still under development and progress 
 
 **TODO**: ( look where this is tracked on chromium bugtracker/flathub
 
-
 ### `uupd` Has a New Maintainer
+
 Our tool for automatic updates ,[uupd](https://github.com/ublue-os/uupd), has received some much needed love and now has a new offical maintainer: Hello [Quinn!](https://github.com/HuntedRaven7) and welcome!
 
 ### `fcitx` Moves to Flatpak
