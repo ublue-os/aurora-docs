@@ -17,7 +17,7 @@ Flash the ISO with one of these tools:
 
 **Note**: The current installer may be [changing](https://github.com/ublue-os/titanoboa) in the near future and this documentation may become outdated.
 
-Boot the ISO when starting up your device. Follow the instructions in the installer. AFter the installation has completed, reboot the computer.
+Boot the ISO when starting up your device. Follow the instructions in the installer. After the installation has completed, reboot the computer.
 
 ### Secure Boot Information
 
