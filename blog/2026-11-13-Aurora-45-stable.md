@@ -5,7 +5,7 @@ description: Aurora 45 is now available
 authors:
   - inffy
   - renner0e
-  - NiHaiden
+  - niklas
 ---
 
 # Stargazer 8 - Aurora 45 available (Aurora Fall 2026 Update)
