@@ -30,9 +30,7 @@ A lasting pain point has been connecting Flatpak browsers to password managers a
 
 Fiefox should now better support KeepassXC and Bitwarden, which you can enable via Firefox's settings.
 
-Support for Chrome and related browsers is still under development and progress can be follwed at [TRACKER](https://example.com)
-
-**TODO**: ( look where this is tracked on chromium bugtracker/flathub
+Support for Chrome and related browsers is still under development and progress can be follwed at [KeepassXC's](https://github.com/keepassxreboot/keepassxc-browser/issues/1267)
 
 ### `uupd` Has a New Maintainer
 
