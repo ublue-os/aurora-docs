@@ -64,6 +64,8 @@ Multi-GPU support with the new application [Cardwire](https://opengamingcollecti
 
 Cardwire is replacing `switcheroo`, as it should provide a better experience for multi-GPU systems. It is also the default in Bazzite, so this change better aligns across Universal Blue images.
 
+To test this out for yourself you can rebase to the `testing` branch with the help of `ujust rebase-helper`.
+
 ### ZFS Now Removed
 
 A final reminder: as [previously mentioned](https://docs.getaurora.dev/blog/aurora44-beta/#important-notice-related-to-fedora-45), ZFS is now removed from the `stable` builds of Aurora.
