@@ -10,7 +10,7 @@ authors:
 
 # Stargazer 8 - Aurora 45 disponible (mise à jour d'automne 2026 d'Aurora)
 
-Bonjour les *stargazers*,
+Bonjour les _stargazers_,
 
 Six mois se sont encore écoulés, ce qui signifie qu'il est temps pour une nouvelle version de Fedora. Fedora 45 a été [publiée](https://fedoramagazine.org/announcing-fedora-linux-45/) le 3 novembre. La branche `testing` d'Aurora utilise la base F45 depuis la sortie de la bêta, et c'est aujourd'hui au tour de notre branche `stable` de recevoir la mise à jour.
 
@@ -20,7 +20,7 @@ Fedora 45 contient principalement de changements en coulisses, dont vous pouvez 
 
 ## Changements dans Aurora {#aurora-changes}
 
-En plus des changements en amont, Aurora elle-même évolue un peu. Ces changements concernent eux aussi principalement le *backend* et le processus de construction.
+En plus des changements en amont, Aurora elle-même évolue un peu. Ces changements concernent eux aussi principalement le _backend_ et le processus de construction.
 
 ### Les gestionnaires de mots de passe (et leurs extensions de navigateur) fonctionnent avec Firefox {#password-managers-and-browser-extensions-work-with-firefox}
 
