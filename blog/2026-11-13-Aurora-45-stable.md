@@ -69,3 +69,5 @@ To test this out for yourself you can rebase to the `testing` branch with the he
 ### ZFS Now Removed
 
 A final reminder: as [previously mentioned](https://docs.getaurora.dev/blog/aurora44-beta/#important-notice-related-to-fedora-45), ZFS is now removed from the `stable` builds of Aurora.
+
+## [Discussion](https://github.com/ublue-os/aurora/discussions/3210)
