@@ -28,7 +28,7 @@ In addition to upstream changes, we also have a few changes to Aurora itself. Th
 
 A lasting pain point has been connecting Flatpak browsers to password managers and their respective browser extensions. Mozilla recently implemented a solution which we are enabling on Aurora for Firefox.
 
-Fiefox should now better support KeepassXC and Bitwarden, which you can enable via Firefox's settings.
+Firefox should now better support KeepassXC and Bitwarden, which you can enable via Firefox's settings.
 
 Support for Chrome and related browsers is still under development and progress can be follwed at [KeepassXC's issue tracker](https://github.com/keepassxreboot/keepassxc-browser/issues/1267).
 
