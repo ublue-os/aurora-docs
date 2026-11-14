@@ -36,13 +36,15 @@ Support for Chrome and related browsers is still under development and progress 
 
 Our tool for automatic updates ,[uupd](https://github.com/ublue-os/uupd), has received some much needed love and now has a new offical maintainer: Hello [Quinn!](https://github.com/HuntedRaven7) and welcome!
 
-### `fcitx` Moves to Flatpak
+### `fcitx` Moves to Flatpak and gets removed from the image
 
 This section mainly applies to users who rely on multilingual input methods or CJKV support.
 
 As part of our ongoing effort to keep Aurora's base image lean and maintainable, we have migrated `fcitx` (our input method framework for CJKV and multilingual input) to Flatpak. Previously, shipping this package and all of its language addons directly in the base OS image had an unintended side effect of pulling in outdated components onto the image.
 
 Existing Fcitx users will get a one-time notification to install the [Flatpak](https://flathub.org/en/apps/org.fcitx.Fcitx5) along with the language addons from Bazaar.
+
+Settings/Configurations are migrated to the new location on a best-effort basis.
 
 You can find more info on [Github](https://github.com/ublue-os/aurora/issues/3038). If you encounter issues, please reach out on Discord or GitHub :).
 
