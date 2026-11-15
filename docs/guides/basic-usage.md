@@ -75,6 +75,7 @@ Aurora includes curated CLI tools shared as Brewfiles. These commands install cu
 | `ujust toggle-tpm2`            | Toggle automatic LUKS disk unlock via TPM (enable/disable with optional PIN)                                                                                                                                      |
 | `ujust toggle-iwd`             | Switch between iwd and wpa_supplicant for Wi-Fi networking (iwd can improve throughput and reduce latency)                                                                                                        |
 | `ujust benchmark`              | Run a one-minute system benchmark using stress-ng                                                                                                                                                                 |
+| `ujust check-anticheat`        | Check your systems compatibility against the requirements of Epics new EACv2                                                                                                                                      |
 
 ### Developer Experience Commands
 
