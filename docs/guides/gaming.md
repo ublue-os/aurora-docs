@@ -106,6 +106,8 @@ Thanks to a Bazzite contributor [tapoxi](https://github.com/tedohayer), who crea
 
 Just launch `ujust check-anticheat` and the recipe will probe your machine and settings and tell you possible issues or settings that need to be changed.
 
+![check-anticheat recipe](/img/software/check-anticheat.png)
+
 ## Community Support
 
 This guide is regularly updated as Aurora evolves. For the most recent information, troubleshooting help, or if you have any questions:
