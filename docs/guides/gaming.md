@@ -99,12 +99,12 @@ When using both Steam and Lutris:
 - Lutris: Games can be installed in custom locations
 
 ## Epic EACv2 requirements
+
 Epic Games has recently [released](https://onlineservices.epicgames.com/news/introducing-easy-anti-cheat-linux-v2) a new article about their upcoming EACv2 (Easy Anti-Cheat version 2), which would also have native support for Linux. Linux support would also require some extra features to be enabled in the kernel.
 
 Thanks to a Bazzite contributor [tapoxi](https://github.com/tedohayer), who created an easy ujust recipe to check your system for the required EACv2 requirements.
 
 Just launch `ujust check-anticheat` and the recipe will probe your machine and settings and tell you possible issues or settings that need to be changed.
-
 
 ## Community Support
 
