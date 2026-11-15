@@ -77,7 +77,7 @@ When using both Steam and Lutris:
    - GOG games
    - Epic Games Store titles
    - Amazon Games
-  
+
 ## Epic EACv2 requirements
 
 Epic Games has recently [released](https://onlineservices.epicgames.com/news/introducing-easy-anti-cheat-linux-v2) a new article about their upcoming EACv2 (Easy Anti-Cheat version 2), which would also have native support for Linux. Linux support would also require some extra features to be enabled in the kernel.
