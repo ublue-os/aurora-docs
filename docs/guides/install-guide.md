@@ -5,6 +5,8 @@ description: Installing Aurora to your desktop or laptop.
 
 ## Downloading & Flashing
 
+You will need a spare USB flash drive with at least 16GB.
+
 Download the ISO using the download picker from the [website](https://getaurora.dev).
 
 Flash the ISO with one of these tools:
