@@ -18,7 +18,7 @@ Although don't be afraid to reach out to us if you have any questions!
 Aurora images are built from multiple repositories working together:
 
 - **[ublue-os/aurora](https://github.com/ublue-os/aurora)** - Main image repository that orchestrates the build process and defines the final images
-- **[get-aurora-dev/common](https://github.com/get-aurora-dev/common)** - Aurora configurations, ujust recipes, [artwork](https://github.com/ublue-os/artwork), and customizations built on top of [aurorafin-shared](https://github.com/ublue-os/aurorafin-shared) (ujust, MOTD, CLI config, etc.)
+- **[get-aurora-dev/common](https://github.com/get-aurora-dev/common)** - Aurora configurations, ujust recipes, [artwork](https://github.com/ublue-os/artwork) (ujust, MOTD, CLI config, etc.)
 - **[ublue-os/brew](https://github.com/ublue-os/brew)** - Homebrew setup and configuration
 - **[ublue-os/akmods](https://github.com/ublue-os/akmods)** - Universal Blue shared kernel related packages (Nvidia, V4L2, xone)
 
