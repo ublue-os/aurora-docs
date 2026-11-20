@@ -13,6 +13,7 @@ Using Aurora on your computer does not require any special sauce, but there are 
   - For **Nvidia** Users: A RTX 16XX/20XX GPU or newer is required. There are no images for older Nvidia GPU hardware. If you have an older Nvidia GPU, then you can try the non-Nvidia editions to utilize the open source nouveau support. If you need support for older Nvidia cards (especially Pascal and Maxwell, please rebase / reinstall to Bazzite.)
 - Storage: SSD with at least 40GB of free space to have headroom for now and future updates
   - A spinning hard disk drive will run Aurora, but updates and other I/O heavy operations will decrease performance greatly.
+  - We only support BTRFS as a filesystem. **Don't try to use other filesystem types during installation**.
 
 > **Note**: older Intel iGPUs like HD 4600 (Haswell, 2013) don't fully support Vulkan 1.3, therefore GTK4 Applications will not display properly. However, the following workaround for this problem is explicitly unsupported by the Aurora Team. See this [blog by the GTK developers](https://blog.gtk.org/2024/01/28/new-renderers-for-gtk/) for more info
 
