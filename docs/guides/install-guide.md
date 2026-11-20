@@ -19,7 +19,7 @@ Flash the ISO with one of these tools:
 
 Boot the ISO when starting up your device. Follow the instructions in the installer. After the installation has completed, reboot the computer.
 
-**Note**: We don't support custom partitioning or dual-booting with Windows. If you decide to do a manual partitioning during the installer, make sure you use BTRFS as the filesystem type. We don't support anything other than BTRFS. Your system won't be able to boot withouth BTRFS.
+**Note**: We don't support custom partitioning or dual-booting with Windows. If you decide to do a manual partitioning during the installer, make sure you use BTRFS as the filesystem type. We don't support anything other than BTRFS. Your system won't be able to boot without BTRFS.
 
 ### Secure Boot Information
 
