@@ -17,9 +17,9 @@ Flash the ISO with one of these tools:
 
 ## Booting Aurora's Installer
 
-**Note**: The current installer may be [changing](https://github.com/ublue-os/titanoboa) in the near future and this documentation may become outdated.
-
 Boot the ISO when starting up your device. Follow the instructions in the installer. After the installation has completed, reboot the computer.
+
+**Note**: We don't support custom partitioning or dual-booting with Windows. If you decide to do a manual partitioning during the installer, make sure you use BTRFS as the filesystem type. We don't support anything other than BTRFS. Your system won't be able to boot withouth BTRFS.
 
 ### Secure Boot Information
 
