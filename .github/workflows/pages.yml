@@ -41,3 +41,46 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5
+
+  announce:
+    name: Announce new blog post
+    needs: deploy
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          fetch-depth: 0
+
+      - name: Find new blog post
+        id: post
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          file=$(git diff --diff-filter=A --name-only "$BEFORE" "$GITHUB_SHA" -- 'blog/*.md' 'blog/*.mdx' | tail -n1)
+          if [ -z "$file" ] || grep -q '^draft: true' "$file"; then
+            echo "No new blog post"
+            exit 0
+          fi
+          title=$(grep -m1 '^title:' "$file" | sed 's/^title: *//; s/^"//; s/"$//')
+          slug=$(grep -m1 '^slug:' "$file" | sed 's/^slug: *//')
+          if [ -z "$slug" ]; then
+            echo "::warning::$file has no slug, skipping"
+            exit 0
+          fi
+          {
+            echo 'text<<EOF'
+            echo "New Aurora blog post: $title"
+            echo
+            echo "https://docs.getaurora.dev/blog/$slug"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Post to Mastodon
+        if: steps.post.outputs.text != ''
+        uses: cbrgm/mastodon-github-action@v2
+        with:
+          url: ${{ secrets.MASTODON_URL }}
+          access-token: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+          message: ${{ steps.post.outputs.text }}
+          language: en
