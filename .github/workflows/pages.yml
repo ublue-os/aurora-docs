@@ -78,7 +78,7 @@ jobs:
 
       - name: Post to Mastodon
         if: steps.post.outputs.text != ''
-        uses: cbrgm/mastodon-github-action@v2
+        uses: cbrgm/mastodon-github-action@69546c2a09678575ded3a0ac3a28f10ca38a759d # v2
         with:
           url: ${{ secrets.MASTODON_URL }}
           access-token: ${{ secrets.MASTODON_ACCESS_TOKEN }}
