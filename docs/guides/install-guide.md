@@ -29,6 +29,9 @@ If your hardware has secure boot enabled then enroll Universal Blue's secure boo
 
 Otherwise click "Continue Boot" if your hardware does not support secure boot or it is disabled.
 
+### Memtest86+ Information
+Our LiveCD also has Memtest86+ included. You can use this entry to test your RAM for errors. If you have secureboot enabled, you will need to disable it to run Memtest86+.
+
 ## Note About Dual-Booting Windows
 
 Dual-booting is generally an unsupported feature of Fedora Atomic Desktop in general. The recommended method is to have Windows on its own drive or using Windows-to-Go created with Rufus on an external drive for Windows.
